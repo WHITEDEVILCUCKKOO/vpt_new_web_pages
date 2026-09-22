@@ -142,7 +142,7 @@
                                 <div class="footer-text">
                                     <p class="headparagraph">
                                         We are manufacturer and exporter of Armatures, Field Coils, Power Tools, Electric Tools in capital of India, New Delhi, under the Brand name PowerSpeed. <br />
-                                        <a style="color: #fff;" href="about.php"> Read More...</a>
+                                        <a style="color: #fff;" href="/../about.php"> Read More...</a>
                                     </p>
                                 </div>
                             </div>
@@ -211,19 +211,19 @@
                         <div class="footer-copyright">
                             <ul class="footer-social">
                                 <li>
-                                    <a href="https://www.facebook.com/vickypowertools"><img class="img-100" src="img/img-facebook.png" alt="Facebook"></a>
+                                    <a href="https://www.facebook.com/vickypowertools"><img class="img-100" src="/../img/img-facebook.png" alt="Facebook"></a>
                                 </li>
 
                                 <li>
-                                    <a href="https://youtube.com/channel/UCu2el_SlqEkljEHcaAeYXgQ"><img class="img-100" src="img/img-youtube.png" alt="YouTube"></a>
+                                    <a href="https://youtube.com/channel/UCu2el_SlqEkljEHcaAeYXgQ"><img class="img-100" src="/../img/img-youtube.png" alt="YouTube"></a>
                                 </li>
 
                                 <li>
-                                    <a href="https://twitter.com/VickyPowerTools"><img class="img-100" src="img/img-twitter.png" alt="Twitter"></a>
+                                    <a href="https://twitter.com/VickyPowerTools"><img class="img-100" src="/../img/img-twitter.png" alt="Twitter"></a>
                                 </li>
 
                                 <li>
-                                    <a href="https://instagram.com/vickypowertools"><img class="img-100" src="img/img-instagram.png" alt="Instagram"></a>
+                                    <a href="https://instagram.com/vickypowertools"><img class="img-100" src="/../img/img-instagram.png" alt="Instagram"></a>
                                 </li>
                             </ul>
                         </div>

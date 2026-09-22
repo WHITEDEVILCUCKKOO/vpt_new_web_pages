@@ -9,7 +9,7 @@
     <meta name="keywords" content="Field Coils Manufacturer, Field Coils New Delhi, PowerSpeed Field Coils, Field Coils India, Field Coils Exporter"/>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="img/favicon1.png">
+    <link rel="icon" type="image/png" href="/../img/favicon1.png">
     
     <!-- Fonts -->
      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7CMontserrat:400,500,700" rel="stylesheet" type="text/css">
@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/../css/style.css">
+    <link rel="stylesheet" href="/../css/styles.css">
     
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5BNP7DPLW"></script>
@@ -459,7 +459,7 @@
                         </div>
                     </div>
                     
-                    <a href="oem.php">OEM</a>
+                    <a href="/../oem.php">OEM</a>
                     
                     <!-- Media Dropdown -->
                     <div class="desktop-dropdown">
