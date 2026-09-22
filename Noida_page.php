@@ -1,18 +1,6 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Armature Manufacturing Company in Noida | Vicky Power Tools</title>
-
-    <meta name="description"
-          content="Vicky Power Tools is a trusted armature manufacturing company in Noida offering power tool armatures, electric tool armatures, customized armatures and reliable industrial solutions.">
-
-    <meta name="keywords"
-          content="armature manufacturing company in Noida, armature manufacturer in Noida, power tool armature manufacturer in Noida, electric armature manufacturer, customized armature manufacturer, armature supplier in Noida">
-
+<?php
+include_once'includes/header.php'
+?>
     <style>
         * {
             margin: 0;
@@ -480,9 +468,7 @@
             }
         }
     </style>
-</head>
 
-<body>
 
 <!-- HERO -->
 <section class="hero">
@@ -1000,6 +986,6 @@
 
     });
 </script>
-
-</body>
-</html>
+<?php
+include_once'includes/footer.php'
+?>
