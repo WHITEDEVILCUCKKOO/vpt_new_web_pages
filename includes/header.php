@@ -425,7 +425,7 @@
                 <!-- Logo -->
                 <a href="https://www.vickypowertools.com/" class="navbar-brand">
                     <!-- Desktop Logo -->
-                    <img src="/../img/VPT Blue logo 1.PNG" alt="Vicky Power Tools" class="desktop-logo">
+                    <img style="padding-right: 0;" src="/../img/VPT Blue logo 1.PNG" alt="Vicky Power Tools" class="desktop-logo">
                     <!-- Mobile Logo -->
                  
                 </a>
