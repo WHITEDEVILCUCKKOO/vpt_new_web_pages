@@ -538,22 +538,22 @@ include_once 'includes/header.php'
 
             <div class="stat">
                 <h3>40+</h3>
-                <p>Years of Industry Experience</p>
+                <p style="text-align: center;">Years of Industry Experience</p>
             </div>
 
             <div class="stat">
                 <h3>100+</h3>
-                <p>Armature Models</p>
+                <p style="text-align: center;">Armature Models</p>
             </div>
 
             <div class="stat">
                 <h3>OEM</h3>
-                <p>Customized Solutions</p>
+                <p style="text-align: center;">Customized Solutions</p>
             </div>
 
             <div class="stat">
                 <h3>India</h3>
-                <p>Supply & Export Support</p>
+                <p style="text-align: center;">Supply & Export Support</p>
             </div>
 
         </div>
