@@ -23,6 +23,7 @@ include_once'includes/header.php'
             width: 90%;
             max-width: 1200px;
             margin: auto;
+            position: relative;
         }
 
         /* HERO */
@@ -467,12 +468,43 @@ include_once'includes/header.php'
                 font-size: 30px;
             }
         }
+
+        .uoasdu{
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .asdhuiih{
+            position: absolute;
+            width: 300px;
+            left:100% ;
+            top: 50%;
+            transform: translate(-100%, -50%);
+            border-radius: 15px;
+            overflow: hidden;
+            
+            img{
+                transition: .25s ease;
+                width: 100%;
+            }
+        }
+
+        .asdhuiih:hover img{
+                transform: scale(1.05);
+                transition: .25s ease;
+        }
+
+        @media (max-width:640px){
+            .asdhuiih{
+                display: none !important;
+            }
+        }
     </style>
 
 
 <!-- HERO -->
 <section class="hero">
-    <div class="container">
+    <div class="container" style="padding-top:60px;">
         <div class="hero-content">
             <span class="tag">Trusted Power Tool Component Manufacturer</span>
 
@@ -490,6 +522,10 @@ include_once'includes/header.php'
                 <a href="tel:+919999999999" class="btn btn-outline">Call Now</a>
             </div>
         </div>
+
+        <span class="asdhuiih">
+            <img src="assets/img/armarture1.jpg" alt="">
+        </span>
     </div>
 </section>
 
@@ -530,7 +566,9 @@ include_once'includes/header.php'
 
         <div class="about-grid">
 
-            <div class="about-image"></div>
+            <div class="about-image">
+                <img class="uoasdu" src="assets/img/00033.jpg" alt="">
+            </div>
 
             <div class="about-content">
 
@@ -958,13 +996,6 @@ include_once'includes/header.php'
 </section>
 
 
-<!-- FOOTER -->
-<footer>
-    <div class="container">
-        © 2026 Vicky Power Tools. All Rights Reserved.
-        | Armature Manufacturing Company in Noida
-    </div>
-</footer>
 
 
 <script>
