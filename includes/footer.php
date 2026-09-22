@@ -3,7 +3,7 @@
     <section class="derWhatsappIcone">
         <div class="iconwhat" onclick="sendWhatsApp()">
             <span class="notifas1">
-                <img class="wa-icon" src="img/logo/whatsapp-custom.png" alt="">
+                <img class="wa-icon" src="/../img/logo/whatsapp-custom.png" alt="">
             </span>
         </div>
     </section>
