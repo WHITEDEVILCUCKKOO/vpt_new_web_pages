@@ -1,6 +1,6 @@
 
  <!-- whatsapp link -->
-    <section class="derWhatsappIcone">
+    <section class="derWhatsappIcone" style="padding: 0;">
         <div class="iconwhat" onclick="sendWhatsApp()">
             <span class="notifas1">
                 <img class="wa-icon" src="/../img/logo/whatsapp-custom.png" alt="">

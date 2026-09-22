@@ -508,7 +508,7 @@ include_once'includes/header.php'
         <div class="hero-content">
             <span class="tag">Trusted Power Tool Component Manufacturer</span>
 
-            <h1>Armature Manufacturing Company in Noida</h1>
+            <h1 style="color: #fff ;">Armature Manufacturing Company in Noida</h1>
 
             <p>
                 Vicky Power Tools is a reliable armature manufacturing company
@@ -517,7 +517,7 @@ include_once'includes/header.php'
                 motor components.
             </p>
 
-            <div class="buttons">
+            <div class="buttons" style="justify-content: left;">
                 <a href="#contact" class="btn btn-primary">Get a Quote</a>
                 <a href="tel:+919999999999" class="btn btn-outline">Call Now</a>
             </div>
