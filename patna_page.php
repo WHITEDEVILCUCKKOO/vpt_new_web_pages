@@ -276,7 +276,7 @@ include_once 'includes/header.php'
   .vpa-right {
     flex: 0 0 300px;
     position: sticky;
-    top: 24px;
+    top: 115px;
     align-self: flex-start;
     display: flex;
     flex-direction: column;
