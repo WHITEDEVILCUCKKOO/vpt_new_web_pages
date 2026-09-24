@@ -124,6 +124,9 @@ include_once 'includes/header.php'
     border-radius: 10px;
     padding: 19px;
     text-align: center;
+        height: max-content;
+        position: sticky;
+        top: 0;
   }
 
   .vpa-thumb img {
