@@ -519,7 +519,7 @@ include_once 'includes/header.php'
         </div>
         <div class="vpa-thumb">
 
-        <img src="/../img/products/armarture1.jpg" alt="">
+          <img src="/../img/products/armarture1.jpg" alt="">
           <!-- <div class="vpa-thumb-tag">VICKY</div>
         <div class="vpa-thumb-brand">Power Speed</div>
         <div class="vpa-thumb-sub">ARMATURE</div>
@@ -595,7 +595,7 @@ include_once 'includes/header.php'
           </ul>
           <p class="vpa-p">They don't just manufacture parts — they help build industries. Their components help assemble cars, build homes, run factories and so much more.</p>
         </div>
-        <div class="vpa-why-box">WHY<br>CHOOSE<br><span class="vpa-accent">US</span></div>
+        <div class="vpa-why-box"><img src="/../img/av8.png" alt="">s="vpa-accent">US</span></div>
       </div>
 
       <div class="vpa-final-thoughts">
