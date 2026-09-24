@@ -595,7 +595,7 @@ include_once 'includes/header.php'
           </ul>
           <p class="vpa-p">They don't just manufacture parts — they help build industries. Their components help assemble cars, build homes, run factories and so much more.</p>
         </div>
-        <div class="vpa-why-box"><img src="/../img/av8.png" alt="">s="vpa-accent">US</span></div>
+        <div class="vpa-why-box"><img src="/../img/av8.png" alt=""></div>
       </div>
 
       <div class="vpa-final-thoughts">
