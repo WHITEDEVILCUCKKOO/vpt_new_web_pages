@@ -122,7 +122,9 @@
     }
 }
 
-
+.knadn{
+        text-align: left !important;
+}
 
     </style>
 
@@ -150,12 +152,12 @@
                         <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
                             <div class="footer-widget" style="margin-right: 15px;">
                                 <div class="footer-widget-heading">
-                                    <h3>OFFICIAL INFO</h3>
+                                    <h3 class="knadn">OFFICIAL INFO</h3>
                                 </div>
                                 <div class="single-cta" style="    display: flex;
     flex-direction: column;
     align-items: flex-start;">
-                                    <div class="cta-text">
+                                    <div class="cta-text" style="    text-align: left;">
                                         <span style="text-align: left;"> <i class="fa fa-map-marker"></i> 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi 110015 India</span>
                                     </div>
                                     <div class="cta-text">
@@ -173,7 +175,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
                             <div class="footer-widget footer-text-2" style="margin-right: 15px;">
                                 <div class="footer-widget-heading">
-                                    <h3>NEWSLETTER</h3>
+                                    <h3 class="knadn">NEWSLETTER</h3>
                                 </div>
                                 <p>Subscribe Our Newsletter To Get Our Latest Update & News</p>
                                 <div class="content">
@@ -191,7 +193,7 @@
                         <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
-                                    <h3>PRODUCTS</h3>
+                                    <h3 class="knadn">PRODUCTS</h3>
                                 </div>
                                 <p><a style="color: #fff; font-size: 15px;" href="armartures.php"> <i class="fa fa-angle-double-right" aria-hidden="true"></i> Armature</a></p>
                                 <p><a style="color: #fff; font-size: 15px;" href="fieldcoil.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Field Coil</a></p>
