@@ -197,12 +197,12 @@
                                 <div class="footer-widget-heading">
                                     <h3 class="knadn">PRODUCTS</h3>
                                 </div>
-                                <p><a style="color: #fff; font-size: 15px;" href="armartures.php"> <i class="fa fa-angle-double-right" aria-hidden="true"></i> Armature</a></p>
-                                <p><a style="color: #fff; font-size: 15px;" href="fieldcoil.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Field Coil</a></p>
-                                <p><a style="color: #fff; font-size: 15px;" href="powertools.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Power Tools</a></p>
-                                <p><a style="color: #fff; font-size: 15px;" href="abrasives.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Abrasives</a></p>
-                                <p><a style="color: #fff; font-size: 15px;" href="construction-tool.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Construction Tool</a></p>
-                                <p><a style="color: #fff; font-size: 15px;" href="spm.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Special Purpose Motors</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="/../armartures.php"> <i class="fa fa-angle-double-right" aria-hidden="true"></i> Armature</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="/../fieldcoil.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Field Coil</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="/../powertools.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Power Tools</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="/../abrasives.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Abrasives</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="/../construction-tool.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Construction Tool</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="/../spm.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Special Purpose Motors</a></p>
                             </div>
                         </div>
                     </div>
