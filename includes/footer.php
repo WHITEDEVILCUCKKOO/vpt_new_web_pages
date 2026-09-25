@@ -152,7 +152,9 @@
                                 <div class="footer-widget-heading">
                                     <h3>OFFICIAL INFO</h3>
                                 </div>
-                                <div class="single-cta">
+                                <div class="single-cta" style="    display: flex;
+    flex-direction: column;
+    align-items: flex-start;">
                                     <div class="cta-text">
                                         <span> <i class="fa fa-map-marker"></i> 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi 110015 India</span>
                                     </div>
