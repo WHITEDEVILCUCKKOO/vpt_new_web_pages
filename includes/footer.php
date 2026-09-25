@@ -183,7 +183,9 @@
                                         <div class="input-group">
                                             <input type="email" class="form-control" name="email" placeholder="Mail ID" required />
                                             <span class="input-group-btn">
-                                                <button name="submit" class="btn" type="submit">Subscribe Now</button>
+                                                <button name="submit" class="btn" type="submit" style="    padding: 0px 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;">Subscribe Now</button>
                                             </span>
                                         </div>
                                     </form>
