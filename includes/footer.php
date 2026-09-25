@@ -137,7 +137,7 @@
                         <div class="col-xl-3 col-lg-3 mb-50">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
-                                    <img style="width: 80%;" src="img/logo/VPT-For-Blue.png" alt="Vicky Power Tools Logo">
+                                    <img style="width: 80%;" src="/../img/logo/VPT-For-Blue.png" alt="Vicky Power Tools Logo">
                                 </div>
                                 <div class="footer-text">
                                     <p class="headparagraph">
@@ -156,7 +156,7 @@
     flex-direction: column;
     align-items: flex-start;">
                                     <div class="cta-text">
-                                        <span> <i class="fa fa-map-marker"></i> 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi 110015 India</span>
+                                        <span style="text-align: left;"> <i class="fa fa-map-marker"></i> 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi 110015 India</span>
                                     </div>
                                     <div class="cta-text">
                                         <span><i class="fa fa-phone"></i> +91-011-45042377</span>
@@ -252,7 +252,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/../js/script.js"></script>
     
     <script>
         // Initialize carousel
