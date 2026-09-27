@@ -3,10 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Field Coils || Vicky Power Tools || PowerSpeed Field Coils Manufacturer New Delhi</title>
+    <title>Vicky Power Tools</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Field Coils manufactured by Vicky Power Tools under brand name PowerSpeed in New Delhi, India. Field Coils for Ralli Wolf, Bosch, Hitachi, HIKOKI, Black & Decker, Dewalt, KPT, Keyang and more." />
-    <meta name="keywords" content="Field Coils Manufacturer, Field Coils New Delhi, PowerSpeed Field Coils, Field Coils India, Field Coils Exporter"/>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/../img/favicon1.png">

@@ -1,4 +1,58 @@
+<?php
 
+if (isset($_POST['newsletter_submit'])) {
+
+    $customer_email = trim($_POST['email'] ?? '');
+    $time = date('Y-m-d H:i:s');
+
+    // Recipient Email
+    $recipient = "vickypowertools@gmail.com";
+
+    // Validate Email
+    if (!filter_var($customer_email, FILTER_VALIDATE_EMAIL)) {
+
+        echo "<script>
+            alert('Please enter a valid email address.');
+            window.history.back();
+        </script>";
+
+        exit;
+    }
+
+    // Email Subject
+    $email_subject = "New Newsletter Subscription - Vicky Power Tools";
+
+    // Email Content
+    $email_content  = "New Newsletter Subscription\n";
+    $email_content .= "==============================\n\n";
+    $email_content .= "Date : " . $time . "\n";
+    $email_content .= "Email : " . $customer_email . "\n";
+
+    // Email Headers
+    $email_headers  = "From: Vicky Power Tools Website <no-reply@yourdomain.com>\r\n";
+    $email_headers .= "Reply-To: " . $customer_email . "\r\n";
+    $email_headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    // Send Email
+    if (mail($recipient, $email_subject, $email_content, $email_headers)) {
+
+        echo "<script>
+            alert('Thank you! You have successfully subscribed.');
+            window.location.href = window.location.href;
+        </script>";
+
+    } else {
+
+        echo "<script>
+            alert('Subscription failed. Please try again later.');
+            window.history.back();
+        </script>";
+    }
+}
+?>
+ 
+ 
+ 
  <!-- whatsapp link -->
     <section class="derWhatsappIcone" style="padding: 0;">
         <div class="iconwhat" onclick="sendWhatsApp()">
@@ -15,6 +69,9 @@
                             window.open(url, '_blank');
                         }
     </script>
+
+
+
 
     <style>
      /* Container */
@@ -179,16 +236,39 @@
                                 </div>
                                 <p>Subscribe Our Newsletter To Get Our Latest Update & News</p>
                                 <div class="content">
-                                    <form action="#" method="post">
-                                        <div class="input-group">
-                                            <input type="email" class="form-control" name="email" placeholder="Mail ID" required />
-                                            <span class="input-group-btn">
-                                                <button name="submit" class="btn" type="submit" style="    padding: 0px 11px;
-    border-top-right-radius: 11px;
-    border-bottom-right-radius: 11px;">Subscribe Now</button>
-                                            </span>
-                                        </div>
-                                    </form>
+                                    <form action="" method="post">
+
+    <div class="input-group">
+
+        <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="Mail ID"
+            required
+        />
+
+        <span class="input-group-btn">
+
+            <button
+                name="newsletter_submit"
+                value="1"
+                class="btn"
+                type="submit"
+                style="
+                    padding: 0px 11px;
+                    border-top-right-radius: 11px;
+                    border-bottom-right-radius: 11px;
+                "
+            >
+                Subscribe Now
+            </button>
+
+        </span>
+
+    </div>
+
+</form>
                                 </div>
                             </div>
                         </div>

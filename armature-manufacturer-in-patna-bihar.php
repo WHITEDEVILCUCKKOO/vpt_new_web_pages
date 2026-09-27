@@ -1,6 +1,103 @@
 <?php
 include_once 'includes/header.php'
 ?>
+
+
+<?php
+
+if (isset($_POST['submit_callback'])) {
+
+    $first_name     = trim($_POST['first_name'] ?? '');
+    $customer_email = trim($_POST['email'] ?? '');
+    $phone_number   = trim($_POST['phone_number'] ?? '');
+    $location       = trim($_POST['location'] ?? '');
+    $message        = trim($_POST['your_message'] ?? '');
+
+    $time = date('Y-m-d H:i:s');
+
+    // Recipient Email
+    $recipient = "vickypowertools@gmail.com";
+
+    // Validation
+    if (
+        empty($first_name) ||
+        empty($customer_email) ||
+        empty($phone_number) ||
+        empty($location) ||
+        empty($message)
+    ) {
+
+        echo "<script>
+            alert('Please fill all required fields.');
+            window.history.back();
+        </script>";
+
+        exit;
+    }
+
+    // Email Validation
+    if (!filter_var($customer_email, FILTER_VALIDATE_EMAIL)) {
+
+        echo "<script>
+            alert('Please enter a valid email address.');
+            window.history.back();
+        </script>";
+
+        exit;
+    }
+
+    // Remove +91 and spaces if user enters them
+    $clean_phone = preg_replace('/[^0-9]/', '', $phone_number);
+
+    // Check 10 digit Indian number
+    if (strlen($clean_phone) != 10) {
+
+        echo "<script>
+            alert('Please enter a valid 10 digit mobile number.');
+            window.history.back();
+        </script>";
+
+        exit;
+    }
+
+    // Email Subject
+    $email_subject = "New Call Back Request - Vicky Power Tools";
+
+    // Email Content
+    $email_content  = "New Call Back Request\n";
+    $email_content .= "==============================\n\n";
+
+    $email_content .= "Date : " . $time . "\n";
+    $email_content .= "First Name : " . $first_name . "\n";
+    $email_content .= "Email : " . $customer_email . "\n";
+    $email_content .= "Mobile Number : +91 " . $clean_phone . "\n";
+    $email_content .= "Location : " . $location . "\n";
+    $email_content .= "Message : " . $message . "\n";
+
+    // Email Headers
+    $email_headers  = "From: Vicky Power Tools Website <no-reply@yourdomain.com>\r\n";
+    $email_headers .= "Reply-To: " . $customer_email . "\r\n";
+    $email_headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    // Send Email
+    if (mail($recipient, $email_subject, $email_content, $email_headers)) {
+
+        echo "<script>
+            alert('Thank you! Your call back request has been sent successfully.');
+            window.location.href = window.location.href;
+        </script>";
+
+    } else {
+
+        echo "<script>
+            alert('Mail could not be sent. Please try again later.');
+            window.history.back();
+        </script>";
+    }
+}
+?>
+
+
 <style>
   :root {
     --vpa-navy: #0c1c46;
@@ -498,40 +595,145 @@ include_once 'includes/header.php'
 
   <!-- RIGHT COLUMN (sticky) -->
   <div class="vpa-right">
+<form action="" method="post" style="padding: 10px 0; margin: 10px 0;">
 
     <div class="vpa-side-card" style="padding:0;overflow:hidden;">
-      <div class="vpa-video-box">
-        <div class="vpa-play-btn"></div>
-        <div class="vpa-video-label">This Is What 30 Years of Gears Looks Like<small class="vpa-video-sub">Vicky Power Tools </small></div>
-      </div>
+
+        <div class="vpa-video-box">
+
+            <div class="vpa-play-btn"></div>
+
+            <div class="vpa-video-label">
+                This Is What 30 Years of Gears Looks Like
+                <small class="vpa-video-sub">
+                    Vicky Power Tools
+                </small>
+            </div>
+
+        </div>
+
     </div>
+
 
     <div class="vpa-side-card">
-      <h3 class="vpa-side-title">Request A <span class="vpa-accent">Call Back</span> Now</h3>
-      <input class="vpa-field" type="text" placeholder="First Name*">
-      <input class="vpa-field" type="email" placeholder="Email*">
-      <div class="vpa-phone-row">
-        <div class="vpa-phone-code">🇮🇳 +91</div>
-        <input class="vpa-field" style="flex:1;" type="tel" placeholder="Mobile Number">
-      </div>
-      <input class="vpa-field" type="text" placeholder="Your Location*">
-      <textarea class="vpa-field vpa-textarea" placeholder="Your Message*"></textarea>
-      <label class="vpa-captcha"><input type="checkbox"> I'm not a robot</label>
-      <button class="vpa-btn">Let's Connect →</button>
+
+        <h3 class="vpa-side-title">
+            Request A
+            <span class="vpa-accent">Call Back</span>
+            Now
+        </h3>
+
+
+        <input
+            class="vpa-field"
+            type="text"
+            name="first_name"
+            placeholder="First Name*"
+            required>
+
+
+        <input
+            class="vpa-field"
+            type="email"
+            name="email"
+            placeholder="Email*"
+            required>
+
+
+        <div class="vpa-phone-row">
+
+            <div class="vpa-phone-code">
+                🇮🇳 +91
+            </div>
+
+            <input
+                class="vpa-field"
+                style="flex:1;"
+                type="tel"
+                name="phone_number"
+                placeholder="Mobile Number"
+                inputmode="numeric"
+                maxlength="10"
+                pattern="[0-9]{10}"
+                title="Please enter exactly 10 digits"
+                required>
+
+        </div>
+
+
+        <input
+            class="vpa-field"
+            type="text"
+            name="location"
+            placeholder="Your Location*"
+            required>
+
+
+        <textarea
+            class="vpa-field vpa-textarea"
+            name="your_message"
+            placeholder="Your Message*"
+            required></textarea>
+
+
+        <label class="vpa-captcha">
+            <input
+                type="checkbox"
+                required>
+            I'm not a robot
+        </label>
+
+
+        <button
+            type="submit"
+            name="submit_callback"
+            value="1"
+            class="vpa-btn">
+
+            Let's Connect →
+
+        </button>
+
     </div>
+
 
     <div class="vpa-help-card">
-      <h4 class="vpa-help-title">Need help with Armature Manufacturing?</h4>
-      <div class="vpa-help-num">+918595734416</div>
-      <p class="vpa-help-text">Get expert support for armature manufacturing, pricing and customization. Call or WhatsApp us for quick assistance and reliable solutions!</p>
-      <div class="vpa-help-actions">
-        <a href="#" class="vpa-help-action vpa-help-enquire">Send Enquiry</a>
-        <a href="#" class="vpa-help-action vpa-help-whatsapp">WhatsApp</a>
-      </div>
+
+        <h4 class="vpa-help-title">
+            Need help with Armature Manufacturing?
+        </h4>
+
+        <div class="vpa-help-num">
+            +918595734416
+        </div>
+
+        <p class="vpa-help-text">
+            Get expert support for armature manufacturing, pricing and customization.
+            Call or WhatsApp us for quick assistance and reliable solutions!
+        </p>
+
+        <div class="vpa-help-actions">
+
+            <a
+                href="#"
+                class="vpa-help-action vpa-help-enquire">
+                Send Enquiry
+            </a>
+
+            <a
+                href="#"
+                class="vpa-help-action vpa-help-whatsapp">
+                WhatsApp
+            </a>
+
+        </div>
+
     </div>
 
+</form>
+    
   </div>
-
+  
 </div>
 <?php
 include_once 'includes/footer.php'
