@@ -599,18 +599,17 @@ if (isset($_POST['submit_callback'])) {
 
     <div class="vpa-side-card" style="padding:0;overflow:hidden;">
 
-        <div class="vpa-video-box">
-
-            <div class="vpa-play-btn"></div>
-
-            <div class="vpa-video-label">
-                This Is What 30 Years of Gears Looks Like
-                <small class="vpa-video-sub">
-                    Vicky Power Tools
-                </small>
-            </div>
-
-        </div>
+       <div class="vpa-video-box">
+    <iframe
+        width="100%"
+        height="100%"
+        src="YOUTUBE_EMBED_LINK"
+        title="Vicky Power Tools Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
 
     </div>
 
