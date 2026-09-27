@@ -571,18 +571,52 @@ if (isset($_POST['submit_callback'])) {
       </div>
 
       <div class="vpa-brand-cols">
-        <a class="vpa-brand-link" href="#">Ralli Wolf</a><a class="vpa-brand-link" href="#">Atlas Copco</a><a class="vpa-brand-link" href="#">Keyang</a>
-        <a class="vpa-brand-link" href="#">Bosch / Skil</a><a class="vpa-brand-link" href="#">Milwaukee</a><a class="vpa-brand-link" href="#">Cumi</a>
-        <a class="vpa-brand-link" href="#">Hitachi / HIKOKI</a><a class="vpa-brand-link" href="#">LG</a><a class="vpa-brand-link" href="#">PowerSpeed</a>
-        <a class="vpa-brand-link" href="#">Black &amp; Decker</a><a class="vpa-brand-link" href="#">Aarvy/Mitachi</a><a class="vpa-brand-link" href="#">Baw</a>
-        <a class="vpa-brand-link" href="#">Dewalt</a><a class="vpa-brand-link" href="#">Nippon / Neutron</a><a class="vpa-brand-link" href="#">Dongcheng</a>
-        <a class="vpa-brand-link" href="#">KPT</a><a class="vpa-brand-link" href="#">Metabo</a><a class="vpa-brand-link" href="#">Endico</a>
-        <a class="vpa-brand-link" href="#">Ryobi</a><a class="vpa-brand-link" href="#">Eastman</a><a class="vpa-brand-link" href="#">Ferm</a>
-        <a class="vpa-brand-link" href="#">Makita</a><a class="vpa-brand-link" href="#">Casal/Kress</a><a class="vpa-brand-link" href="#">Ken</a>
-        <a class="vpa-brand-link" href="#">Webtool</a><a class="vpa-brand-link" href="#">Hilti</a><a class="vpa-brand-link" href="#">Powertex</a>
-        <a class="vpa-brand-link" href="#">Jepson</a><a class="vpa-brand-link" href="#">Horse Power</a><a class="vpa-brand-link" href="#">Stanley</a>
-        <a class="vpa-brand-link" href="#">Aeg</a><a class="vpa-brand-link" href="#">Agp</a><a class="vpa-brand-link" href="#">Miscellaneous</a>
-      </div>
+
+    <a class="vpa-brand-link" href="/../ralliwolf-armature.php">Ralli Wolf</a>
+    <a class="vpa-brand-link" href="/../aegmilwaukee-armature.php">Atlas Copco</a>
+    <a class="vpa-brand-link" href="/../keyang-armature.php">Keyang</a>
+
+    <a class="vpa-brand-link" href="/../bosch-armature.php">Bosch / Skil</a>
+    <a class="vpa-brand-link" href="/../aegmilwaukee-armature.php">Milwaukee</a>
+    <a class="vpa-brand-link" href="/../cumi-armature.php">Cumi</a>
+
+    <a class="vpa-brand-link" href="/../hikoki-armature.php">Hitachi / HIKOKI</a>
+    <a class="vpa-brand-link" href="/../lg-armature.php">LG</a>
+    <a class="vpa-brand-link" href="/../powerspeed.php">PowerSpeed</a>
+
+    <a class="vpa-brand-link" href="/../blackDecker-Armature.php">Black &amp; Decker</a>
+    <a class="vpa-brand-link" href="/../aarvy-armature.php">Aarvy/Mitachi</a>
+    <a class="vpa-brand-link" href="/../baw-armature.php">Baw</a>
+
+    <a class="vpa-brand-link" href="/../dewalt-armature.php">Dewalt</a>
+    <a class="vpa-brand-link" href="/../neutron-armature.php">Nippon / Neutron</a>
+    <a class="vpa-brand-link" href="/../dongcheng-armature.php">Dongcheng</a>
+
+    <a class="vpa-brand-link" href="/../kpt-armature.php">KPT</a>
+    <a class="vpa-brand-link" href="/../metabo-armature.php">Metabo</a>
+    <a class="vpa-brand-link" href="/../endico-armature.php">Endico</a>
+
+    <a class="vpa-brand-link" href="/../ryobi-armature.php">Ryobi</a>
+    <a class="vpa-brand-link" href="/../eastman-armature.php">Eastman</a>
+    <a class="vpa-brand-link" href="/../ferm-armature.php">Ferm</a>
+
+    <a class="vpa-brand-link" href="/../makita-armature.php">Makita</a>
+    <a class="vpa-brand-link" href="/../kress-armature.php">Casal/Kress</a>
+    <a class="vpa-brand-link" href="/../ken-armature.php">Ken</a>
+
+    <a class="vpa-brand-link" href="/../webtool-armature.php">Webtool</a>
+    <a class="vpa-brand-link" href="/../hilti-armature.php">Hilti</a>
+    <a class="vpa-brand-link" href="/../powertex-armature.php">Powertex</a>
+
+    <a class="vpa-brand-link" href="/../jepson-armature.php">Jepson</a>
+    <a class="vpa-brand-link" href="/../horsepower-armature.php">Horse Power</a>
+    <a class="vpa-brand-link" href="/../stanley-armature.php">Stanley</a>
+
+    <a class="vpa-brand-link" href="/../aegmilwaukee-armature.php">Aeg</a>
+    <a class="vpa-brand-link" href="/../agp-armature.php">Agp</a>
+    <a class="vpa-brand-link" href="/../miscellaneouse-armature.php">Miscellaneous</a>
+
+</div>
 
       <h2 class="vpa-h2">Power Tools Armature</h2>
       <p class="vpa-p">Armature is very important component of the motor that helps a power tool operate efficiently. Vicky Power Tools manufactures a wide range of power tool armatures for different applications and machine types. Its product range includes armatures suitable for grinder machines, magnetic drill machine, threading machine, drill machines, hammer machines, cutter machines, blowers, vacuum motors, broach cutters, core cutting machines, circular saws and screwdrivers. The company manufactures armatures under the brand name PowerSpeed and can also develop products according to customer requirements, samples and technical specifications. Vicky Power Tools manufacture Armatures in Different voltage like 220V, 110V, 90V, 48V, 36V, 24V and 12V. Vicky Power Tools make armatures which are suitable for different power tools brands and models, which make easier for dealers, repairing professionals, distributors and industrial buyers to find the right replacement of Armature. Quality control and testing are important parts of the company's manufacturing process. With decades of experience in the industry, Vicky Power Tools focuses on providing more than 2000 types armatures with consistent performance and suitable specifications for different power tools.</p>
