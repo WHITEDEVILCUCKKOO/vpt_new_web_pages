@@ -529,7 +529,7 @@ if (isset($_POST['submit_callback'])) {
 
 
   /* yt video css */
-  .vpa-video-box {
+.vpa-video-box {
     width: 100%;
     height: 230px;
     overflow: hidden;
@@ -543,7 +543,6 @@ if (isset($_POST['submit_callback'])) {
     height: 100%;
     display: block;
     border: 0;
-    overflow: hidden;
 }
 </style>
 </head>
@@ -619,9 +618,9 @@ if (isset($_POST['submit_callback'])) {
 
     <div class="vpa-side-card" style="padding:0;overflow:hidden;">
 
-   <div class="vpa-video-box">
+ <div class="vpa-video-box">
     <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID"
+        src="https://www.youtube.com/embed/BPUGnHqGGlA"
         title="Vicky Power Tools"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
