@@ -338,7 +338,7 @@ if (isset($_POST['submit_callback'])) {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(160deg, var(--vpa-navy), #1c2f66 60%, var(--vpa-navy-deep));
+    /* background: linear-gradient(160deg, var(--vpa-navy), #1c2f66 60%, var(--vpa-navy-deep)); */
     opacity: .9;
   }
 
