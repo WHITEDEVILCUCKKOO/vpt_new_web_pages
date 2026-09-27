@@ -525,6 +525,26 @@ if (isset($_POST['submit_callback'])) {
       flex-direction: column;
     }
   }
+
+
+
+  /* yt video css */
+  .vpa-video-box {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    border-radius: 14px;
+    position: relative;
+    background: #0b1d4d;
+}
+
+.vpa-video-box iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+    overflow: hidden;
+}
 </style>
 </head>
 
@@ -599,12 +619,10 @@ if (isset($_POST['submit_callback'])) {
 
     <div class="vpa-side-card" style="padding:0;overflow:hidden;">
 
-       <div class="vpa-video-box">
+   <div class="vpa-video-box">
     <iframe
-        width="100%"
-        height="100%"
-        src="YOUTUBE_EMBED_LINK"
-        title="Vicky Power Tools Video"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="Vicky Power Tools"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
