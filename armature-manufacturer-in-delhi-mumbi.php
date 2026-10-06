@@ -112,6 +112,17 @@ include_once 'includes/header.php';
     }
     .asdhuiih:hover img { transform: scale(1.05); transition: .25s ease; }
     @media (max-width:640px) { .asdhuiih { display: none !important; } }
+
+    /* ALIGNMENT FIXES */
+    .section-title { max-width: 1000px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { font-size: 40px; letter-spacing: 1px; width: 100%; text-align: center !important; }
+    .section-title p,
+    .oem-box h2,
+    .oem-box p,
+    div[style*="text-align:center"] p,
+    p[style*="text-align:center"] { text-align: center !important; }
+    .about-content h2 { text-align: left; }
+    @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
 </style>
 
 
@@ -183,15 +194,17 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
+                <h2>Vicky Power Tools - Armature Manufacturer for Mumbai</h2>
+
                 <p>
-                    Vicky Power Tools produces compatible armatures for a broad range of electric
+                    <strong>Vicky Power Tools</strong> produces compatible armatures for a broad range of electric
                     motor and power tools applications. We supply our customers with replacement
                     armatures for angle grinders, drilling machines, cut-off machines, marble
                     cutters, straight grinders and other power tools, if they need them.
                 </p>
 
                 <p>
-                    Vicky Power Tools is located in New Delhi India and not in Mumbai. We are based
+                    <strong>Vicky Power Tools</strong> is located in <strong>New Delhi</strong> India and not in Mumbai. We are based
                     out of Delhi, from where we manufacture and serve customers in Mumbai &
                     Maharashtra.
                 </p>
@@ -199,7 +212,7 @@ include_once 'includes/header.php';
                 <p>
                     This gives Mumbai-based dealers, distributors, workshops, repair centers and
                     industrial buyers an opportunity to source armatures directly from a
-                    manufacturer located in New Delhi.
+                    manufacturer located in <strong>New Delhi</strong>.
                 </p>
 
             </div>
@@ -220,9 +233,9 @@ include_once 'includes/header.php';
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                Vicky Power Tools has been manufacturing and exporting armatures, field coils,
+                <strong>Vicky Power Tools</strong> has been manufacturing and exporting armatures, field coils,
                 electric tools, power tools and special purpose motors since 1982. The company is
-                based in New Delhi and caters to clients in India and international markets.
+                based in <strong>New Delhi</strong> and caters to clients in India and international markets.
             </p>
 
             <br>
@@ -237,7 +250,7 @@ include_once 'includes/header.php';
 
             <p>
                 What this means for customers in Mumbai is that you can get in touch with a
-                Delhi-based armature manufacturer that caters to Mumbai instead of assuming that
+                Delhi-based <strong>armature manufacturer</strong> that caters to Mumbai instead of assuming that
                 the manufacturer has to be physically located in Mumbai.
             </p>
 
@@ -254,8 +267,8 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature Manufacturers Mumbai</h2>
             <p>
-                Vicky Power Tools also supplies power tools armatures to the customers in search of
-                Armature Supplier in Mumbai.
+                <strong>Vicky Power Tools</strong> also supplies power tools armatures to the customers in search of
+                <strong>Armature Supplier</strong> in Mumbai.
             </p>
             <p>
                 Depending on the availability and specifications of the individual model, we can
@@ -294,8 +307,8 @@ include_once 'includes/header.php';
             <h2>Armature Dealer Mumbai</h2>
 
             <p>
-                If you are a business looking for a Armature Dealer in Mumbai, you can also contact
-                Vicky Power Tools for power tools armatures that are compatible.
+                If you are a business looking for a <strong>Armature Dealer</strong> in Mumbai, you can also contact
+                <strong>Vicky Power Tools</strong> for power tools armatures that are compatible.
             </p>
 
             <p>
@@ -335,7 +348,7 @@ include_once 'includes/header.php';
                 operate the tools.
             </p>
             <p>
-                Vicky Power Tools manufactures and offers for sale replacement armatures for a
+                <strong>Vicky Power Tools</strong> manufactures and offers for sale replacement armatures for a
                 variety of compatible power tools models.
             </p>
             <p>Our product portfolio comprises applications like:</p>
@@ -396,7 +409,7 @@ include_once 'includes/header.php';
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                Vicky Power Tools stocks ranges to suit all brands and power tools models.
+                <strong>Vicky Power Tools</strong> stocks ranges to suit all brands and power tools models.
                 Currently on its website it features armature ranges for brands such as Bosch,
                 Ralli Wolf, Hitachi/Hikoki, DeWalt, KPT, Makita, Metabo, Hilti, Keyang, Powertex
                 and more.
@@ -442,7 +455,7 @@ include_once 'includes/header.php';
             </p>
 
             <p>
-                Vicky Power Tools supply armatures to businesses that need replacement parts for
+                <strong>Vicky Power Tools</strong> supply armatures to businesses that need replacement parts for
                 the relevant models.
             </p>
 
@@ -459,7 +472,7 @@ include_once 'includes/header.php';
             </div>
 
             <p style="margin-top:20px;">
-                call us with your armature needs. Call Vicky Power Tools.
+                call us with your armature needs. Call <strong>Vicky Power Tools</strong>.
             </p>
 
         </div>
@@ -519,15 +532,7 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- CTA -->
-<section class="cta" id="contact">
-    <div class="container">
-        <a href="https://wa.me/918595734416?text=Hello%20Vicky%20Power%20Tools%2C%20I%20need%20a%20quote%20for%20armature." target="_blank" rel="noopener" class="btn">Contact Vicky Power Tools</a>
-    </div>
-</section>
-
-
-<script>
+ <script>
     document.querySelectorAll(".faq-question").forEach(question => {
         question.addEventListener("click", () => {
             const item = question.parentElement;

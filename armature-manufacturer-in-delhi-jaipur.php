@@ -112,6 +112,17 @@ include_once 'includes/header.php';
     }
     .asdhuiih:hover img { transform: scale(1.05); transition: .25s ease; }
     @media (max-width:640px) { .asdhuiih { display: none !important; } }
+
+    /* ALIGNMENT FIXES */
+    .section-title { max-width: 1000px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { font-size: 40px; letter-spacing: 1px; width: 100%; text-align: center !important; }
+    .section-title p,
+    .oem-box h2,
+    .oem-box p,
+    div[style*="text-align:center"] p,
+    p[style*="text-align:center"] { text-align: center !important; }
+    .about-content h2 { text-align: left; }
+    @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
 </style>
 
 
@@ -182,6 +193,8 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
+                <h2>Vicky Power Tools - Armature Manufacturer for Jaipur</h2>
+
                 <p>
                     We manufacture and supply armatures for a wide range of electrical machines
                     and power tools. Our products are suitable for power tools repair shops,
@@ -190,7 +203,7 @@ include_once 'includes/header.php';
                 </p>
 
                 <p>
-                    Vicky Power Tools is based in Delhi but we supply and distribute our products
+                    <strong>Vicky Power Tools</strong> is based in Delhi but we supply and distribute our products
                     to Jaipur and other parts of Rajasthan through our extensive supply and
                     distribution network.
                 </p>
@@ -230,7 +243,7 @@ include_once 'includes/header.php';
             <br>
 
             <p>
-                Vicky Power Tools is the right place for customers in Jaipur to get their power
+                <strong>Vicky Power Tools</strong> is the right place for customers in Jaipur to get their power
                 tools armature needs as they don’t need to look beyond for an unknown local
                 supplier.
             </p>
@@ -248,7 +261,7 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature Supplier Jaipur, Rajasthan</h2>
             <p>
-                Looking for Armature Supplier in Jaipur Rajasthan? Vicky Power Tools offers power
+                Looking for <strong>Armature Supplier</strong> in Jaipur Rajasthan? <strong>Vicky Power Tools</strong> offers power
                 tools armatures in Jaipur and other parts of Rajasthan. We serve businesses and
                 professionals who need replacement armatures for repair, maintenance, resale and
                 regular stock needs.
@@ -286,12 +299,12 @@ include_once 'includes/header.php';
             <h2>Armature Dealer in Jaipur</h2>
 
             <p>
-                Vicky Power Tools also provides armatures to the customers who are looking for
-                Armature Dealer in Jaipur.
+                <strong>Vicky Power Tools</strong> also provides armatures to the customers who are looking for
+                <strong>Armature Dealer</strong> in Jaipur.
             </p>
 
             <p>
-                We are a Delhi based power tools armature manufacturer and supplier. We can cater
+                We are a Delhi based power tools <strong>armature manufacturer</strong> and supplier. We can cater
                 Jaipur based dealers, repair professionals and businesses that requires
                 replacement armatures.
             </p>
@@ -315,7 +328,7 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armatures For Various Power Tools</h2>
             <p>
-                Vicky Power Tools produces different armatures for different power tools.
+                <strong>Vicky Power Tools</strong> produces different armatures for different power tools.
                 Depending upon model number and specifications, our armatures can be used for:
             </p>
         </div>
@@ -442,15 +455,7 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- CTA -->
-<section class="cta" id="contact">
-    <div class="container">
-        <a href="https://wa.me/918595734416?text=Hello%20Vicky%20Power%20Tools%2C%20I%20need%20a%20quote%20for%20armature." target="_blank" rel="noopener" class="btn">Contact Vicky Power Tools</a>
-    </div>
-</section>
-
-
-<script>
+ <script>
     document.querySelectorAll(".faq-question").forEach(question => {
         question.addEventListener("click", () => {
             const item = question.parentElement;

@@ -112,6 +112,17 @@ include_once 'includes/header.php';
     }
     .asdhuiih:hover img { transform: scale(1.05); transition: .25s ease; }
     @media (max-width:640px) { .asdhuiih { display: none !important; } }
+
+    /* ALIGNMENT FIXES */
+    .section-title { max-width: 1000px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { font-size: 40px; letter-spacing: 1px; width: 100%; text-align: center !important; }
+    .section-title p,
+    .oem-box h2,
+    .oem-box p,
+    div[style*="text-align:center"] p,
+    p[style*="text-align:center"] { text-align: center !important; }
+    .about-content h2 { text-align: left; }
+    @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
 </style>
 
 
@@ -182,6 +193,8 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
+                <h2>Vicky Power Tools - Armature Manufacturer for Bangalore</h2>
+
                 <p>
                     We produce and supply armatures for a wide range of compatible electric power
                     tools for workshops, repair shops, industrial applications, construction work
@@ -189,14 +202,14 @@ include_once 'includes/header.php';
                 </p>
 
                 <p>
-                    Vicky Power Tools is headquartered in New Delhi, India and caters to clients in
+                    <strong>Vicky Power Tools</strong> is headquartered in <strong>New Delhi</strong>, India and caters to clients in
                     Bengaluru and other parts of Karnataka from its manufacturing and business unit
                     in Delhi.
                 </p>
 
                 <p>
                     If you require a replacement armature, or just standard stock for your business
-                    or bulk quantities for commercial needs, please contact Vicky Power Tools with
+                    or bulk quantities for commercial needs, please contact <strong>Vicky Power Tools</strong> with
                     your specific product details.
                 </p>
 
@@ -226,7 +239,7 @@ include_once 'includes/header.php';
             <br>
 
             <p>
-                Vicky Power Tools is a specialist manufacturer of armatures for a wide variety of
+                <strong>Vicky Power Tools</strong> is a specialist manufacturer of armatures for a wide variety of
                 power tools models and uses.
             </p>
 
@@ -264,11 +277,11 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature Manufacturer and supplier in Bangalore</h2>
             <p>
-                Finding the right Armature Supplier in Bengaluru is important for businesses
+                Finding the right <strong>Armature Supplier</strong> in Bengaluru is important for businesses
                 involved in power tools repair, maintenance and distribution.
             </p>
             <p>
-                Vicky Power Tools supplies armatures for different models and applications,
+                <strong>Vicky Power Tools</strong> supplies armatures for different models and applications,
                 subject to product specifications and availability.
             </p>
             <p>We meet requirements of:</p>
@@ -303,7 +316,7 @@ include_once 'includes/header.php';
 
             <h2>Karnataka Armature Dealer</h2>
 
-            <p>Vicky Power Tools also deals in business for Armature Dealer in Karnataka.</p>
+            <p><strong>Vicky Power Tools</strong> also deals in business for <strong>Armature Dealer</strong> in Karnataka.</p>
 
             <p>
                 We supply compatible armatures from our manufacturing unit in Delhi to customers
@@ -333,7 +346,7 @@ include_once 'includes/header.php';
                 may not be compatible with another model.
             </p>
             <p>
-                Therefore, Vicky Power Tools offers armature solutions specific to the model of the
+                Therefore, <strong>Vicky Power Tools</strong> offers armature solutions specific to the model of the
                 relevant power tools.
             </p>
         </div>
@@ -401,7 +414,7 @@ include_once 'includes/header.php';
             <br>
 
             <p>
-                Vicky Power Tools provides armatures for companies that need suitable replacement
+                <strong>Vicky Power Tools</strong> provides armatures for companies that need suitable replacement
                 parts for their power tools.
             </p>
 
@@ -445,7 +458,7 @@ include_once 'includes/header.php';
                 compatible with the particular power tools.
             </p>
 
-            <p>Vicky Power Tools is focusing on:</p>
+            <p><strong>Vicky Power Tools</strong> is focusing on:</p>
 
             <div class="oem-list">
                 <div>Power tools armature production</div>
@@ -484,7 +497,7 @@ include_once 'includes/header.php';
             </p>
 
             <p>
-                Vicky Power Tools is open to business enquiries for large orders depending on the
+                <strong>Vicky Power Tools</strong> is open to business enquiries for large orders depending on the
                 model and product availability.
             </p>
 
@@ -519,8 +532,8 @@ include_once 'includes/header.php';
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                If you are looking for “Armature Manufacturers in Bengaluru, Karnataka”, then Vicky
-                Power Tools is a good option. We are manufacturers and suppliers based in Delhi.
+                If you are looking for “<strong>Armature Manufacturers</strong> in Bengaluru, Karnataka”, then <strong>Vicky
+                Power Tools</strong> is a good option. We are manufacturers and suppliers based in Delhi.
             </p>
 
             <br>
@@ -540,15 +553,7 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- CTA -->
-<section class="cta" id="contact">
-    <div class="container">
-        <a href="https://wa.me/918595734416?text=Hello%20Vicky%20Power%20Tools%2C%20I%20need%20a%20quote%20for%20armature." target="_blank" rel="noopener" class="btn">Contact Vicky Power Tools</a>
-    </div>
-</section>
-
-
-<script>
+ <script>
     document.querySelectorAll(".faq-question").forEach(question => {
         question.addEventListener("click", () => {
             const item = question.parentElement;

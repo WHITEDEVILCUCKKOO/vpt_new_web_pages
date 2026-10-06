@@ -112,6 +112,17 @@ include_once 'includes/header.php';
     }
     .asdhuiih:hover img { transform: scale(1.05); transition: .25s ease; }
     @media (max-width:640px) { .asdhuiih { display: none !important; } }
+
+    /* ALIGNMENT FIXES */
+    .section-title { max-width: 1000px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { font-size: 40px; letter-spacing: 1px; width: 100%; text-align: center !important; }
+    .section-title p,
+    .oem-box h2,
+    .oem-box p,
+    div[style*="text-align:center"] p,
+    p[style*="text-align:center"] { text-align: center !important; }
+    .about-content h2 { text-align: left; }
+    @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
 </style>
 
 
@@ -182,6 +193,8 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
+                <h2>Vicky Power Tools - Armature Manufacturer for Noida</h2>
+
                 <p>
                     We manufacture and supply armatures, field coils and other power tool
                     components for various applications. Our products are used for angle grinders,
@@ -190,7 +203,7 @@ include_once 'includes/header.php';
                 </p>
 
                 <p>
-                    Vicky Power Tools is located in New Delhi not in Noida. We are a Delhi based
+                    <strong>Vicky Power Tools</strong> is located in <strong>New Delhi</strong> not in Noida. We are a Delhi based
                     manufacturing and business location serving the needs of customers in Noida,
                     providing Noida based dealers, workshops, repair centers, distributors and
                     businesses with the ability to source power tool armatures.
@@ -214,8 +227,8 @@ include_once 'includes/header.php';
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                Vicky Power Tools has been manufacturing and exporting armatures and field coils
-                for Power Tools since 1982. The company is located in New Delhi and provides
+                <strong>Vicky Power Tools</strong> has been manufacturing and exporting armatures and field coils
+                for Power Tools since 1982. The company is located in <strong>New Delhi</strong> and provides
                 products to customers in various parts of India.
             </p>
 
@@ -230,8 +243,8 @@ include_once 'includes/header.php';
             <br>
 
             <p>
-                Hence, the customers searching for armature manufacturer in Noida can contact
-                Vicky Power Tools with their machine model, existing armature photograph or
+                Hence, the customers searching for <strong>armature manufacturer</strong> in Noida can contact
+                <strong>Vicky Power Tools</strong> with their machine model, existing armature photograph or
                 technical specification.
             </p>
 
@@ -248,7 +261,7 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature Supplier in Noida</h2>
             <p>
-                Vicky Power Tools also works as an Armature Supplier in Noida, supplying compatible
+                <strong>Vicky Power Tools</strong> also works as an <strong>Armature Supplier</strong> in Noida, supplying compatible
                 power tool armatures to businesses and professional users.
             </p>
             <p>Our customers may include:</p>
@@ -284,7 +297,7 @@ include_once 'includes/header.php';
             <h2>Armature Dealer Noida</h2>
 
             <p>
-                If you are looking for a Armature Dealer in Noida, Vicky Power Tools can supply
+                If you are looking for a <strong>Armature Dealer</strong> in Noida, <strong>Vicky Power Tools</strong> can supply
                 armatures directly from its Delhi based operations.
             </p>
 
@@ -320,7 +333,7 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature for Power Tools</h2>
             <p>
-                Vicky Power Tools manufacturers and supplies armatures for a wide variety of
+                <strong>Vicky Power Tools</strong> manufacturers and supplies armatures for a wide variety of
                 compatible power tool applications.
             </p>
         </div>
@@ -392,7 +405,7 @@ include_once 'includes/header.php';
             <h2>Why Should You Choose Vicky Power Tools For Your Needs in Noida?</h2>
 
             <p>
-                Vicky Power Tools is a manufacturer and exporter of armatures, field coils,
+                <strong>Vicky Power Tools</strong> is a manufacturer and exporter of armatures, field coils,
                 electric tools and power tools based in Delhi.
             </p>
 
@@ -481,8 +494,8 @@ include_once 'includes/header.php';
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                Vicky Power Tools is a transparent option to source power tools armatures from a
-                New Delhi based manufacturer, if you are searching for “Armature Manufacturer in
+                <strong>Vicky Power Tools</strong> is a transparent option to source power tools armatures from a
+                <strong>New Delhi</strong> based manufacturer, if you are searching for “<strong>Armature Manufacturer</strong> in
                 Noida”.
             </p>
 
@@ -565,15 +578,7 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- CTA -->
-<section class="cta" id="contact">
-    <div class="container">
-        <a href="https://wa.me/918595734416?text=Hello%20Vicky%20Power%20Tools%2C%20I%20need%20a%20quote%20for%20armature." target="_blank" rel="noopener" class="btn">Contact Vicky Power Tools</a>
-    </div>
-</section>
-
-
-<script>
+ <script>
     document.querySelectorAll(".faq-question").forEach(question => {
         question.addEventListener("click", () => {
             const item = question.parentElement;

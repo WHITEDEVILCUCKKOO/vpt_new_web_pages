@@ -112,6 +112,17 @@ include_once 'includes/header.php';
     }
     .asdhuiih:hover img { transform: scale(1.05); transition: .25s ease; }
     @media (max-width:640px) { .asdhuiih { display: none !important; } }
+
+    /* ALIGNMENT FIXES */
+    .section-title { max-width: 1000px; margin-left: auto; margin-right: auto; }
+    .section-title h2 { font-size: 40px; letter-spacing: 1px; width: 100%; text-align: center !important; }
+    .section-title p,
+    .oem-box h2,
+    .oem-box p,
+    div[style*="text-align:center"] p,
+    p[style*="text-align:center"] { text-align: center !important; }
+    .about-content h2 { text-align: left; }
+    @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
 </style>
 
 
@@ -183,11 +194,13 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
+                <h2>Vicky Power Tools - Armature Manufacturer for Ahmedabad</h2>
+
                 <p>
-                    Vicky Power Tools is one of the best power tools and armature industry
+                    <strong>Vicky Power Tools</strong> is one of the best power tools and armature industry
                     companies, offering a wide range of power tools and armature industry services
-                    to customers looking for armature manufacturer, armature supplier and armature
-                    dealer in Gujarat. Our armatures are suited for a variety of power tools,
+                    to customers looking for <strong>armature manufacturer</strong>, <strong>armature supplier</strong> and <strong>armature
+                    dealer</strong> in Gujarat. Our armatures are suited for a variety of power tools,
                     including angle grinders, drilling machines, cut-off machines, marble cutters,
                     straight grinders and other electric tools.
                 </p>
@@ -210,7 +223,7 @@ include_once 'includes/header.php';
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                Vicky Power Tools manufacture and supply replacement armatures for a wide range of
+                <strong>Vicky Power Tools</strong> manufacture and supply replacement armatures for a wide range of
                 power tool applications. We aim for steady production, correct balancing, quality
                 copper winding and precise gear construction.
             </p>
@@ -243,8 +256,8 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature Supplier in Gujarat</h2>
             <p>
-                Looking for Armature Supplier in Gujarat for your business or repair needs? Vicky
-                Power Tools is a supplier of armatures for a wide range of models and applications
+                Looking for <strong>Armature Supplier</strong> in Gujarat for your business or repair needs? <strong>Vicky
+                Power Tools</strong> is a supplier of armatures for a wide range of models and applications
                 of power tools.
             </p>
             <p>Our products can be usefull to:</p>
@@ -264,7 +277,7 @@ include_once 'includes/header.php';
 
         <p style="text-align:center;margin-top:30px;color:#cbd5df;">
             We know when you are buying replacement armatures that it is important to you to have
-            them in stock and that they are the right product for your needs. Vicky Power Tools can
+            them in stock and that they are the right product for your needs. <strong>Vicky Power Tools</strong> can
             be contacted by a customer with his power tool model or armature needs and a product
             will be found that fits.
         </p>
@@ -282,7 +295,7 @@ include_once 'includes/header.php';
             <h2>Gujarat Armature Dealer</h2>
 
             <p>
-                Vicky Power Tools also offers Armature Dealer in Gujarat to the customers. We carry
+                <strong>Vicky Power Tools</strong> also offers <strong>Armature Dealer</strong> in Gujarat to the customers. We carry
                 armature products for a wide range of power tool applications, and support dealers,
                 distributors, repair professionals and businesses that require replacement
                 armatures.
@@ -314,7 +327,7 @@ include_once 'includes/header.php';
             </p>
 
             <p>
-                Important armature characteristics such as are considered in Vicky Power Tools:
+                Important armature characteristics such as are considered in <strong>Vicky Power Tools</strong>:
             </p>
 
             <div class="oem-list">
@@ -346,7 +359,7 @@ include_once 'includes/header.php';
         <div class="section-title">
             <h2>Armature for Various Power Tools</h2>
             <p>
-                Vicky Power Tools produces and distributes armatures for a range of power tool
+                <strong>Vicky Power Tools</strong> produces and distributes armatures for a range of power tool
                 applications. Model and requirement armatures can be used in:
             </p>
         </div>
@@ -405,7 +418,7 @@ include_once 'includes/header.php';
 
             <p>
                 Selecting the right armature is important to maintain the performance of a power
-                tool. Vicky Power Tools is committed to supplying armatures that are suitable for
+                tool. <strong>Vicky Power Tools</strong> is committed to supplying armatures that are suitable for
                 specific power tool applications.
             </p>
 
@@ -422,7 +435,7 @@ include_once 'includes/header.php';
             </div>
 
             <p style="margin-top:20px;">
-                Vicky Power Tools can be contacted for Armature Manufacturers in Ahmedabad, Gujarat
+                <strong>Vicky Power Tools</strong> can be contacted for <strong>Armature Manufacturers</strong> in Ahmedabad, Gujarat
                 for product details, availability and business requirements.
             </p>
 
@@ -452,7 +465,7 @@ include_once 'includes/header.php';
             <br>
 
             <p>
-                Vicky Power Tools has the motive to provide reliable armature products &
+                <strong>Vicky Power Tools</strong> has the motive to provide reliable armature products &
                 replacement solutions to the customers across Gujarat.
             </p>
 
@@ -527,15 +540,7 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- CTA -->
-<section class="cta" id="contact">
-    <div class="container">
-        <a href="https://wa.me/918595734416?text=Hello%20Vicky%20Power%20Tools%2C%20I%20need%20a%20quote%20for%20armature." target="_blank" rel="noopener" class="btn">Contact Vicky Power Tools</a>
-    </div>
-</section>
-
-
-<script>
+ <script>
     document.querySelectorAll(".faq-question").forEach(question => {
         question.addEventListener("click", () => {
             const item = question.parentElement;
