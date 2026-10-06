@@ -292,13 +292,15 @@ include_once 'includes/header.php';
 
     .oem-list {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
         gap: 10px;
         margin-top: 20px;
     }
 
     .oem-list div {
         font-weight: 600;
+        width: max-content;
     }
 
     .oem-list div::before {
@@ -517,10 +519,7 @@ include_once 'includes/header.php';
             <h1 style="color: #fff;">Armature Manufacturers & Supplier in Ahmedabad, Gujarat</h1>
 
             <p>
-                Vicky Power Tools is a reliable Armature Manufacturers & supplier in Ahmedabad,
-                Gujarat. We offer quality armatures for all kinds of power tools and electric
-                machines. We produce and supply armatures for power tools to ensure reliable
-                performance, accurate fitting and long service life.
+                Discover top-grade replacement armatures engineered for maximum durability, precise fitting, and peak performance across all major industrial power tools and electric machines.
             </p>
 
             <div class="buttons" style="justify-content: left;">
@@ -803,7 +802,7 @@ include_once 'includes/header.php';
                 <div>4. Appropriate shaft sizes</div>
                 <div>5. Uniform manufacturing</div>
                 <div>6. Construction steady</div>
-                <div>7. For use with the power tool models listed below</div>
+                <div style="width: max-content;">7. For use with the power tool models listed below</div>
             </div>
 
             <div class="note-box">The armature specifications may differ from one power tool model to another. Customers are advised to check the model, dimensions and technical specification before ordering.</div>
@@ -893,7 +892,7 @@ include_once 'includes/header.php';
                 <div>Quality-focused production</div>
                 <div>Commercial and wholesale needs</div>
                 <div>Aid from suppliers and dealers</div>
-                <div>Genuine product information Customer service across Gujarat</div>
+                <div>Genuine product information</div>
             </div>
 
             <p style="margin-top:20px;">
