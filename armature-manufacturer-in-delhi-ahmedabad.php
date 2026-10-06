@@ -508,6 +508,17 @@ include_once 'includes/header.php';
         font-size: 15px;
         text-align: center;
     }
+
+
+    @media (max-width:494px) {
+        .about-image {
+            width: 293px !important;
+        }
+
+        .oem-list div{
+            width: 100% !important;
+        }
+    }
 </style>
 
 
@@ -516,10 +527,10 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Armature Manufacturers & Supplier in Ahmedabad, Gujarat</h1>
+            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
 
             <p>
-                Discover top-grade replacement armatures engineered for maximum durability, precise fitting, and peak performance across all major industrial power tools and electric machines.
+                Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
             </p>
 
             <div class="buttons" style="justify-content: left;">
@@ -640,7 +651,7 @@ include_once 'includes/header.php';
         transform: translateY(-50%);
     }
 
-  
+
     .iahwdiawdsi:hover {
         transform: scale(1.05);
         transition: .25s ease;
@@ -925,7 +936,7 @@ include_once 'includes/header.php';
 
             </p>
 
-          
+
         </div>
 
     </div>

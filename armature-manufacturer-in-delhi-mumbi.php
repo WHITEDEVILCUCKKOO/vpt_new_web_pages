@@ -2,127 +2,523 @@
 include_once 'includes/header.php';
 ?>
 <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.7; background: #f7f8fa; }
-    a { text-decoration: none; }
-    .container { width: 90%; max-width: 1200px; margin: auto; position: relative; }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #222;
+        line-height: 1.7;
+        background: #f7f8fa;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        position: relative;
+    }
 
     /* HERO */
     .hero {
         background: linear-gradient(135deg, rgba(8, 18, 35, .95), rgba(18, 53, 86, .92)), url("images/armature-manufacturing.jpg") center/cover;
-        padding: 110px 0; color: #fff;
+        padding: 110px 0;
+        color: #fff;
     }
-    .hero-content { max-width: 780px; }
-    .tag { display: inline-block; background: #f7941d; color: #fff; padding: 7px 18px; border-radius: 30px; font-size: 14px; font-weight: bold; margin-bottom: 20px; }
-    .hero h1 { font-size: 52px; line-height: 1.15; margin-bottom: 22px; }
-    .hero p { font-size: 19px; color: #e6edf5; margin-bottom: 32px; }
-    .buttons { display: flex; gap: 15px; flex-wrap: wrap; }
-    .btn { padding: 14px 28px; border-radius: 5px; font-weight: bold; display: inline-block; transition: .3s; }
-    .btn-primary { background: #f7941d; color: #fff; }
-    .btn-primary:hover { background: #db7608; transform: translateY(-2px); }
-    .btn-outline { border: 1px solid #fff; color: #fff; }
-    .btn-outline:hover { background: #fff; color: #16283d; }
+
+    .hero-content {
+        max-width: 780px;
+    }
+
+    .tag {
+        display: inline-block;
+        background: #f7941d;
+        color: #fff;
+        padding: 7px 18px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        line-height: 1.15;
+        margin-bottom: 22px;
+    }
+
+    .hero p {
+        font-size: 19px;
+        color: #e6edf5;
+        margin-bottom: 32px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        padding: 14px 28px;
+        border-radius: 5px;
+        font-weight: bold;
+        display: inline-block;
+        transition: .3s;
+    }
+
+    .btn-primary {
+        background: #f7941d;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        background: #db7608;
+        transform: translateY(-2px);
+    }
+
+    .btn-outline {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    .btn-outline:hover {
+        background: #fff;
+        color: #16283d;
+    }
 
     /* STATS */
-    .stats { margin-top: -45px; position: relative; }
-    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); background: #fff; box-shadow: 0 10px 35px rgba(0, 0, 0, .1); border-radius: 10px; overflow: hidden; }
-    .stat { text-align: center; padding: 28px 15px; border-right: 1px solid #eee; }
-    .stat:last-child { border-right: 0; }
-    .stat h3 { color: #f7941d; font-size: 30px; }
-    .stat p { color: #555; font-size: 14px; }
+    .stats {
+        margin-top: -45px;
+        position: relative;
+    }
+
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background: #fff;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, .1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .stat {
+        text-align: center;
+        padding: 28px 15px;
+        border-right: 1px solid #eee;
+    }
+
+    .stat:last-child {
+        border-right: 0;
+    }
+
+    .stat h3 {
+        color: #f7941d;
+        font-size: 30px;
+    }
+
+    .stat p {
+        color: #555;
+        font-size: 14px;
+    }
 
     /* SECTIONS */
-    section { padding: 85px 0; }
-    .section-title { text-align: center; margin-bottom: 45px; }
-    .section-title span { color: #f7941d; font-weight: bold; text-transform: uppercase; font-size: 14px; letter-spacing: 1px; }
-    .section-title h2 { font-size: 38px; color: #15283d; margin-top: 8px; }
-    .section-title p { max-width: 750px; margin: 12px auto 0; color: #666; }
+    section {
+        padding: 85px 0;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .section-title span {
+        color: #f7941d;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .section-title h2 {
+        font-size: 38px;
+        color: #15283d;
+        margin-top: 8px;
+    }
+
+    .section-title p {
+        max-width: 750px;
+        margin: 12px auto 0;
+        color: #666;
+    }
 
     /* ABOUT */
-    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center; }
-    .about-image { min-height: 400px; border-radius: 12px; background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url("images/armature-factory.jpg") center/cover; }
-    .about-content h2 { font-size: 36px; color: #15283d; margin-bottom: 20px; }
-    .about-content p { margin-bottom: 15px; color: #555; }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .about-image {
+        width: 400px;
+        border-radius: 12px;
+        background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url("images/armature-factory.jpg") center/cover;
+    }
+
+    .about-content h2 {
+        font-size: 36px;
+        color: #15283d;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        margin-bottom: 15px;
+        color: #555;
+    }
 
     /* PRODUCTS */
-    .products { background: #fff; }
-    .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-    .product-card { background: #f8f9fb; padding: 30px; border-radius: 10px; border: 1px solid #e8e8e8; transition: .3s; }
-    .product-card:hover { transform: translateY(-7px); box-shadow: 0 12px 30px rgba(0, 0, 0, .09); border-color: #f7941d; }
-    .product-icon { width: 55px; height: 55px; background: #fff0df; color: #f7941d; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 18px; }
-    .product-card h3 { color: #15283d; margin-bottom: 10px; }
-    .product-card p { color: #666; font-size: 15px; }
+    .products {
+        background: #fff;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+    }
+
+    .product-card {
+        background: #f8f9fb;
+        padding: 30px;
+        border-radius: 10px;
+        border: 1px solid #e8e8e8;
+        transition: .3s;
+    }
+
+    .product-card:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .09);
+        border-color: #f7941d;
+    }
+
+    .product-icon {
+        width: 55px;
+        height: 55px;
+        background: #fff0df;
+        color: #f7941d;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .product-card h3 {
+        color: #15283d;
+        margin-bottom: 10px;
+    }
+
+    .product-card p {
+        color: #666;
+        font-size: 15px;
+    }
 
     /* INDUSTRIES / CUSTOMERS */
-    .industry-section { background: #15283d; color: #fff; }
-    .industry-section .section-title h2 { color: #fff; }
-    .industry-section .section-title p { color: #cbd5df; }
-    .industry-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .industry { border: 1px solid rgba(255, 255, 255, .15); padding: 25px; border-radius: 8px; background: rgba(255, 255, 255, .04); }
-    .industry h3 { margin-bottom: 8px; }
-    .industry p { color: #cbd5df; font-size: 14px; }
+    .industry-section {
+        background: #15283d;
+        color: #fff;
+    }
+
+    .industry-section .section-title h2 {
+        color: #fff;
+    }
+
+    .industry-section .section-title p {
+        color: #cbd5df;
+    }
+
+    .industry-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .industry {
+        border: 1px solid rgba(255, 255, 255, .15);
+        padding: 25px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, .04);
+    }
+
+    .industry h3 {
+        margin-bottom: 8px;
+    }
+
+    .industry p {
+        color: #cbd5df;
+        font-size: 14px;
+    }
 
     /* OEM */
-    .oem { background: #fff; }
-    .oem-box { background: linear-gradient(135deg, #fff5e8, #ffffff); padding: 50px; border-left: 5px solid #f7941d; border-radius: 10px; }
-    .oem-box h2 { color: #15283d; margin-bottom: 15px; }
-    .oem-box p { color: #555; margin-bottom: 15px; }
-    .oem-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 20px; }
-    .oem-list div { font-weight: 600; }
-    .oem-list div::before { content: "✓"; color: #f7941d; margin-right: 8px; }
+    .oem {
+        background: #fff;
+    }
+
+    .oem-box {
+        background: linear-gradient(135deg, #fff5e8, #ffffff);
+        padding: 50px;
+        border-left: 5px solid #f7941d;
+        border-radius: 10px;
+    }
+
+    .oem-box h2 {
+        color: #15283d;
+        margin-bottom: 15px;
+    }
+
+    .oem-box p {
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .oem-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .oem-list div {
+        font-weight: 600;
+        width: max-content;
+    }
+
+    .oem-list div::before {
+        content: "✓";
+        color: #f7941d;
+        margin-right: 8px;
+    }
 
     /* FAQ */
-    .faq { max-width: 850px; margin: auto; }
-    .faq-item { background: #fff; margin-bottom: 12px; border-radius: 7px; overflow: hidden; border: 1px solid #e5e5e5; }
-    .faq-question { padding: 18px 22px; font-weight: bold; cursor: pointer; color: #15283d; position: relative; }
-    .faq-question::after { content: "+"; position: absolute; right: 22px; font-size: 20px; }
-    .faq-answer { display: none; padding: 0 22px 20px; color: #666; }
-    .faq-item.active .faq-answer { display: block; }
-    .faq-item.active .faq-question::after { content: "-"; }
+    .faq {
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .faq-item {
+        background: #fff;
+        margin-bottom: 12px;
+        border-radius: 7px;
+        overflow: hidden;
+        border: 1px solid #e5e5e5;
+    }
+
+    .faq-question {
+        padding: 18px 22px;
+        font-weight: bold;
+        cursor: pointer;
+        color: #15283d;
+        position: relative;
+    }
+
+    .faq-question::after {
+        content: "+";
+        position: absolute;
+        right: 22px;
+        font-size: 20px;
+    }
+
+    .faq-answer {
+        display: none;
+        padding: 0 22px 20px;
+        color: #666;
+    }
+
+    .faq-item.active .faq-answer {
+        display: block;
+    }
+
+    .faq-item.active .faq-question::after {
+        content: "-";
+    }
 
     /* CTA */
-    .cta { background: linear-gradient(135deg, #f7941d, #d96f05); color: #fff; text-align: center; }
-    .cta h2 { font-size: 40px; margin-bottom: 15px; }
-    .cta p { max-width: 700px; margin: 0 auto 28px; }
-    .cta .btn { background: #15283d; color: #fff; }
+    .cta {
+        background: linear-gradient(135deg, #f7941d, #d96f05);
+        color: #fff;
+        text-align: center;
+    }
+
+    .cta h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .cta p {
+        max-width: 700px;
+        margin: 0 auto 28px;
+    }
+
+    .cta .btn {
+        background: #15283d;
+        color: #fff;
+    }
 
     /* RESPONSIVE */
     @media(max-width:900px) {
-        .hero h1 { font-size: 40px; }
-        .stats-grid, .product-grid, .industry-grid { grid-template-columns: repeat(2, 1fr); }
-        .about-grid { grid-template-columns: 1fr; }
-    }
-    @media(max-width:600px) {
-        .hero { padding: 75px 0; }
-        .hero h1 { font-size: 34px; }
-        .hero p { font-size: 16px; }
-        .stats-grid, .product-grid, .industry-grid, .oem-list { grid-template-columns: 1fr; }
-        .stat { border-right: 0; border-bottom: 1px solid #eee; }
-        section { padding: 60px 0; }
-        .section-title h2 { font-size: 30px; }
-        .oem-box { padding: 30px 22px; }
-        .cta h2 { font-size: 30px; }
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .stats-grid,
+        .product-grid,
+        .industry-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .about-grid {
+            grid-template-columns: 1fr;
+        }
     }
 
-    .uoasdu { width: 100%; border-radius: 15px; }
-    .asdhuiih {
-        position: absolute; width: 300px; left: 100%; top: 50%;
-        transform: translate(-100%, -50%); border-radius: 15px; overflow: hidden; margin-top: 26px;
-        img { transition: .25s ease; width: 100%; }
+    @media(max-width:600px) {
+        .hero {
+            padding: 75px 0;
+        }
+
+        .hero h1 {
+            font-size: 34px;
+        }
+
+        .hero p {
+            font-size: 16px;
+        }
+
+        .stats-grid,
+        .product-grid,
+        .industry-grid,
+        .oem-list {
+            grid-template-columns: 1fr;
+        }
+
+        .stat {
+            border-right: 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .section-title h2 {
+            font-size: 30px;
+        }
+
+        .oem-box {
+            padding: 30px 22px;
+        }
+
+        .cta h2 {
+            font-size: 30px;
+        }
     }
-    .asdhuiih:hover img { transform: scale(1.05); transition: .25s ease; }
-    @media (max-width:640px) { .asdhuiih { display: none !important; } }
+
+    .uoasdu {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .asdhuiih {
+        position: absolute;
+        width: 300px;
+        left: 100%;
+        top: 50%;
+        transform: translate(-100%, -50%);
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 26px;
+
+        img {
+            transition: .25s ease;
+            width: 100%;
+        }
+    }
+
+    .asdhuiih:hover img {
+        transform: scale(1.05);
+        transition: .25s ease;
+    }
+
+    @media (max-width:640px) {
+        .asdhuiih {
+            display: none !important;
+        }
+    }
 
     /* ALIGNMENT FIXES */
-    .section-title { max-width: 1000px; margin-left: auto; margin-right: auto; }
-    .section-title h2 { font-size: 40px; letter-spacing: 1px; width: 100%; text-align: center !important; }
+    .section-title {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        width: 100%;
+        text-align: center !important;
+    }
+
     .section-title p,
     .oem-box h2,
     .oem-box p,
     div[style*="text-align:center"] p,
-    p[style*="text-align:center"] { text-align: center !important; }
-    .about-content h2 { text-align: left; }
-    @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
+    p[style*="text-align:center"] {
+        text-align: center !important;
+    }
+
+    .about-content h2 {
+        text-align: left;
+    }
+
+    @media(max-width:600px) {
+        .section-title h2 {
+            font-size: 28px;
+        }
+    }
+
+    .note-box {
+        margin-top: 25px;
+        background: #fff8ef;
+        border: 1px solid #f7d9b0;
+        border-left: 5px solid #f7941d;
+        border-radius: 6px;
+        padding: 16px 22px;
+        color: #555;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    @media (max-width:494px) {
+        .about-image {
+            width: 293px !important;
+        }
+
+        .oem-list div{
+            width: 100% !important;
+        }
+    }
 </style>
 
 
@@ -131,13 +527,10 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Armature Manufacturers & Suppliers in Mumbai</h1>
+            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
 
             <p>
-                Vicky Power Tools is a Delhi based manufacturer and exporter of armatures, field
-                coils, electric tools and power tools, serving customers across India including
-                Mumbai and Maharashtra. If you are looking for Armature Manufacturers & Suppliers
-                in Mumbai, then Vicky Power Tools is the right choice.
+                Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
             </p>
 
             <div class="buttons" style="justify-content: left;">
@@ -183,36 +576,106 @@ include_once 'includes/header.php';
 </div>
 
 
-<!-- ABOUT -->
-<section>
+<!-- section -->
+<style>
+    /* Aapke layout ke liye specific unique CSS (No *, :root, html, body) */
+    .vpt-about-section {
+        padding: 60px 20px;
+        /* background: #ffffff; */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .vpt-about-section .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .vpt-about-section .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .vpt-about-section .about-image img.uoasdu {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    .vpt-about-section .about-content h2,
+    .vpt-about-section .about-content h3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #111111;
+        margin-bottom: 20px;
+        line-height: 1.4;
+    }
+
+    .vpt-about-section .about-content p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #333333;
+    }
+
+    .vpt-about-section .about-content strong {
+        font-weight: 600;
+        color: #111111;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+        .vpt-about-section .about-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .iahwdiawdsi {
+        padding: 15px 15px 10px;
+        position: relative;
+        transition: .25s ease;
+
+    }
+
+    .iahwdiawdsi::before {
+        content: '✅';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+
+
+    .iahwdiawdsi:hover {
+        transform: scale(1.05);
+        transition: .25s ease;
+    }
+</style>
+
+<section class="vpt-about-section">
     <div class="container">
         <div class="about-grid">
 
             <div class="about-image">
-                <img class="uoasdu" src="assets/img/00033.jpg" alt="">
+                <img class="uoasdu" src="assets/img/00033.jpg" alt="Armature Manufacturers in Ahmedabad">
             </div>
 
             <div class="about-content">
 
-                <h2>Vicky Power Tools - Armature Manufacturer for Mumbai</h2>
+                <h3>Armature Manufacturers & Supplier in Ahmedabad, Gujarat</h3>
 
                 <p>
-                    <strong>Vicky Power Tools</strong> produces compatible armatures for a broad range of electric
-                    motor and power tools applications. We supply our customers with replacement
-                    armatures for angle grinders, drilling machines, cut-off machines, marble
-                    cutters, straight grinders and other power tools, if they need them.
+                    <strong>Vicky Power Tools</strong> is a reliable Armature Manufacturers & supplier in Ahmedabad, Gujarat. We offer quality armatures for all kinds of power tools and electric machines. We produce and supply armatures for power tools to ensure reliable performance, accurate fitting and long service life.
                 </p>
 
                 <p>
-                    <strong>Vicky Power Tools</strong> is located in <strong>New Delhi</strong> India and not in Mumbai. We are based
-                    out of Delhi, from where we manufacture and serve customers in Mumbai &
-                    Maharashtra.
-                </p>
-
-                <p>
-                    This gives Mumbai-based dealers, distributors, workshops, repair centers and
-                    industrial buyers an opportunity to source armatures directly from a
-                    manufacturer located in <strong>New Delhi</strong>.
+                    <strong>Vicky Power Tools</strong> is one of the best power tools and armature industry companies, offering a wide range of power tools and armature industry services to customers looking for <strong>armature manufacturer</strong>, <strong>armature supplier</strong> and <strong>armature dealer</strong> in Gujarat. Our armatures are suited for a variety of power tools, including angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders and other electric tools.
                 </p>
 
             </div>
@@ -222,41 +685,25 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- MANUFACTURER IN MUMBAI -->
+
+
+<!-- section 3 -->
+<!-- MANUFACTURER GUJARAT -->
 <section class="products">
     <div class="container">
 
         <div class="section-title">
-            <h2>Power Tools Armature Manufacturer In Mumbai</h2>
+            <h3 style="font-weight: 700;">Armature Manufacturer - Gujarat - Power Tools</h3>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                <strong>Vicky Power Tools</strong> has been manufacturing and exporting armatures, field coils,
-                electric tools, power tools and special purpose motors since 1982. The company is
-                based in <strong>New Delhi</strong> and caters to clients in India and international markets.
+                Vicky Power Tools manufacture and supply replacement armatures for a wide range of power tool applications. We aim for steady production, correct balancing, quality copper winding and precise gear construction.Properly manufactured armatures are important to the performance of an electric power tool . The proper armature can contribute to smooth rotation, efficient transmission of power and reliable operation.We offer armature options to customers who need replacement parts for repair, maintenance, wholesale and regular power tool needs.
             </p>
 
-            <br>
-
-            <p>
-                We have manufacturing capabilities for armatures and field coils for various power
-                tools applications. Also we work on customer requirements, samples and
-                specifications for relevant products.
-            </p>
-
-            <br>
-
-            <p>
-                What this means for customers in Mumbai is that you can get in touch with a
-                Delhi-based <strong>armature manufacturer</strong> that caters to Mumbai instead of assuming that
-                the manufacturer has to be physically located in Mumbai.
-            </p>
 
         </div>
-
-    </div>
 </section>
 
 
@@ -265,33 +712,50 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2>Armature Manufacturers Mumbai</h2>
+            <h2>Armature Supplier in Gujarat</h2>
             <p>
-                <strong>Vicky Power Tools</strong> also supplies power tools armatures to the customers in search of
-                <strong>Armature Supplier</strong> in Mumbai.
+                Looking for <strong>Armature Supplier</strong> in Gujarat for your business or repair needs? <strong>Vicky
+                    Power Tools</strong> is a supplier of armatures for a wide range of models and applications
+                of power tools.
             </p>
-            <p>
-                Depending on the availability and specifications of the individual model, we can
-                supply our armatures for various business and repair needs.
-            </p>
-            <p>We are able to meet needs from:</p>
+            <p>Our products can be usefull to:</p>
         </div>
 
         <div class="industry-grid">
-            <div class="industry"><h3>Power tools dealers.</h3></div>
-            <div class="industry"><h3>Electrical repair stores</h3></div>
-            <div class="industry"><h3>Power tools repair shops</h3></div>
-            <div class="industry"><h3>hardware vendors</h3></div>
-            <div class="industry"><h3>Industrial workshops</h3></div>
-            <div class="industry"><h3>Vendors of tools</h3></div>
-            <div class="industry"><h3>Service Centers</h3></div>
-            <div class="industry"><h3>Maintenance specialists</h3></div>
-            <div class="industry"><h3>Wholesalers OEM and commercial customers</h3></div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Power tool service firms</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Electrical repair shops</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Power Tool Retailer</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Hardware Providers</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Distributors for industrial tools</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Maintenance personnel.</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Workshops</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Wholesale customers</p>
+            </div>
+            <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">Power tool service centers</p>
+            </div>
         </div>
 
         <p style="text-align:center;margin-top:30px;color:#cbd5df;">
-            If you are looking for a regular supplier of armatures in Mumbai, kindly share your
-            product model and quantity requirement with us so that suitable product can be checked.
+            We know when you are buying replacement armatures that it is important to you to have
+            them in stock and that they are the right product for your needs. <strong>Vicky Power Tools</strong> can
+            be contacted by a customer with his power tool model or armature needs and a product
+            will be found that fits.
         </p>
 
     </div>
@@ -304,31 +768,55 @@ include_once 'includes/header.php';
 
         <div class="oem-box">
 
-            <h2>Armature Dealer Mumbai</h2>
+            <h2>Gujarat Armature Dealer</h2>
 
             <p>
-                If you are a business looking for a <strong>Armature Dealer</strong> in Mumbai, you can also contact
-                <strong>Vicky Power Tools</strong> for power tools armatures that are compatible.
+                <strong>Vicky Power Tools</strong> also offers <strong>Armature Dealer</strong> in Gujarat to the customers. We carry
+                armature products for a wide range of power tool applications, and support dealers,
+                distributors, repair professionals and businesses that require replacement
+                armatures.
             </p>
 
             <p>
-                Our products are used in various power tools applications and the correct armature
-                has to be selected according to the machine model and specifications.
+                Please contact us to discuss your product specifications and availability of single
+                replacement armature or armatures to fit your normal business needs.
             </p>
 
-            <p>Customers may provide for quicker identification:</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- QUALITY -->
+<section>
+    <div class="container">
+
+        <div class="oem-box">
+
+            <h2>Power Tool Armature Quality</h2>
+
+            <p>
+                The armature is one of the most significant parts in an electric power tool. It,
+                together with the field coil and other motor parts, converts electrical energy to
+                mechanical rotation.
+            </p>
+
+            <p>
+                Important armature characteristics such as are considered in <strong>Vicky Power Tools</strong>:
+            </p>
 
             <div class="oem-list">
-                <div>Power tools firm</div>
-                <div>Machine model number.</div>
-                <div>Existing photo of armature</div>
-                <div>Armature size</div>
-                <div>Shaft and gear details, if available Quantity required</div>
+                <div>1. Copper Winding Superior</div>
+                <div>2. Precision gear teeth</div>
+                <div>3. Correct balance</div>
+                <div>4. Appropriate shaft sizes</div>
+                <div>5. Uniform manufacturing</div>
+                <div>6. Construction steady</div>
+                <div style="width: max-content;">7. For use with the power tool models listed below</div>
             </div>
 
-            <p style="margin-top:20px;">
-                This helps to lower the probability of choosing an incompatible replacement.
-            </p>
+            <div class="note-box">The armature specifications may differ from one power tool model to another. Customers are advised to check the model, dimensions and technical specification before ordering.</div>
 
         </div>
 
@@ -337,59 +825,53 @@ include_once 'includes/header.php';
 
 
 <!-- PRODUCTS -->
-<section>
+<section class="products">
     <div class="container">
 
         <div class="section-title">
-            <h2>Replacement Armature for Power Tools</h2>
+            <h2>Armature for Various Power Tools</h2>
             <p>
-                The armature of the power tools is an important part of the motor assembly. The
-                armature, along with other parts of the motor, causes the rotation needed to
-                operate the tools.
+                <strong>Vicky Power Tools</strong> produces and distributes armatures for a range of power tool
+                applications. Model and requirement armatures can be used in:
             </p>
-            <p>
-                <strong>Vicky Power Tools</strong> manufactures and offers for sale replacement armatures for a
-                variety of compatible power tools models.
-            </p>
-            <p>Our product portfolio comprises applications like:</p>
         </div>
 
         <div class="product-grid">
 
             <div class="product-card">
                 <div class="product-icon">⚙</div>
-                <h3>Angle Grinder Attachments</h3>
-                <p>Replacement armatures for compatible 100mm, 115mm, 125mm, 180mm and other angle grinder applications, dependent on model specifications.</p>
+                <h3>Angle Grinders</h3>
+                <p>Armatures for various angle grinder models.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">⚡</div>
-                <h3>Drill Machine Frames</h3>
-                <p>Armatures for electric and impact drills of various makes.</p>
+                <h3>Drilling Machines</h3>
+                <p>Armatures for electric drilling machines are available for the corresponding types.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">◉</div>
-                <h3>Armatures for Cut-Off Machines</h3>
-                <p>*Replacement armatures for some cut-off and chop saw applications.</p>
+                <h3>Cut-Off Machines</h3>
+                <p>Replacement armatures for different cut-off machines.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">⚙</div>
-                <h3>Armature for Marble Cutters</h3>
-                <p>Armatures compatible with marble, tile, stone cutting machines.</p>
+                <h3>Marble Cutters machines</h3>
+                <p>we have Armatures for the all marble and tile cutters.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">+</div>
-                <h3>Armatures for Straight Grinders</h3>
-                <p>Replacement armatures for selected straight grinders.</p>
+                <h3>Grinder machines</h3>
+                <p>Replacement armatures for different grinder models.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">✓</div>
-                <h3>Other Power Tools Rotors</h3>
-                <p>We also produce and provide armatures for many other electric and power tools applications based on product specifications.</p>
+                <h3>Other Electric Tools</h3>
+                <p>Armature solutions for different power tool as per samples also, customers can share the machine model, old armature details or required dimensions with our team.</p>
             </div>
 
         </div>
@@ -398,82 +880,62 @@ include_once 'includes/header.php';
 </section>
 
 
-<!-- BRANDS -->
-<section class="products">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Armature Manufacturer for Power Tools of Various Brands</h2>
-        </div>
-
-        <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
-
-            <p>
-                <strong>Vicky Power Tools</strong> stocks ranges to suit all brands and power tools models.
-                Currently on its website it features armature ranges for brands such as Bosch,
-                Ralli Wolf, Hitachi/Hikoki, DeWalt, KPT, Makita, Metabo, Hilti, Keyang, Powertex
-                and more.
-            </p>
-
-            <br>
-
-            <p>
-                For example, the company’s published product information includes armatures for
-                Bosch drills and grinders, Makita angle grinders and marble cutters, Hikoki/Hitachi
-                drills and other tools, and Hilti tools.
-            </p>
-
-            <br>
-
-            <p>
-                Note: Availability of specific armature depends on machine model and
-                specifications.
-            </p>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- WORKSHOP & REPAIR -->
+<!-- WHY -->
 <section>
     <div class="container">
 
         <div class="oem-box">
 
-            <h2>ARMATURE SUPPLIER - MUMBAI WORK SHOP & REPAIR BUSINESS</h2>
+            <h2>Why Vicky Power Tools?</h2>
 
             <p>
-                Mumbai has a huge variety of industrial, commercial, construction and repair
-                businesses that use electric and power tools.
+                Selecting the right armature is important to maintain the performance of a power
+                tool. <strong>Vicky Power Tools</strong> is committed to supplying armatures that are suitable for
+                specific power tool applications.
             </p>
 
-            <p>
-                For these companies the possibility of getting hold of armatures for replacement is
-                important for the repair and maintenance of power tools.
-            </p>
-
-            <p>
-                <strong>Vicky Power Tools</strong> supply armatures to businesses that need replacement parts for
-                the relevant models.
-            </p>
-
-            <p>Whether you operate a:</p>
+            <p>Our main areas of focus:</p>
 
             <div class="oem-list">
-                <div>power tools repair shop</div>
-                <div>Hardware trading</div>
-                <div>Factory workshop</div>
-                <div>Tools dealer.</div>
-                <div>Service center</div>
-                <div>Distribution segment</div>
-                <div>Maintenance company</div>
+                <div>Manufacturing of power tool armatures</div>
+                <div>Solutions for replacement armatures</div>
+                <div>Armature availability specific to model</div>
+                <div>Quality-focused production</div>
+                <div>Commercial and wholesale needs</div>
+                <div>Aid from suppliers and dealers</div>
+                <div>Genuine product information</div>
             </div>
 
             <p style="margin-top:20px;">
-                call us with your armature needs. Call <strong>Vicky Power Tools</strong>.
+                <strong>Vicky Power Tools</strong> can be contacted for <strong>Armature Manufacturers</strong> in Ahmedabad, Gujarat
+                for product details, availability and business requirements.
             </p>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- MANUFACTURERS GUJARAT -->
+<section class="products">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Armature Manufacturers in Gujarat</h2>
+        </div>
+
+        <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
+
+            <p>
+                Ahmedabad is a major industrial and commercial hub of Gujarat and has a wide range
+                of manufacturing, engineering, electrical and power tool industries. Therefore it
+                is important for workshops, repair centers, dealers and industrial users to have
+                replacement power tool components available. Vicky Power Tools has the motive to provide reliable armature products & replacement solutions to the customers across Gujarat.We can serve requirements from Ahmedabad and other parts of Gujarat subject to product availability and specifications.
+
+
+            </p>
+
 
         </div>
 
@@ -482,7 +944,7 @@ include_once 'includes/header.php';
 
 
 <!-- FAQ -->
-<section class="products">
+<section>
     <div class="container">
 
         <div class="section-title">
@@ -492,37 +954,44 @@ include_once 'includes/header.php';
         <div class="faq">
 
             <div class="faq-item">
-                <div class="faq-question">1. Is Vicky Power Tools an armature manufacturer in Mumbai?</div>
+                <div class="faq-question">1. Who are the Armature Manufacturers in Ahmedabad Gujarat?</div>
                 <div class="faq-answer">
-                    No. Vicky Power Tools is a Delhi-based armature manufacturer and exporter. The company manufactures from New Delhi and serves customers in Mumbai and other parts of India.
+                    Vicky Power Tools is a manufacturer and supplier of armatures for wide variety of armatures for different power tools. Customers in Ahmedabad and all over Gujarat can contact us for armature requirements, product details and availability.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">2. Does Vicky Power Tools also supply armatures in Mumbai?</div>
+                <div class="faq-question">2. Vicky Power Tools supplier of armatures in Gujarat for sale ?</div>
                 <div class="faq-answer">
-                    Yes. Mumbai customers can also contact Vicky Power Tools for power tools armatures, by mentioning model number.
+                    Yes. Vicky Power Tools offers variety of power tools armatures for different purposes. They have customers looking for armature products in Gujarat.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">3. Where does Vicky Power Tools located ?</div>
+                <div class="faq-question">3. Where can I locate a Armatures in Gujarat?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools is located at New delhi
+                    Vicky Power Tools has wide range of armatures for power tools. Please contact us with your machine's model number and armature specification to check availability.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">4. Can I order armatures from Mumbai?</div>
+                <div class="faq-question">4. Do you have a Armature Dealership in Gujarat ?</div>
                 <div class="faq-answer">
-                    Yes. Customers in Mumbai can order armatures to Vicky Power Tools with their power tools model, armature photograph, dimensions and required quantity.
+                    Vicky Power Tools supplies armatures for power tools to dealers, distributors, repair shops and other customers in Gujarat.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">5. Do you supply armatures to dealers in Mumbai?</div>
+                <div class="faq-question">5. What type of power tools armature are you making?</div>
                 <div class="faq-answer">
-                    Yes. Dealers, distributors, workshops, repair centres and other businesses in Mumbai can purchase armature from Vicky Power Tools.
+                    We are manufacture & supplied armatures for different power tools like angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders & other electric tools.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">6. How can I select the right armature for my power tools?</div>
+                <div class="faq-answer">
+                    You can provide the brand and model number of the power tools to us and photos dimensions of the existing armature. This will help us to identify the right armature.
                 </div>
             </div>
 
@@ -532,7 +1001,7 @@ include_once 'includes/header.php';
 </section>
 
 
- <script>
+<script>
     document.querySelectorAll(".faq-question").forEach(question => {
         question.addEventListener("click", () => {
             const item = question.parentElement;
