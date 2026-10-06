@@ -123,6 +123,7 @@ include_once 'includes/header.php';
     p[style*="text-align:center"] { text-align: center !important; }
     .about-content h2 { text-align: left; }
     @media(max-width:600px) { .section-title h2 { font-size: 28px; } }
+    .note-box { margin-top: 25px; background: #fff8ef; border: 1px solid #f7d9b0; border-left: 5px solid #f7941d; border-radius: 6px; padding: 16px 22px; color: #555; font-size: 15px; text-align: center; }
 </style>
 
 
@@ -194,7 +195,7 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h2>Vicky Power Tools - Armature Manufacturer for Ahmedabad</h2>
+                <h2>Vicky Power Tools - Ahmedabad</h2>
 
                 <p>
                     <strong>Vicky Power Tools</strong> is one of the best power tools and armature industry
@@ -340,11 +341,7 @@ include_once 'includes/header.php';
                 <div>7. For use with the power tool models listed below</div>
             </div>
 
-            <p style="margin-top:20px;">
-                The armature specifications may differ from one power tool model to another.
-                Customers are advised to check the model, dimensions and technical specification
-                before ordering.
-            </p>
+            <div class="note-box">The armature specifications may differ from one power tool model to another. Customers are advised to check the model, dimensions and technical specification before ordering.</div>
 
         </div>
 
