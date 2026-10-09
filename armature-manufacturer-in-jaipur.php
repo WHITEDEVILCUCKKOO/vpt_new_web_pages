@@ -668,11 +668,12 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h2>Armature Manufacturer and supplier in Bangalore, Karnataka, India</h2>
+                <h2>Armature Manufacturers and seller in Jaipur, Rajasthan</h2>
 
                 <p>
-                    If you are looking for Armature Manufacturer and supplier in Bengaluru, Karnataka, Vicky Power Tools is a Delhi based manufacturer and supplier of power tools armatures, field coils and other power tools components.
-                    We produce and supply armatures for a wide range of compatible electric power tools for workshops, repair shops, industrial applications, construction work and maintenance activities.
+                    Vicky Power Tools is a Delhi based manufacturers and suppliers of power tools armatures for customers in Jaipur and all over Rajasthan if you are looking for Armature Manufacturers in Jaipur, Rajasthan.We manufacture and supply armatures for a wide range of electrical machines and power tools. Our products are suitable for power tools repair shops, dealers, workshops, distributors, service centers and other customers looking for replacement armatures.
+
+                    Vicky Power Tools is based in Delhi but we supply and distribute our products to Jaipur and other parts of Rajasthan through our extensive supply and distribution network.
 
                 </p>
 
@@ -690,6 +691,32 @@ include_once 'includes/header.php';
 </section>
 
 
+<!-- DEALER -->
+<section class="oem">
+    <div class="container">
+
+        <div class="oem-box">
+
+            <h2>Power Tools Armature Manufacturer Serving Jaipur</h2>
+
+            <p>
+
+                Power Tools is an OEM manufacturer and supplier of replacement armatures for many power tools applications. And not just the right components, but the right components for the right power tools models.
+
+                The armature is an important part of an electric motor. Construction, winding, balancing, shaft sizes and gear specifications can affect the functioning of a power tools. Hence, the correct replacement armature should be selected according to the machine model and specifications.
+
+                Vicky Power Tools is the right place for customers in Jaipur to get their power tools armature needs as they don’t need to look beyond for an unknown local supplier.
+
+
+
+            </p>
+
+
+
+        </div>
+
+    </div>
+</section>
 
 
 <!-- section 3 -->
@@ -907,7 +934,7 @@ include_once 'includes/header.php';
 </style>
 
 <!-- PRODUCTS -->
-<section class="products arm-sec">
+<section class="products arm-sec" style="display: none;">
     <div class="container">
 
         <div class="arm-head">
@@ -966,43 +993,43 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2>Armature Manufacturer and supplier in Bangalore</h2>
+            <h2>Looking for Armature Supplier in Jaipur Rajasthan?</h2>
             <p>
-                Finding the right Armature Supplier in Bengaluru is important for businesses involved in power tools repair, maintenance and distribution.Vicky Power Tools supplies armatures for different models and applications, subject to product specifications and availability.
+                Vicky Power Tools offers power tools armatures in Jaipur and other parts of Rajasthan. We serve businesses and professionals who need replacement armatures for repair, maintenance, resale and regular stock needs.
             </p>
-            <p>We meet requirements of:</p>
+            <p>Our customers can be:</p>
         </div>
 
         <div class="industry-grid">
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Dealers in power tools</p>
+                <p style="text-align: center;">Power tools dealers.</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Repairs Centers</p>
+                <p style="text-align: center;">Electrical repair stores</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Hardware companies</p>
+                <p style="text-align: center;">Power tools repair shops</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Electric repair shops</p>
+                <p style="text-align: center;">Hardware suppliers</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">The workshops industrial</p>
+                <p style="text-align: center;">Workshops</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Tools retailers Service centers</p>
+                <p style="text-align: center;">Industrial maintenance companies</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Maintenance firms</p>
+                <p style="text-align: center;">Tools distributors Service centers</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Wholesalers</p>
+                <p style="text-align: center;">Buyers wholesale</p>
             </div>
 
         </div>
 
         <p style="text-align:center;margin-top:30px;color:#cbd5df;">
-            Are you searching for regular supply of armatures in Bengaluru, then do share your machine model, required quantity and product details with our team.
+            Let us know the brand and model of your power tools and we will look for the correct armature as well as availability.
         </p>
 
     </div>
@@ -1015,23 +1042,17 @@ include_once 'includes/header.php';
 
         <div class="oem-box">
 
-            <h2>Karnataka Armature Dealer</h2>
+            <h2>Armature Dealer in Jaipur</h2>
 
             <p>
-                Vicky Power Tools also deals in business for Armature Dealer in Karnataka.
+                Vicky Power Tools also provides armatures to the customers who are looking for Armature Dealer in Jaipur.
 
-                We supply compatible armatures from our manufacturing unit in Delhi to customers outside Delhi, including Bengaluru and other parts of Karnataka.
+                We are a Delhi based power tools armature manufacturer and supplier. We can cater Jaipur based dealers, repair professionals and businesses that requires replacement armatures.
 
-                You can offer the: For the right product choice
-
-                Brand + machine model + armature photo + size + quantity required.
-
-                This way you find the right armature for your application.
+                The customer must provide the power tools model number, armature picture or technical data for the selection of the right product. This allows to find a suitable replacement product.
 
 
             </p>
-
-
 
         </div>
 
@@ -1041,23 +1062,110 @@ include_once 'includes/header.php';
 
 <style>
     /* Is section ka CSS (scoped: sirf .alt-sec par lagu hoga) */
-    .alt-sec .alt-head { max-width: 900px; margin: 0 auto 50px; text-align: center; }
-    .alt-sec .alt-head h2 { font-size: 40px; letter-spacing: 1px; color: #15283d; margin-bottom: 20px; text-align: center; }
-    .alt-sec .alt-head p { color: #666; margin-bottom: 12px; text-align: center !important; }
-    .alt-sec .alt-head .alt-highlight { display: inline-block; background: #fff8ef; border: 1px solid #f7d9b0; border-left: 5px solid #f7941d; border-radius: 6px; padding: 14px 24px; color: #15283d; margin-top: 8px; }
+    .alt-sec .alt-head {
+        max-width: 900px;
+        margin: 0 auto 50px;
+        text-align: center;
+    }
 
-    .alt-sec .alt-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-    .alt-sec .alt-card { position: relative; background: #fff; border-radius: 12px; border-top: 4px solid #f7941d; padding: 34px 28px 30px; box-shadow: 0 6px 22px rgba(0, 0, 0, .06); overflow: hidden; transition: .3s; }
-    .alt-sec .alt-card:hover { transform: translateY(-8px); box-shadow: 0 16px 36px rgba(0, 0, 0, .12); }
-    .alt-sec .alt-no { position: absolute; top: 8px; right: 18px; font-size: 54px; font-weight: bold; color: #f1f3f6; line-height: 1; }
-    .alt-sec .alt-icon { position: relative; width: 55px; height: 55px; background: #fff0df; color: #f7941d; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 18px; }
-    .alt-sec .alt-card h3 { position: relative; color: #15283d; margin-bottom: 10px; }
-    .alt-sec .alt-card p { position: relative; color: #666; font-size: 15px; text-align: left; }
+    .alt-sec .alt-head h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        color: #15283d;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
-    @media(max-width:900px) { .alt-sec .alt-grid { grid-template-columns: repeat(2, 1fr); } }
+    .alt-sec .alt-head p {
+        color: #666;
+        margin-bottom: 12px;
+        text-align: center !important;
+    }
+
+    .alt-sec .alt-head .alt-highlight {
+        display: inline-block;
+        background: #fff8ef;
+        border: 1px solid #f7d9b0;
+        border-left: 5px solid #f7941d;
+        border-radius: 6px;
+        padding: 14px 24px;
+        color: #15283d;
+        margin-top: 8px;
+    }
+
+    .alt-sec .alt-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .alt-sec .alt-card {
+        position: relative;
+        background: #fff;
+        border-radius: 12px;
+        border-top: 4px solid #f7941d;
+        padding: 34px 28px 30px;
+        box-shadow: 0 6px 22px rgba(0, 0, 0, .06);
+        overflow: hidden;
+        transition: .3s;
+    }
+
+    .alt-sec .alt-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, .12);
+    }
+
+    .alt-sec .alt-no {
+        position: absolute;
+        top: 8px;
+        right: 18px;
+        font-size: 54px;
+        font-weight: bold;
+        color: #f1f3f6;
+        line-height: 1;
+    }
+
+    .alt-sec .alt-icon {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        background: #fff0df;
+        color: #f7941d;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .alt-sec .alt-card h3 {
+        position: relative;
+        color: #15283d;
+        margin-bottom: 10px;
+    }
+
+    .alt-sec .alt-card p {
+        position: relative;
+        color: #666;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    @media(max-width:900px) {
+        .alt-sec .alt-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
     @media(max-width:600px) {
-        .alt-sec .alt-head h2 { font-size: 28px; }
-        .alt-sec .alt-grid { grid-template-columns: 1fr; }
+        .alt-sec .alt-head h2 {
+            font-size: 28px;
+        }
+
+        .alt-sec .alt-grid {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 
@@ -1066,17 +1174,18 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="alt-head">
-            <h2>Alternative Armature for Different Power Tools</h2>
+            <h2>Armatures For Various Power Tools</h2>
 
             <p>
-                Different power tools have different armature specifications. One model’s armature
-                may not be compatible with another model.
+                Vicky Power Tools produces different armatures for different power tools.
+                Depending upon model number and specifications, our armatures can be used for:
+
             </p>
 
-            <p class="alt-highlight">
+            <!-- <p class="alt-highlight">
                 Therefore, Vicky Power Tools offers armature solutions specific to the model of the
                 relevant power tools.
-            </p>
+            </p> -->
         </div>
 
         <div class="alt-grid">
@@ -1094,41 +1203,39 @@ include_once 'includes/header.php';
             <div class="alt-card">
                 <span class="alt-no">02</span>
                 <div class="alt-icon">⚡</div>
-                <h3>Drill Machine Armature</h3>
-                <p>Armature for use with electric drilling machines and applicable power tools models.</p>
+                <h3>Drilling Machines</h3>
+                <p>Armatures for electric drilling machines for maintenance, installation and workshop applications.</p>
             </div>
 
             <div class="alt-card">
                 <span class="alt-no">03</span>
                 <div class="alt-icon">◉</div>
                 <h3>Cut-Off Machine</h3>
-                <p>Replacement armatures for compatible cut-off machines in workshops and industrial use.</p>
+                <p>Replacement armatures for certain cut-off machine models.</p>
             </div>
 
             <div class="alt-card">
                 <span class="alt-no">04</span>
                 <div class="alt-icon">⚙</div>
-                <h3>Armatures for marble cutter</h3>
-                <p>Armatures for marble, tile and stone cutting machines.</p>
+                <h3>Marble Cutters</h3>
+                <p>Armatures for compatible marble, tile & stone cutting machinery.</p>
             </div>
 
             <div class="alt-card">
                 <span class="alt-no">05</span>
                 <div class="alt-icon">+</div>
-                <h3>Straight Grinder Armature</h3>
+                <h3>Straight Grinders</h3>
                 <p>
-                    Replacement armatures for use with compatible straight grinder models for grinding
-                    and finishing applications
+                   Replacement armatures for appropriate straight grinder models for grinding and finishing applications.
                 </p>
             </div>
 
             <div class="alt-card">
                 <span class="alt-no">06</span>
                 <div class="alt-icon">✓</div>
-                <h3>Other Electric Tools Armature</h3>
+                <h3>Other power tools</h3>
                 <p>
-                    We also manufacture and supply armatures for other compatible electric power tools
-                    as per model and technical specifications.
+                    We also have armature solutions for other compatible electric power tools. Availability dependent upon model and technical requirements.
                 </p>
             </div>
 
@@ -1157,7 +1264,7 @@ include_once 'includes/header.php';
 
 
 <!-- QUALITY -->
-<section>
+<!-- <section>
     <div class="container">
 
         <div class="oem-box">
@@ -1188,11 +1295,11 @@ include_once 'includes/header.php';
 
     </div>
 </section>
-
+ -->
 
 
 <!-- WHY -->
-<section>
+<!-- <section>
     <div class="container">
 
         <div class="oem-box">
@@ -1223,7 +1330,7 @@ include_once 'includes/header.php';
         </div>
 
     </div>
-</section>
+</section> -->
 
 
 
@@ -1231,255 +1338,255 @@ include_once 'includes/header.php';
 
 
 
-<section class="vpt-armature-wholesale-section">
+<!-- <section class="vpt-armature-wholesale-section">
     <div class="vpt-armature-wholesale-container">
 
 
-    <div class="vpt-armature-wholesale-intro">
-        <span class="vpt-armature-wholesale-label">BULK & INDUSTRIAL SUPPLY</span>
+        <div class="vpt-armature-wholesale-intro">
+            <span class="vpt-armature-wholesale-label">BULK & INDUSTRIAL SUPPLY</span>
 
-        <h2 class="vpt-armature-wholesale-title">
-            Wholesale Armature Supply in Bangalore
-        </h2>
+            <h2 class="vpt-armature-wholesale-title">
+                Wholesale Armature Supply in Bangalore
+            </h2>
 
-        <p class="vpt-armature-wholesale-text">
-            Dealers, distributors, repair shops and industrial companies may need larger amounts of armatures.
-        </p>
+            <p class="vpt-armature-wholesale-text">
+                Dealers, distributors, repair shops and industrial companies may need larger amounts of armatures.
+            </p>
 
-        <p class="vpt-armature-wholesale-text">
-            Vicky Power Tools is open to business enquiries for large orders depending on the model and product availability.
-        </p>
-    </div>
-
-    <div class="vpt-armature-wholesale-grid">
-
-        <div class="vpt-armature-wholesale-card">
-            <h3 class="vpt-armature-wholesale-card-title">
-                For bulk enquiries, please supply:
-            </h3>
-
-            <ul class="vpt-armature-wholesale-list">
-                <li>Model/Product Number</li>
-                <li>Quantity Needed</li>
-                <li>Current product image</li>
-                <li>Shipping address</li>
-                <li>Any technical specifications available</li>
-            </ul>
-
-            <p class="vpt-armature-wholesale-card-text">
-                It helps us to understand your requirement in better way.
+            <p class="vpt-armature-wholesale-text">
+                Vicky Power Tools is open to business enquiries for large orders depending on the model and product availability.
             </p>
         </div>
 
-        <div class="vpt-armature-wholesale-card">
-            <h3 class="vpt-armature-wholesale-card-title">
-                Get in touch with Vicky Power Tools
-            </h3>
+        <div class="vpt-armature-wholesale-grid">
 
-            <p class="vpt-armature-wholesale-card-text">
-                If you are looking for “Armature Manufacturers in Bengaluru, Karnataka”, then Vicky Power Tools is a good option. We are manufacturers and suppliers based in Delhi.
-            </p>
+            <div class="vpt-armature-wholesale-card">
+                <h3 class="vpt-armature-wholesale-card-title">
+                    For bulk enquiries, please supply:
+                </h3>
 
-            <p class="vpt-armature-wholesale-card-text">
-                We are manufacturers & suppliers of armatures, power tools components etc. to customers in Bengaluru & Karnataka.
-            </p>
+                <ul class="vpt-armature-wholesale-list">
+                    <li>Model/Product Number</li>
+                    <li>Quantity Needed</li>
+                    <li>Current product image</li>
+                    <li>Shipping address</li>
+                    <li>Any technical specifications available</li>
+                </ul>
 
-            <div class="vpt-armature-wholesale-address">
-                <strong>Vicky Power Tools</strong>
-
-                <span>
-                    71/2-A, Rama Road Industrial Area Najafgarh Road, New Delhi - 110015 India
-                </span>
+                <p class="vpt-armature-wholesale-card-text">
+                    It helps us to understand your requirement in better way.
+                </p>
             </div>
+
+            <div class="vpt-armature-wholesale-card">
+                <h3 class="vpt-armature-wholesale-card-title">
+                    Get in touch with Vicky Power Tools
+                </h3>
+
+                <p class="vpt-armature-wholesale-card-text">
+                    If you are looking for “Armature Manufacturers in Bengaluru, Karnataka”, then Vicky Power Tools is a good option. We are manufacturers and suppliers based in Delhi.
+                </p>
+
+                <p class="vpt-armature-wholesale-card-text">
+                    We are manufacturers & suppliers of armatures, power tools components etc. to customers in Bengaluru & Karnataka.
+                </p>
+
+                <div class="vpt-armature-wholesale-address">
+                    <strong>Vicky Power Tools</strong>
+
+                    <span>
+                        71/2-A, Rama Road Industrial Area Najafgarh Road, New Delhi - 110015 India
+                    </span>
+                </div>
+            </div>
+
         </div>
 
     </div>
 
-</div>
 
-
-</section>
+</section> -->
 
 <style>
-.vpt-armature-wholesale-section {
-    width: 100%;
-    padding: clamp(45px, 7vw, 85px) 20px;
-    background: #f6f8fb;
-    box-sizing: border-box;
-}
-
-.vpt-armature-wholesale-container {
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-
-.vpt-armature-wholesale-intro {
-    width: 100%;
-    max-width: 850px;
-    margin: 0 auto 45px;
-    text-align: center;
-}
-
-.vpt-armature-wholesale-label {
-    display: inline-block;
-    margin-bottom: 12px;
-    color: #e87516;
-    font-size: 13px;
-    line-height: 1.4;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-}
-
-.vpt-armature-wholesale-title {
-    margin: 0 0 20px;
-    color: #172b4d;
-    font-size: clamp(28px, 4vw, 40px);
-    line-height: 1.2;
-    font-weight: 750;
-}
-
-.vpt-armature-wholesale-text {
-    margin: 0 0 14px;
-    color: #606b7a;
-    font-size: clamp(14px, 1.5vw, 16px);
-    line-height: 1.8;
-}
-
-.vpt-armature-wholesale-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: clamp(18px, 3vw, 28px);
-    width: 100%;
-}
-
-.vpt-armature-wholesale-card {
-    width: 100%;
-    padding: clamp(24px, 4vw, 36px);
-    background: #ffffff;
-    border: 1px solid #e5e9ef;
-    border-radius: 14px;
-    box-sizing: border-box;
-    box-shadow: 0 10px 35px rgba(23, 43, 77, 0.06);
-}
-
-.vpt-armature-wholesale-card-title {
-    margin: 0 0 18px;
-    color: #172b4d;
-    font-size: clamp(20px, 2.5vw, 24px);
-    line-height: 1.35;
-}
-
-.vpt-armature-wholesale-card-text {
-    margin: 0 0 18px;
-    color: #626d7c;
-    font-size: clamp(14px, 1.5vw, 15px);
-    line-height: 1.8;
-}
-
-.vpt-armature-wholesale-list {
-    width: 100%;
-    margin: 0 0 20px;
-    padding: 0;
-    list-style: none;
-}
-
-.vpt-armature-wholesale-list li {
-    position: relative;
-    margin: 0 0 12px;
-    padding-left: 24px;
-    color: #3f4a59;
-    font-size: clamp(14px, 1.5vw, 15px);
-    line-height: 1.6;
-}
-
-.vpt-armature-wholesale-list li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #e87516;
-    font-weight: 700;
-}
-
-.vpt-armature-wholesale-address {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    margin-top: 22px;
-    padding: 20px;
-    background: #f7f9fc;
-    border-left: 3px solid #e87516;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.vpt-armature-wholesale-address strong {
-    color: #172b4d;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.vpt-armature-wholesale-address span {
-    color: #626d7c;
-    font-size: 14px;
-    line-height: 1.7;
-    overflow-wrap: anywhere;
-}
-
-@media (max-width: 900px) {
-    .vpt-armature-wholesale-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .vpt-armature-wholesale-card {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 600px) {
     .vpt-armature-wholesale-section {
-        padding: 50px 15px;
+        width: 100%;
+        padding: clamp(45px, 7vw, 85px) 20px;
+        background: #f6f8fb;
+        box-sizing: border-box;
+    }
+
+    .vpt-armature-wholesale-container {
+        width: 100%;
+        max-width: 1180px;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     .vpt-armature-wholesale-intro {
-        margin-bottom: 30px;
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto 45px;
+        text-align: center;
     }
 
     .vpt-armature-wholesale-label {
-        font-size: 11px;
-        letter-spacing: 1px;
-    }
-
-    .vpt-armature-wholesale-card {
-        padding: 22px 18px;
-        border-radius: 10px;
-    }
-
-    .vpt-armature-wholesale-list li {
-        padding-left: 22px;
-    }
-
-    .vpt-armature-wholesale-address {
-        padding: 16px;
-    }
-}
-
-@media (max-width: 380px) {
-    .vpt-armature-wholesale-section {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .vpt-armature-wholesale-card {
-        padding: 20px 15px;
+        display: inline-block;
+        margin-bottom: 12px;
+        color: #e87516;
+        font-size: 13px;
+        line-height: 1.4;
+        font-weight: 700;
+        letter-spacing: 1.5px;
     }
 
     .vpt-armature-wholesale-title {
-        font-size: 25px;
+        margin: 0 0 20px;
+        color: #172b4d;
+        font-size: clamp(28px, 4vw, 40px);
+        line-height: 1.2;
+        font-weight: 750;
     }
-}
+
+    .vpt-armature-wholesale-text {
+        margin: 0 0 14px;
+        color: #606b7a;
+        font-size: clamp(14px, 1.5vw, 16px);
+        line-height: 1.8;
+    }
+
+    .vpt-armature-wholesale-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: clamp(18px, 3vw, 28px);
+        width: 100%;
+    }
+
+    .vpt-armature-wholesale-card {
+        width: 100%;
+        padding: clamp(24px, 4vw, 36px);
+        background: #ffffff;
+        border: 1px solid #e5e9ef;
+        border-radius: 14px;
+        box-sizing: border-box;
+        box-shadow: 0 10px 35px rgba(23, 43, 77, 0.06);
+    }
+
+    .vpt-armature-wholesale-card-title {
+        margin: 0 0 18px;
+        color: #172b4d;
+        font-size: clamp(20px, 2.5vw, 24px);
+        line-height: 1.35;
+    }
+
+    .vpt-armature-wholesale-card-text {
+        margin: 0 0 18px;
+        color: #626d7c;
+        font-size: clamp(14px, 1.5vw, 15px);
+        line-height: 1.8;
+    }
+
+    .vpt-armature-wholesale-list {
+        width: 100%;
+        margin: 0 0 20px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .vpt-armature-wholesale-list li {
+        position: relative;
+        margin: 0 0 12px;
+        padding-left: 24px;
+        color: #3f4a59;
+        font-size: clamp(14px, 1.5vw, 15px);
+        line-height: 1.6;
+    }
+
+    .vpt-armature-wholesale-list li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #e87516;
+        font-weight: 700;
+    }
+
+    .vpt-armature-wholesale-address {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 22px;
+        padding: 20px;
+        background: #f7f9fc;
+        border-left: 3px solid #e87516;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .vpt-armature-wholesale-address strong {
+        color: #172b4d;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .vpt-armature-wholesale-address span {
+        color: #626d7c;
+        font-size: 14px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 900px) {
+        .vpt-armature-wholesale-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .vpt-armature-wholesale-card {
+            max-width: 100%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .vpt-armature-wholesale-section {
+            padding: 50px 15px;
+        }
+
+        .vpt-armature-wholesale-intro {
+            margin-bottom: 30px;
+        }
+
+        .vpt-armature-wholesale-label {
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+
+        .vpt-armature-wholesale-card {
+            padding: 22px 18px;
+            border-radius: 10px;
+        }
+
+        .vpt-armature-wholesale-list li {
+            padding-left: 22px;
+        }
+
+        .vpt-armature-wholesale-address {
+            padding: 16px;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .vpt-armature-wholesale-section {
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .vpt-armature-wholesale-card {
+            padding: 20px 15px;
+        }
+
+        .vpt-armature-wholesale-title {
+            font-size: 25px;
+        }
+    }
 </style>
 
 
@@ -1492,7 +1599,7 @@ include_once 'includes/header.php';
 
 
 <!-- MANUFACTURERS GUJARAT -->
-<section class="products" style="display: none;">
+<!-- <section class="products" style="display: none;">
     <div class="container">
 
         <div class="section-title">
@@ -1514,7 +1621,7 @@ include_once 'includes/header.php';
         </div>
 
     </div>
-</section>
+</section> -->
 
 
 <!-- FAQ -->
@@ -1528,44 +1635,44 @@ include_once 'includes/header.php';
         <div class="faq">
 
             <div class="faq-item">
-                <div class="faq-question">1. Who are the Armature Manufacturers in Ahmedabad Gujarat?</div>
+                <div class="faq-question">1. Vicky Power Tools is from Jaipur, Rajasthan?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools is a manufacturer and supplier of armatures for wide variety of armatures for different power tools. Customers in Ahmedabad and all over Gujarat can contact us for armature requirements, product details and availability.
+                    No. Vicky Power Tools is located in Delhi. We are manufacturer and supplier of Power Tools Armature from Delhi for the customers of Jaipur and other parts of Rajasthan.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">2. Vicky Power Tools supplier of armatures in Gujarat for sale ?</div>
+                <div class="faq-question">2. Does Vicky Power Tools supply armatures in Jaipur ?</div>
                 <div class="faq-answer">
-                    Yes. Vicky Power Tools offers variety of power tools armatures for different purposes. They have customers looking for armature products in Gujarat.
+                    Yes. Vicky Power Tools supplies armatures to customers in Jaipur and other parts of Rajasthan.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">3. Where can I locate a Armatures in Gujarat?</div>
+                <div class="faq-question">3. Are you a manufacturer of Armature from Jaipur?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools has wide range of armatures for power tools. Please contact us with your machine's model number and armature specification to check availability.
+                    Vicky Power Tools is a manufacturer and supplier of armature in jaipur. Based in delhi. No we do not have any manufacturing plant situated in Jaipur.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">4. Do you have a Armature Dealership in Gujarat ?</div>
+                <div class="faq-question">4. Vicky Power Tools Jaipur Power tools armature Can I buy?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools supplies armatures for power tools to dealers, distributors, repair shops and other customers in Gujarat.
+                   Yeah. Vicky Power Tools is the best place to contact for power tools armatures in Jaipur. You can also check details in out website.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">5. What type of power tools armature are you making?</div>
+                <div class="faq-question">5. Do you supply armatures to the dealers in Jaipur?</div>
                 <div class="faq-answer">
-                    We are manufacture & supplied armatures for different power tools like angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders & other electric tools.
+                    Yes. Vicky Power Tools will supply armatures to dealers, distributors, repair shops and other industries in Jaipur.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">6. How can I select the right armature for my power tools?</div>
+                <div class="faq-question">6. What kind of power tools armatures do you supply?</div>
                 <div class="faq-answer">
-                    You can provide the brand and model number of the power tools to us and photos dimensions of the existing armature. This will help us to identify the right armature.
+                    We produce and supply armatures for relevant angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders and other electric power tools.
                 </div>
             </div>
 
