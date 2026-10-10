@@ -1242,12 +1242,13 @@ include_once 'includes/header.php';
             Wholesale Armature Supply in Bangalore
         </h2>
 
-        <p class="vpt-armature-wholesale-text">
+        <p class="vpt-armature-wholesale-text " style="text-align: center;">
             Dealers, distributors, repair shops and industrial companies may need larger amounts of armatures.
+              Vicky Power Tools is open to business enquiries for large orders depending on the model and product availability.
         </p>
 
         <p class="vpt-armature-wholesale-text">
-            Vicky Power Tools is open to business enquiries for large orders depending on the model and product availability.
+          
         </p>
     </div>
 
@@ -1284,13 +1285,13 @@ include_once 'includes/header.php';
                 We are manufacturers & suppliers of armatures, power tools components etc. to customers in Bengaluru & Karnataka.
             </p>
 
-            <div class="vpt-armature-wholesale-address">
+            <!-- <div class="vpt-armature-wholesale-address">
                 <strong>Vicky Power Tools</strong>
 
                 <span>
                     71/2-A, Rama Road Industrial Area Najafgarh Road, New Delhi - 110015 India
                 </span>
-            </div>
+            </div> -->
         </div>
 
     </div>
