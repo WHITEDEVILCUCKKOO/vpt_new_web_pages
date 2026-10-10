@@ -540,7 +540,7 @@ include_once 'includes/header.php';
         </div>
 
         <span class="asdhuiih">
-            <img src="assets/img/armarture1.jpg" alt="">
+            <img src="assets_2_0/img/armarture1.jpg" alt="">
         </span>
     </div>
 </section>
@@ -663,7 +663,7 @@ include_once 'includes/header.php';
         <div class="about-grid">
 
             <div class="about-image">
-                <img class="uoasdu" src="assets/img/00033.jpg" alt="Armature Manufacturers in Ahmedabad">
+                <img class="uoasdu" src="assets_2_0/img/00033.jpg" alt="Armature Manufacturers in Ahmedabad">
             </div>
 
             <div class="about-content">
