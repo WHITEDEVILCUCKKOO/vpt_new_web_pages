@@ -693,7 +693,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Armature Manufacturer - Gujarat - Power Tools</h3>
+            <h3 style="font-weight: 700;">Armature Manufacturer in Gujarat - Power Tools</h3>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">

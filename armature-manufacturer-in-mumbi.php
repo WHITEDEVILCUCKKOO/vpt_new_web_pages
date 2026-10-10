@@ -515,7 +515,7 @@ include_once 'includes/header.php';
             width: 293px !important;
         }
 
-        .oem-list div{
+        .oem-list div {
             width: 100% !important;
         }
     }
@@ -668,15 +668,20 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h3>Armature Manufacturers & Supplier in Ahmedabad, Gujarat</h3>
+                <h3>Armature Manufacturers & Suppliers in Mumbai</h3>
 
                 <p>
-                    <strong>Vicky Power Tools</strong> is a reliable Armature Manufacturers & supplier in Ahmedabad, Gujarat. We offer quality armatures for all kinds of power tools and electric machines. We produce and supply armatures for power tools to ensure reliable performance, accurate fitting and long service life.
+                    Vicky Power Tools is a Delhi based manufacturer and exporter of armatures, field coils, electric tools and power tools, serving customers across India including Mumbai and Maharashtra. If you are looking for Armature Manufacturers & Suppliers in Mumbai, then Vicky Power Tools is the right choice.
+
+                    Vicky Power Tools produces compatible armatures for a broad range of electric motor and power tools applications. We supply our customers with replacement armatures for angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders and other power tools, if they need them.
+
+                    Vicky Power Tools is located in New Delhi India and not in Mumbai. We are based out of Delhi, from where we manufacture and serve customers in Mumbai & Maharashtra.
+
+                    This gives Mumbai-based dealers, distributors, workshops, repair centers and industrial buyers an opportunity to source armatures directly from a manufacturer located in New Delhi.
+
                 </p>
 
-                <p>
-                    <strong>Vicky Power Tools</strong> is one of the best power tools and armature industry companies, offering a wide range of power tools and armature industry services to customers looking for <strong>armature manufacturer</strong>, <strong>armature supplier</strong> and <strong>armature dealer</strong> in Gujarat. Our armatures are suited for a variety of power tools, including angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders and other electric tools.
-                </p>
+
 
             </div>
 
@@ -693,17 +698,46 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Armature Manufacturer - Gujarat - Power Tools</h3>
+            <h3 style="font-weight: 700;">Power Tools Armature Manufacturer In Mumbai</h3>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
 
             <p>
-                Vicky Power Tools manufacture and supply replacement armatures for a wide range of power tool applications. We aim for steady production, correct balancing, quality copper winding and precise gear construction.Properly manufactured armatures are important to the performance of an electric power tool . The proper armature can contribute to smooth rotation, efficient transmission of power and reliable operation.We offer armature options to customers who need replacement parts for repair, maintenance, wholesale and regular power tool needs.
+
+                Vicky Power Tools has been manufacturing and exporting armatures, field coils, electric tools, power tools and special purpose motors since 1982. The company is based in New Delhi and caters to clients in India and international markets.
+
+                We have manufacturing capabilities for armatures and field coils for various power tools applications. Also we work on customer requirements, samples and specifications for relevant products.
+
+                What this means for customers in Mumbai is that you can get in touch with a Delhi-based armature manufacturer that caters to Mumbai instead of assuming that the manufacturer has to be physically located in Mumbai.
+
             </p>
 
 
         </div>
+</section>
+
+
+<!-- DEALER -->
+<section class="oem">
+    <div class="container">
+
+        <div class="oem-box">
+
+            <h2>Armature Manufacturers Mumbai</h2>
+
+            <p>
+                Vicky Power Tools also supplies power tools armatures to the customers in search of Armature Supplier in Mumbai.
+
+                Depending on the availability and specifications of the individual model, we can supply our armatures for various business and repair needs.
+
+            </p>
+
+
+
+        </div>
+
+    </div>
 </section>
 
 
@@ -712,50 +746,69 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2>Armature Supplier in Gujarat</h2>
-            <p>
+            <h2>We are able to meet needs from</h2>
+            <!-- <p>
                 Looking for <strong>Armature Supplier</strong> in Gujarat for your business or repair needs? <strong>Vicky
                     Power Tools</strong> is a supplier of armatures for a wide range of models and applications
                 of power tools.
-            </p>
+            </p> -->
             <p>Our products can be usefull to:</p>
         </div>
 
+
+
+
+
+
         <div class="industry-grid">
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Power tool service firms</p>
+                <p style="text-align: center;">Electrical repair stores</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Electrical repair shops</p>
+                <p style="text-align: center;">Power tools repair shops</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Power Tool Retailer</p>
+                <p style="text-align: center;">Hardware Vendors</p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Hardware Providers</p>
+                <p style="text-align: center;">
+
+                    Industrial workshops
+                </p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Distributors for industrial tools</p>
+                <p style="text-align: center;">
+
+                    Vendors of tools
+                </p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Maintenance personnel.</p>
+                <p style="text-align: center;">
+                    Service Centers
+
+                </p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Workshops</p>
+                <p style="text-align: center;">
+
+                    Maintenance specialists
+                </p>
             </div>
             <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Wholesale customers</p>
+                <p style="text-align: center;">
+
+                    Wholesalers OEM and commercial customers
+                </p>
             </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Power tool service centers</p>
-            </div>
+            <!-- <div class="industry iahwdiawdsi">
+                <p style="text-align: center;">
+
+                </p>
+            </div> -->
         </div>
 
         <p style="text-align:center;margin-top:30px;color:#cbd5df;">
-            We know when you are buying replacement armatures that it is important to you to have
-            them in stock and that they are the right product for your needs. <strong>Vicky Power Tools</strong> can
-            be contacted by a customer with his power tool model or armature needs and a product
-            will be found that fits.
+            If you are looking for a regular supplier of armatures in Mumbai, kindly share your product model and quantity requirement with us so that suitable product can be checked.
         </p>
 
     </div>
@@ -763,7 +816,7 @@ include_once 'includes/header.php';
 
 
 <!-- DEALER -->
-<section class="oem">
+<section class="oem" style="display: none;">
     <div class="container">
 
         <div class="oem-box">
@@ -794,29 +847,30 @@ include_once 'includes/header.php';
 
         <div class="oem-box">
 
-            <h2>Power Tool Armature Quality</h2>
+            <h2>Armature Dealer Mumbai</h2>
 
             <p>
-                The armature is one of the most significant parts in an electric power tool. It,
-                together with the field coil and other motor parts, converts electrical energy to
-                mechanical rotation.
+                If you are a business looking for a Armature Dealer in Mumbai, you can also contact Vicky Power Tools for power tools armatures that are compatible.
+
+                Our products are used in various power tools applications and the correct armature has to be selected according to the machine model and specifications.
+
             </p>
 
             <p>
-                Important armature characteristics such as are considered in <strong>Vicky Power Tools</strong>:
+                Customers may provide for quicker identification:
             </p>
 
             <div class="oem-list">
-                <div>1. Copper Winding Superior</div>
-                <div>2. Precision gear teeth</div>
-                <div>3. Correct balance</div>
-                <div>4. Appropriate shaft sizes</div>
-                <div>5. Uniform manufacturing</div>
-                <div>6. Construction steady</div>
-                <div style="width: max-content;">7. For use with the power tool models listed below</div>
+                <div>Shaft and gear details, if available Quantity required</div>
+                <div>Power tools firm</div>
+                <div>Machine model number</div>
+                <div>Existing photo of armature</div>
+                <div>Armature size</div>
+                <!-- <div>6. Construction steady</div>
+                <div style="width: max-content;">7. For use with the power tool models listed below</div> -->
             </div>
 
-            <div class="note-box">The armature specifications may differ from one power tool model to another. Customers are advised to check the model, dimensions and technical specification before ordering.</div>
+            <div class="note-box">This helps to lower the probability of choosing an incompatible replacement.</div>
 
         </div>
 
@@ -829,10 +883,13 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2>Armature for Various Power Tools</h2>
+            <h2>Replacement Armature for Power Tools</h2>
             <p>
-                <strong>Vicky Power Tools</strong> produces and distributes armatures for a range of power tool
-                applications. Model and requirement armatures can be used in:
+                The armature of the power tools is an important part of the motor assembly. The armature, along with other parts of the motor, causes the rotation needed to operate the tools.
+
+                Vicky Power Tools manufactures and offers for sale replacement armatures for a variety of compatible power tools models.
+
+
             </p>
         </div>
 
@@ -840,38 +897,38 @@ include_once 'includes/header.php';
 
             <div class="product-card">
                 <div class="product-icon">⚙</div>
-                <h3>Angle Grinders</h3>
-                <p>Armatures for various angle grinder models.</p>
+                <h3>Angle Grinder Attachments</h3>
+                <p>Replacement armatures for compatible 100mm, 115mm, 125mm, 180mm and other angle grinder applications, dependent on model specifications.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">⚡</div>
-                <h3>Drilling Machines</h3>
-                <p>Armatures for electric drilling machines are available for the corresponding types.</p>
+                <h3>Drill Machine Frames</h3>
+                <p>Armatures for electric and impact drills of various makes.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">◉</div>
-                <h3>Cut-Off Machines</h3>
-                <p>Replacement armatures for different cut-off machines.</p>
+                <h3>Armatures for Cut-Off Machines</h3>
+                <p>Replacement armatures for some cut-off and chop saw applications.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">⚙</div>
-                <h3>Marble Cutters machines</h3>
-                <p>we have Armatures for the all marble and tile cutters.</p>
+                <h3>Armature for Marble Cutters</h3>
+                <p>Armatures compatible with marble, tile, stone cutting machines.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">+</div>
-                <h3>Grinder machines</h3>
-                <p>Replacement armatures for different grinder models.</p>
+                <h3>Armatures for Straight Grinders</h3>
+                <p>Replacement armatures for selected straight grinders.</p>
             </div>
 
             <div class="product-card">
                 <div class="product-icon">✓</div>
-                <h3>Other Electric Tools</h3>
-                <p>Armature solutions for different power tool as per samples also, customers can share the machine model, old armature details or required dimensions with our team.</p>
+                <h3>Other Power Tools Rotors</h3>
+                <p>We also produce and provide armatures for many other electric and power tools applications based on product specifications.</p>
             </div>
 
         </div>
@@ -880,35 +937,65 @@ include_once 'includes/header.php';
 </section>
 
 
+
+<!-- QUALITY -->
+<section>
+    <div class="container">
+
+        <div class="oem-box">
+
+            <h2>Armature Manufacturer for Power Tools of Various Brands</h2>
+
+            <p>
+               Vicky Power Tools stocks ranges to suit all brands and power tools models. Currently on its website it features armature ranges for brands such as Bosch, Ralli Wolf, Hitachi/Hikoki, DeWalt, KPT, Makita, Metabo, Hilti, Keyang, Powertex and more.
+               For example, the company’s published product information includes armatures for Bosch drills and grinders, Makita angle grinders and marble cutters, Hikoki/Hitachi drills and other tools, and Hilti tools.
+
+            </p>
+
+            <p>
+                Customers may provide for quicker identification:
+            </p>
+
+
+            <div class="note-box"><strong>Note: </strong> Availability of specific armature depends on machine model and specifications.</div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
 <!-- WHY -->
 <section>
     <div class="container">
 
         <div class="oem-box">
 
-            <h2>Why Vicky Power Tools?</h2>
+            <h2>ARMATURE SUPPLIER - MUMBAI WORK SHOP & REPAIR BUSINESS</h2>
 
             <p>
-                Selecting the right armature is important to maintain the performance of a power
-                tool. <strong>Vicky Power Tools</strong> is committed to supplying armatures that are suitable for
-                specific power tool applications.
+                Mumbai has a huge variety of industrial, commercial, construction and repair businesses that use electric and power tools.For these companies the possibility of getting hold of armatures for replacement is important for the repair and maintenance of power tools.
+
+Vicky Power Tools supply armatures to businesses that need replacement parts for the relevant models.
+
+
             </p>
 
-            <p>Our main areas of focus:</p>
+            <p>Whether you operate a:</p>
 
             <div class="oem-list">
-                <div>Manufacturing of power tool armatures</div>
-                <div>Solutions for replacement armatures</div>
-                <div>Armature availability specific to model</div>
-                <div>Quality-focused production</div>
-                <div>Commercial and wholesale needs</div>
-                <div>Aid from suppliers and dealers</div>
-                <div>Genuine product information</div>
+                <div>Power tools repair shop</div>
+                <div>Hardware trading</div>
+                <div>Factory workshop</div>
+                <div>Tools dealer</div>
+                <div>Service center</div>
+                <div>Distribution segment</div>
+                <div>Maintenance company</div>
             </div>
 
             <p style="margin-top:20px;">
-                <strong>Vicky Power Tools</strong> can be contacted for <strong>Armature Manufacturers</strong> in Ahmedabad, Gujarat
-                for product details, availability and business requirements.
+                Call us with your armature needs. Call Vicky Power Tools.
             </p>
 
         </div>
@@ -918,7 +1005,7 @@ include_once 'includes/header.php';
 
 
 <!-- MANUFACTURERS GUJARAT -->
-<section class="products">
+<!-- <section class="products" >
     <div class="container">
 
         <div class="section-title">
@@ -940,7 +1027,7 @@ include_once 'includes/header.php';
         </div>
 
     </div>
-</section>
+</section> -->
 
 
 <!-- FAQ -->
@@ -954,46 +1041,46 @@ include_once 'includes/header.php';
         <div class="faq">
 
             <div class="faq-item">
-                <div class="faq-question">1. Who are the Armature Manufacturers in Ahmedabad Gujarat?</div>
+                <div class="faq-question">1. Is Vicky Power Tools an armature manufacturer in Mumbai?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools is a manufacturer and supplier of armatures for wide variety of armatures for different power tools. Customers in Ahmedabad and all over Gujarat can contact us for armature requirements, product details and availability.
+                    No. Vicky Power Tools is a Delhi-based armature manufacturer and exporter. The company manufactures from New Delhi and serves customers in Mumbai and other parts of India. 
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">2. Vicky Power Tools supplier of armatures in Gujarat for sale ?</div>
+                <div class="faq-question">2. Does Vicky Power Tools also supply armatures in Mumbai?</div>
                 <div class="faq-answer">
-                    Yes. Vicky Power Tools offers variety of power tools armatures for different purposes. They have customers looking for armature products in Gujarat.
+                   Yes. Mumbai customers can also contact Vicky Power Tools for power tools armatures, by mentioning model number.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">3. Where can I locate a Armatures in Gujarat?</div>
+                <div class="faq-question">3. Where does Vicky Power Tools located?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools has wide range of armatures for power tools. Please contact us with your machine's model number and armature specification to check availability.
+                   Vicky Power Tools is located at New delhi.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">4. Do you have a Armature Dealership in Gujarat ?</div>
+                <div class="faq-question">4. Can I order armatures from Mumbai?</div>
                 <div class="faq-answer">
-                    Vicky Power Tools supplies armatures for power tools to dealers, distributors, repair shops and other customers in Gujarat.
+                   Yes. Customers in Mumbai can order armatures to Vicky Power Tools with their power tools model, armature photograph, dimensions and required quantity.
                 </div>
             </div>
 
             <div class="faq-item">
-                <div class="faq-question">5. What type of power tools armature are you making?</div>
+                <div class="faq-question">5. Do you supply armatures to dealers in Mumbai?</div>
                 <div class="faq-answer">
-                    We are manufacture & supplied armatures for different power tools like angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders & other electric tools.
+                    Yes. Dealers, distributors, workshops, repair centres and other businesses in Mumbai can purchase armature from Vicky Power Tools.
                 </div>
             </div>
 
-            <div class="faq-item">
+            <!-- <div class="faq-item">
                 <div class="faq-question">6. How can I select the right armature for my power tools?</div>
                 <div class="faq-answer">
                     You can provide the brand and model number of the power tools to us and photos dimensions of the existing armature. This will help us to identify the right armature.
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
