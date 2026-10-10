@@ -1291,7 +1291,7 @@ include_once 'includes/header.php';
     }
 
     .alt-sec .alt-head h2 {
-        font-size: 40px;
+        font-size: 3.3rem;
         letter-spacing: 1px;
         color: #15283d;
         margin-bottom: 20px;
@@ -1536,10 +1536,15 @@ include_once 'includes/header.php';
     }
 
     .noida-order-heading-vp27 {
-        font-size: clamp(26px, 4vw, 38px);
-        line-height: 1.25;
-        color: #172554;
-        font-weight: 750;
+
+
+        color: #071d2c;
+    font-size: 3.3rem;
+    letter-spacing: 3px;
+        /* font-size: clamp(26px, 4vw, 38px); */
+        /* line-height: 1.25; */
+        /* color: #172554; */
+        /* font-weight: 750; */
         margin: 0 0 15px;
     }
 
@@ -1661,7 +1666,7 @@ include_once 'includes/header.php';
                         Know your power tool:
                     </h3>
                     <p class="noida-order-card-text-vp27">
-                        Note the brand and the exact model of the machined
+                        Note the brand and the exact model of the machine. 
                     </p>
                 </div>
             </div>

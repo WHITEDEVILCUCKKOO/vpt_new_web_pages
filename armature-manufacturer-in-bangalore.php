@@ -607,7 +607,7 @@ include_once 'includes/header.php';
     .vpt-about-section .about-content h2,
     .vpt-about-section .about-content h3 {
         font-size: 24px;
-        font-weight: bold;
+        /* font-weight: bold; */
         color: #111111;
         margin-bottom: 20px;
         line-height: 1.4;
@@ -722,7 +722,7 @@ include_once 'includes/header.php';
     }
 
     .arm-sec .arm-head h2 {
-        font-size: 40px;
+        font-size: 3.3rem;
         letter-spacing: 1px;
         color: #15283d;
         margin-bottom: 18px;
@@ -1335,9 +1335,9 @@ include_once 'includes/header.php';
 .vpt-armature-wholesale-title {
     margin: 0 0 20px;
     color: #172b4d;
-    font-size: clamp(28px, 4vw, 40px);
+    font-size: clamp(28px, 3.8rem, 40px);
     line-height: 1.2;
-    font-weight: 750;
+    /* font-weight: 750; */
 }
 
 .vpt-armature-wholesale-text {
