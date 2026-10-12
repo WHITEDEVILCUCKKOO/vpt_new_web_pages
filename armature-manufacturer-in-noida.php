@@ -519,6 +519,10 @@ include_once 'includes/header.php';
             width: 100% !important;
         }
     }
+
+      h2{
+        font-size: 30px !important;
+    }
 </style>
 
 
@@ -527,7 +531,7 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
+            <h2 style="color: #fff;">Welcome to Vicky Power Tools</h2>
 
             <p>
                 Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
@@ -668,7 +672,7 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h2>Armature Manufacturer in Noida</h2>
+                <h1>Armature Manufacturer in Noida</h1>
 
                 <p>
                     If you are searching for a Armature Manufacturer in Noida, Vicky Power Tools is a Delhi based manufacturer and supplier of power tool armatures catering to customers in Noida and the entire Delhi-NCR region.
@@ -719,7 +723,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Armature Manufacturer - Gujarat - Power Tools</h3>
+            <h2 >Armature Manufacturer - Gujarat - Power Tools</h2>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
@@ -1649,11 +1653,11 @@ include_once 'includes/header.php';
 <section class="noida-order-section-vp27">
     <div class="noida-order-container-vp27">
 
-        <h2 class="noida-order-heading-vp27">
+        <h2 class="noida-order-heading-vp27" style="text-align: center;">
             How to order armature for Noida ?
         </h2>
 
-        <p class="noida-order-intro-vp27">
+        <p class="noida-order-intro-vp27" style="text-align: center; width:max-content;margin:10px auto 20px;">
             If you are looking for an armature in Noida there are a few simple steps:
         </p>
 
