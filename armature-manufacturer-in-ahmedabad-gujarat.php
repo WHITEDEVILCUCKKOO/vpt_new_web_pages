@@ -519,6 +519,10 @@ include_once 'includes/header.php';
             width: 100% !important;
         }
     }
+
+    h2{
+        font-size: 30px !important;
+    }
 </style>
 
 
@@ -527,7 +531,7 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
+            <h2 style="color: #fff;">Welcome to Vicky Power Tools</h2>
 
             <p>
                 Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
@@ -668,7 +672,7 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h3>Armature Manufacturers & Supplier in Ahmedabad, Gujarat</h3>
+                <h1>Armature Manufacturers & Supplier in Ahmedabad, Gujarat</h1>
 
                 <p>
                     <strong>Vicky Power Tools</strong> is a reliable Armature Manufacturers & supplier in Ahmedabad, Gujarat. We offer quality armatures for all kinds of power tools and electric machines. We produce and supply armatures for power tools to ensure reliable performance, accurate fitting and long service life.
@@ -693,7 +697,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Armature Manufacturer in Gujarat - Power Tools</h3>
+            <h2 ">Armature Manufacturer in Gujarat - Power Tools</h2>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
@@ -712,7 +716,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2>Armature Supplier in Gujarat</h2>
+            <h2 style="font-size: 30px;">Armature Supplier in Gujarat</h2>
             <p>
                 Looking for <strong>Armature Supplier</strong> in Gujarat for your business or repair needs? <strong>Vicky
                     Power Tools</strong> is a supplier of armatures for a wide range of models and applications
@@ -829,7 +833,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2>Armature for Various Power Tools</h2>
+            <h2 style="font-size: 30px;">Armature for Various Power Tools</h2>
             <p>
                 <strong>Vicky Power Tools</strong> produces and distributes armatures for a range of power tool
                 applications. Model and requirement armatures can be used in:

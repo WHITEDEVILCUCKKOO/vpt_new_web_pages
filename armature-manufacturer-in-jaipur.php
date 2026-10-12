@@ -519,6 +519,10 @@ include_once 'includes/header.php';
             width: 100% !important;
         }
     }
+
+      h2{
+        font-size: 30px !important;
+    }
 </style>
 
 
@@ -527,7 +531,7 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
+            <h2 style="color: #fff;">Welcome to Vicky Power Tools</h2>
 
             <p>
                 Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
@@ -668,7 +672,7 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h2>Armature Manufacturers and seller in Jaipur, Rajasthan</h2>
+                <h1>Armature Manufacturers and seller in Jaipur, Rajasthan</h1>
 
                 <p>
                     Vicky Power Tools is a Delhi based manufacturers and suppliers of power tools armatures for customers in Jaipur and all over Rajasthan if you are looking for Armature Manufacturers in Jaipur, Rajasthan.We manufacture and supply armatures for a wide range of electrical machines and power tools. Our products are suitable for power tools repair shops, dealers, workshops, distributors, service centers and other customers looking for replacement armatures.
@@ -725,7 +729,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Armature Manufacturer - Gujarat - Power Tools</h3>
+            <h2 >Armature Manufacturer - Gujarat - Power Tools</h2>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">

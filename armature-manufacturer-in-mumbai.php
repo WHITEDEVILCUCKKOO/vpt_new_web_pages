@@ -519,6 +519,10 @@ include_once 'includes/header.php';
             width: 100% !important;
         }
     }
+
+      h2{
+        font-size: 30px !important;
+    }
 </style>
 
 
@@ -527,7 +531,7 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
+            <h2 style="color: #fff;">Welcome to Vicky Power Tools</h2>
 
             <p>
                 Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
@@ -668,7 +672,7 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h3>Armature Manufacturers & Suppliers in Mumbai</h3>
+                <h1>Armature Manufacturers & Suppliers in Mumbai</h1>
 
                 <p>
                     Vicky Power Tools is a Delhi based manufacturer and exporter of armatures, field coils, electric tools and power tools, serving customers across India including Mumbai and Maharashtra. If you are looking for Armature Manufacturers & Suppliers in Mumbai, then Vicky Power Tools is the right choice.
@@ -698,7 +702,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Power Tools Armature Manufacturer In Mumbai</h3>
+            <h2 >Power Tools Armature Manufacturer In Mumbai</h2>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">

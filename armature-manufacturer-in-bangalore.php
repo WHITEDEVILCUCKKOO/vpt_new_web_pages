@@ -527,7 +527,7 @@ include_once 'includes/header.php';
     <div class="container" style="padding-top:60px;">
         <div class="hero-content">
 
-            <h1 style="color: #fff;">Welcome to Vicky Power Tools</h1>
+            <h2 style="color: #fff;">Welcome to Vicky Power Tools</h2>
 
             <p>
                 Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
@@ -656,6 +656,10 @@ include_once 'includes/header.php';
         transform: scale(1.05);
         transition: .25s ease;
     }
+
+      h2{
+        font-size: 30px !important;
+    }
 </style>
 
 <section class="vpt-about-section">
@@ -668,7 +672,7 @@ include_once 'includes/header.php';
 
             <div class="about-content">
 
-                <h2>Armature Manufacturer and supplier in Bangalore, Karnataka, India</h2>
+                <h1>Armature Manufacturer and supplier in Bangalore, Karnataka, India</h1>
 
                 <p>
                     If you are looking for Armature Manufacturer and supplier in Bengaluru, Karnataka, Vicky Power Tools is a Delhi based manufacturer and supplier of power tools armatures, field coils and other power tools components.
@@ -698,7 +702,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h3 style="font-weight: 700;">Armature Manufacturer - Gujarat - Power Tools</h3>
+            <h2>Armature Manufacturer - Gujarat - Power Tools</h2>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
@@ -1042,7 +1046,7 @@ include_once 'includes/header.php';
 <style>
     /* Is section ka CSS (scoped: sirf .alt-sec par lagu hoga) */
     .alt-sec .alt-head { max-width: 900px; margin: 0 auto 50px; text-align: center; }
-    .alt-sec .alt-head h2 { font-size: 40px; letter-spacing: 1px; color: #15283d; margin-bottom: 20px; text-align: center; }
+    .alt-sec .alt-head h2 { font-size: 30px; letter-spacing: 1px; color: #15283d; margin-bottom: 20px; text-align: center; }
     .alt-sec .alt-head p { color: #666; margin-bottom: 12px; text-align: center !important; }
     .alt-sec .alt-head .alt-highlight { display: inline-block; background: #fff8ef; border: 1px solid #f7d9b0; border-left: 5px solid #f7941d; border-radius: 6px; padding: 14px 24px; color: #15283d; margin-top: 8px; }
 
