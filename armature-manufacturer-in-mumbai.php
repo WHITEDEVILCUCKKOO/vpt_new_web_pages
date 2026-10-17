@@ -1,6 +1,19 @@
-<?php
-include_once 'includes/header.php';
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vicky Power Tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add All Genereal Links -->
+    <?php include_once 'includes/all_links.php'; ?>
+
+</head>
+
+<!-- Add Header -->
+<?php include_once 'includes/header.php'; ?>
+
 <style>
     * {
         margin: 0;

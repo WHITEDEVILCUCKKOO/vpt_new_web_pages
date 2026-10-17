@@ -1,6 +1,19 @@
-<?php
-include_once 'includes/header.php';
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vicky Power Tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Add All Genereal Links -->
+    <?php include_once 'includes/all_links.php'; ?>
+
+</head>
+
+<!-- Add Header -->
+<?php include_once 'includes/header.php'; ?>
+
 <style>
     * {
         margin: 0;
@@ -520,7 +533,7 @@ include_once 'includes/header.php';
         }
     }
 
-      h2{
+    h2 {
         font-size: 30px !important;
     }
 </style>
@@ -723,7 +736,7 @@ include_once 'includes/header.php';
     <div class="container">
 
         <div class="section-title">
-            <h2 >Armature Manufacturer - Gujarat - Power Tools</h2>
+            <h2>Armature Manufacturer - Gujarat - Power Tools</h2>
         </div>
 
         <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
@@ -1543,8 +1556,8 @@ include_once 'includes/header.php';
 
 
         color: #071d2c;
-    font-size: 3.3rem;
-    letter-spacing: 3px;
+        font-size: 3.3rem;
+        letter-spacing: 3px;
         /* font-size: clamp(26px, 4vw, 38px); */
         /* line-height: 1.25; */
         /* color: #172554; */
@@ -1670,7 +1683,7 @@ include_once 'includes/header.php';
                         Know your power tool:
                     </h3>
                     <p class="noida-order-card-text-vp27">
-                        Note the brand and the exact model of the machine. 
+                        Note the brand and the exact model of the machine.
                     </p>
                 </div>
             </div>
@@ -2125,7 +2138,7 @@ include_once 'includes/header.php';
                 <div class="faq-item">
                     <div class="faq-question">3. Where is Vicky Power Tools based?</div>
                     <div class="faq-answer">
-                       Vicky Power Tools is situated in New delhi = 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi – 110015, India.
+                        Vicky Power Tools is situated in New delhi = 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi – 110015, India.
                     </div>
                 </div>
 
