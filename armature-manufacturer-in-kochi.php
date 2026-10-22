@@ -631,7 +631,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;">Armature Manufacturer - Wholesaler in Kochi, Kerala</h1>
+                    <h1 style="margin-bottom: 10px; font-size:3rem;">Armature Manufacturer - Wholesaler in Kochi, Kerala</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">The performance and reliability of an electric power tool depend on the choice of the proper armature. If you run a power tools repair shop, electrical parts store, hardware store or industrial maintenance unit, having the right replacement armature in stock can reduce delays in repairs and simplify your maintenance task.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi based manufacturer &amp; supplier of Armature for compatible power tools &amp; Electric Motor Applications. We offer armature sourcing, replacement parts, dealer enquiries and bulk supply through our PowerSpeed range for businesses. We are also open to enquiries from customers in Kochi and other parts of Kerala who are looking for armatures for their power tools.</p>
                     <p style="font-size: 14px;color: #666666;">If you are searching for an armature manufacturer in Kochi, armature supplier for your business or an armature dealer for regular sourcing, our team can help you enquire about product availability and model compatibility.</p>
