@@ -632,7 +632,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;">Armature Manufacturer &amp; Supllier in Kolkata, West Bengal</h1>
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; Supllier in Kolkata, West Bengal</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Searching for reliable Armature Manufacturer in Kolkata, West Bengal for power tools, electric tools and replacement requirements? Vicky Power Tools is a Delhi based manufacturer and exporter of armatures, field coils, electric tools and power tools, serving customers and businesses in Kolkata and throughout West Bengal.</p>
                     <p style="font-size: 14px;color: #666666;">Since 1982, Vicky Power Tools has been engaged in manufacturing, and since 1986 in the dedicated production of armatures. It has developed a wide range of armatures for different power tools applications. The company is based in New Delhi and serves customers all over the country and abroad.</p>
                     <br><br>
