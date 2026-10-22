@@ -631,7 +631,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;">Armature Manufacturer - Supplier in Hyderabad, Telangana</h1>
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer - Supplier in Hyderabad, Telangana</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Looking for trusted armature manufacturer and supplier in Hyderabad, Telangana for power tools, electric motors and spare parts? The right armature is necessary for the proper functioning of the motor, its compatibility with the machine and its reliable performance. If you are a power-tool dealer, repair workshop, distributor or industrial buyer, selecting the right armature can make your purchasing process that much easier.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is Manufacturer and Supplier of Armatures, Field Coils, Electric Tools, Power Tools and Special Purpose Motors in Delhi. We cater to clients all over India including companies in Hyderabad and other parts of Telangana that are looking for armatures for compatible power-tool models.</p>
                     <p style="font-size: 14px;color: #666666;">We welcome enquiries based on your machine specifications, required quantity and application – from replacement armatures for repair work to model wise requirements for dealers and bulk buyers.</p>
