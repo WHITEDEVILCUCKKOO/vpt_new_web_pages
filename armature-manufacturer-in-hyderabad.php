@@ -474,6 +474,17 @@
             background: #e3dedebf;
             box-shadow: -3px 4px 3px 0px #666;
         }
+
+        .ul_left_padding {
+            padding-left: 40px !important;
+        }
+
+
+        @media (max-width:620) {
+            .ul_left_padding {
+                padding-left: 20px !important;
+            }
+        }
     </style>
 </head>
 
@@ -620,7 +631,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                 <h1 style="margin-bottom: 10px;">Armature Manufacturer - supplier in Hyderabad, Telangana</h1>
+                    <h1 style="margin-bottom: 10px;">Armature Manufacturer - Supplier in Hyderabad, Telangana</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Looking for trusted armature manufacturer and supplier in Hyderabad, Telangana for power tools, electric motors and spare parts? The right armature is necessary for the proper functioning of the motor, its compatibility with the machine and its reliable performance. If you are a power-tool dealer, repair workshop, distributor or industrial buyer, selecting the right armature can make your purchasing process that much easier.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is Manufacturer and Supplier of Armatures, Field Coils, Electric Tools, Power Tools and Special Purpose Motors in Delhi. We cater to clients all over India including companies in Hyderabad and other parts of Telangana that are looking for armatures for compatible power-tool models.</p>
                     <p style="font-size: 14px;color: #666666;">We welcome enquiries based on your machine specifications, required quantity and application – from replacement armatures for repair work to model wise requirements for dealers and bulk buyers.</p>
@@ -746,7 +757,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">An armature is a fundamental part of an electric motor. The design, winding specifications, shaft dimensions, commutator and gear configuration shall be compatible with the intended machine for proper installation and operation.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools manufactures and supplies armatures for selected compatible power tool applications. To know more about replacement armatures and other component requirements, businesses in Hyderabad can contact us by sharing machine brand, model number, technical specification or photographs of the original part.</p>
                     <p style="font-size: 14px;color: #666666;">Our armature products are of interest for companies in:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Maintenance and repair of power tools</li>
                         <li>Servicing of electrical equipment</li>
                         <li>Retail of hardware and electric tools</li>
@@ -826,7 +837,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Certain motor designs, technical drawings or existing samples are required by some companies for armatures. Further technical evaluation may be needed to identify a viable manufacturing or supply option for the requirements.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools also welcomes enquiries for OEM and custom armature requirements, subject to technical feasibility and evaluation.</p>
                     <p style="font-size: 14px;color: #666666;">For OEM or Custom Armature Inquiry please send:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Application or engine of a machine</li>
                         <li>Details of technical drawings or samples</li>
                         <li>Dimensions and shaft details required</li>

@@ -474,6 +474,17 @@
             background: #e3dedebf;
             box-shadow: -3px 4px 3px 0px #666;
         }
+
+        .ul_left_padding {
+            padding-left: 40px !important;
+        }
+
+
+        @media (max-width:620) {
+            .ul_left_padding {
+                padding-left: 20px !important;
+            }
+        }
     </style>
 </head>
 
@@ -620,7 +631,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                 <h1 style="margin-bottom: 10px;">Armature Manufacturer - wholesaler in Kochi, Kerala</h1>
+                    <h1 style="margin-bottom: 10px;">Armature Manufacturer - Wholesaler in Kochi, Kerala</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">The performance and reliability of an electric power tool depend on the choice of the proper armature. If you run a power tools repair shop, electrical parts store, hardware store or industrial maintenance unit, having the right replacement armature in stock can reduce delays in repairs and simplify your maintenance task.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi based manufacturer &amp; supplier of Armature for compatible power tools &amp; Electric Motor Applications. We offer armature sourcing, replacement parts, dealer enquiries and bulk supply through our PowerSpeed range for businesses. We are also open to enquiries from customers in Kochi and other parts of Kerala who are looking for armatures for their power tools.</p>
                     <p style="font-size: 14px;color: #666666;">If you are searching for an armature manufacturer in Kochi, armature supplier for your business or an armature dealer for regular sourcing, our team can help you enquire about product availability and model compatibility.</p>
@@ -747,7 +758,7 @@
                     <p style="font-size: 14px;color: #666666;">Therefore, buyers should determine the tool model and component specifications before ordering a replacement.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools provides support for sourcing compatible power tool armatures. Kochi customers can contact us with the brand of the machine, model number, armature details or clear photos of the part. This enables us to evaluate the need before we can confirm availability or suitability.</p>
                     <p style="font-size: 14px;color: #666666;">Our supply enquiries may be of interest to:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Power tool repair and servicing centers</li>
                         <li>Dealers of electrical spare parts</li>
                         <li>Distributors of industrial tools and hardware</li>
@@ -769,7 +780,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Power tools used in a workshop, construction, fabrication and industrial maintenance may require component replacement following long-term use or electrical or mechanical damage. When an armature is to be replaced it is important to select the correct specification to bring the machine back.</p>
                     <p style="font-size: 14px;color: #666666;">The companies looking for armature manufacturer in Kochi, Kerala may require parts of different types of electric power tools. The best option will depend on the technical requirements and the machine.</p>
                     <p style="font-size: 14px;color: #666666;">Before you contact us it would be helpful if you could have the following ready:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Power tool brand and model number</li>
                         <li>Armature part number (if applicable)</li>
                         <li>Shaft length &amp; diameter</li>
@@ -793,7 +804,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">The armature dealer should have a stock of suitable replacement parts to be able to service repair shops and customers promptly. But it can be hard to stock every armature model because power tools are made differently and have internal motor parts.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools invites enquiries from armature dealers, spare parts traders and resellers in Kochi for possible supply arrangements.</p>
                     <p style="font-size: 14px;color: #666666;">As a dealer, we can research questions for you, such as:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Specifications for most requested armature types</li>
                         <li>Customer order product identification</li>
                         <li>Queries on different models</li>

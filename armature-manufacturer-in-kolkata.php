@@ -474,6 +474,18 @@
             background: #e3dedebf;
             box-shadow: -3px 4px 3px 0px #666;
         }
+
+
+        .ul_left_padding {
+            padding-left: 40px !important;
+        }
+
+
+        @media (max-width:620) {
+            .ul_left_padding {
+                padding-left: 20px !important;
+            }
+        }
     </style>
 </head>
 
@@ -620,7 +632,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                 <h1 style="margin-bottom: 10px;">Armature Manufacturer &amp; Supllier in Kolkata, West Bengal</h1>
+                    <h1 style="margin-bottom: 10px;">Armature Manufacturer &amp; Supllier in Kolkata, West Bengal</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Searching for reliable Armature Manufacturer in Kolkata, West Bengal for power tools, electric tools and replacement requirements? Vicky Power Tools is a Delhi based manufacturer and exporter of armatures, field coils, electric tools and power tools, serving customers and businesses in Kolkata and throughout West Bengal.</p>
                     <p style="font-size: 14px;color: #666666;">Since 1982, Vicky Power Tools has been engaged in manufacturing, and since 1986 in the dedicated production of armatures. It has developed a wide range of armatures for different power tools applications. The company is based in New Delhi and serves customers all over the country and abroad.</p>
                     <br><br>
@@ -745,7 +757,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Power-tools armatures are an important part of the operation of electric motors used in grinders, drills, cut-off machines, planers and other equipment.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools produces armatures that fit a wide range of power-tools brand models. Customers in Kolkata can request for replacement armatures by providing the machine brand, model number, existing armature details or photographs.</p>
                     <p style="font-size: 14px;color: #666666;">Our armature solutions are ideal for:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Angle Grinders</li>
                         <li>Electric Drill machine</li>
                         <li>Cut-Off Machines</li>
@@ -781,7 +793,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Kolkata is a good market for industrial equipment, workshops, construction tools, electrical products and machine repair services. Having appropriate spare parts available at the right time can be important for these companies.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is offering armatures for Power-Tools applications to clients across Kolkata and other parts of West Bengal.</p>
                     <p style="font-size: 14px;color: #666666;">Our products may be useful for:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Power tools repair stores</li>
                         <li>Electricity Workshop</li>
                         <li>hardware manufacturers</li>
@@ -819,7 +831,7 @@
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Power-tools dealers and distributors can use the right replacement components to service customers who need to repair machines.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools caters to businesses needing armatures for a range of compatible power-tools models.</p>
                     <p style="font-size: 14px;color: #666666;">Kolkata dealers can contact for:</p>
-                    <ul style="font-size: 14px;color: #666666;">
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
                         <li>Regular supply of armatures</li>
                         <li>Bulk specifications</li>
                         <li>Armatures For Each Model</li>
@@ -881,21 +893,115 @@
                 <div id="homePagecontent">
                     <h3>Frequently Asked Questions</h3>
 
-                    <h4>1. Who is a manufacture of armatures in Kolkata?</h4>
-                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi-based manufacturer and supplier of different types of armatures in Kolkata and West Bengal.</p>
+                    <div class="faq-accordion">
+                        <details>
+                            <summary>1. Who is a manufacture of armatures in Kolkata?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi-based manufacturer and supplier of different types of armatures in Kolkata and West Bengal.</p>
+                            </div>
+                        </details>
 
-                    <h4>2. Do you supply armatures to Kolkata?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes. Vicky Power Tools supplies all armatures to customers, dealers, repair shops and industrial buyers in Kolkata.</p>
+                        <details>
+                            <summary>2. Do you supply armatures to Kolkata?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes. Vicky Power Tools supplies all armatures to customers, dealers, repair shops and industrial buyers in Kolkata.</p>
+                            </div>
+                        </details>
 
-                    <h4>3. Is Vicky Power Tools located in Kolkata?</h4>
-                    <p style="font-size: 14px;color: #666666;">No, Vicky Power Tools is located in New Delhi but supplies armatures in Kolkata and other locations of West Bengal.</p>
+                        <details>
+                            <summary>3. Is Vicky Power Tools located in Kolkata?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">No, Vicky Power Tools is located in New Delhi but supplies armatures in Kolkata and other locations of West Bengal.</p>
+                            </div>
+                        </details>
 
-                    <h4>4. Can I contact vicky power tools for armature as an dealer in Kolkata?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes, all Dealers, distributors and resellers in Kolkata can contact Vicky Power Tools for their armature requirements.</p>
+                        <details>
+                            <summary>4. Can I contact vicky power tools for armature as an dealer in Kolkata?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes, all Dealers, distributors and resellers in Kolkata can contact Vicky Power Tools for their armature requirements.</p>
+                            </div>
+                        </details>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .faq-accordion details {
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .faq-accordion summary {
+            cursor: pointer;
+            list-style: none;
+            position: relative;
+            padding: 14px 50px 14px 18px;
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .faq-accordion summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-accordion summary::after {
+            content: '+';
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: 400;
+            color: #19234F;
+        }
+
+        .faq-accordion summary:hover {
+            background: #f8f8f8;
+        }
+
+        .faq-accordion details[open] summary {
+            background: #19234F;
+            color: #fff;
+        }
+
+        .faq-accordion details[open] summary::after {
+            content: '\2212';
+            color: #fff;
+        }
+
+        .faq-accordion .faq-answer {
+            padding: 15px 18px 5px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        @media (max-width: 480px) {
+            .faq-accordion summary {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <script>
+        // Ek FAQ khulne par baaki band ho jayein
+        document.querySelectorAll('.faq-accordion details').forEach(function(item) {
+            item.addEventListener('toggle', function() {
+                if (item.open) {
+                    document.querySelectorAll('.faq-accordion details').forEach(function(other) {
+                        if (other !== item) {
+                            other.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 
     <!-- ===================== NEW CONTENT END ===================== -->
 
