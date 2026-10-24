@@ -631,7 +631,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer - supplier in Bhubaneswar, Odisha</h1>
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer - Supplier in Bhubaneswar, Odisha</h1>
                     <p class="pb-4" style="font-size: 14px;color: #666666;">The right armature is key to dependable machine operation in situations such as fixing electric power tools or replacing worn motor parts. Repair shops, hardware stores, power tool distributors and industrial maintenance businesses need armatures that meet the technical specifications of their equipment.</p>
                     <p style="font-size: 14px;color: #666666;">Delhi based armature manufacturer and supplier Vicky Power Tools is offering armatures for selected compatible power tools and electric motor applications. With experience from the power tools industry we cater to product queries from different parts of India including businesses looking for armature manufacturers in Bhubaneswar, Odisha.</p>
                     <br><br>
