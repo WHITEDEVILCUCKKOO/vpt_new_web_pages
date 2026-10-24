@@ -877,18 +877,117 @@
         <div class="row">
             <div class="col-lg-12">
                 <div id="homePagecontent">
-                    <h4>1. Who is the armature maker for Bhubaneswar, Odisha?</h4>
-                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a manufacturer and supplier of armatures in Delhi and they receive product enquiries from Bhubaneswar and other parts of Odisha. The customers can call the company to know if there are compatible armatures available.</p>
-                    <h4>2. Where can I find armature suppliers in Bhubaneswar?</h4>
-                    <p style="font-size: 14px;color: #666666;">For replacement armatures of power tools, customers in Bhubaneswar can contact Vicky Power Tools in New Delhi.</p>
-                    <h4>3. How do I choose the right armature for my power tool?</h4>
-                    <p style="font-size: 14px;color: #666666;">There are original pictures and measurements of the armature. Brand &amp; model number of power tool. The shaft dimensions, gear specifications, bearing positions and commutator details allow you to check for compatibility.</p>
-                    <h4>4. Does Vicky Power Tools have manufacturing unit at Bhubaneswar?</h4>
-                    <p style="font-size: 14px;color: #666666;">No. Vicky Power Tools is situated in New Delhi. But it has not claimed to have a manufacturing unit at Bhubaneswar. It receives enquiries from Bhubaneswar and other parts of Odisha.</p>
+                    <h3>Frequently Asked Questions</h3>
+
+                    <div class="faq-accordion">
+                        <details>
+                            <summary>1. Who is the armature maker for Bhubaneswar, Odisha?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a manufacturer and supplier of armatures in Delhi and they receive product enquiries from Bhubaneswar and other parts of Odisha. The customers can call the company to know if there are compatible armatures available.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>2. Where can I find armature suppliers in Bhubaneswar?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">For replacement armatures of power tools, customers in Bhubaneswar can contact Vicky Power Tools in New Delhi.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>3. How do I choose the right armature for my power tool?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">There are original pictures and measurements of the armature. Brand &amp; model number of power tool. The shaft dimensions, gear specifications, bearing positions and commutator details allow you to check for compatibility.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>4. Does Vicky Power Tools have manufacturing unit at Bhubaneswar?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">No. Vicky Power Tools is situated in New Delhi. But it has not claimed to have a manufacturing unit at Bhubaneswar. It receives enquiries from Bhubaneswar and other parts of Odisha.</p>
+                            </div>
+                        </details>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .faq-accordion details {
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .faq-accordion summary {
+            cursor: pointer;
+            list-style: none;
+            position: relative;
+            padding: 14px 50px 14px 18px;
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .faq-accordion summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-accordion summary::after {
+            content: '+';
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: 400;
+            color: #19234F;
+        }
+
+        .faq-accordion summary:hover {
+            background: #f8f8f8;
+        }
+
+        .faq-accordion details[open] summary {
+            background: #19234F;
+            color: #fff;
+        }
+
+        .faq-accordion details[open] summary::after {
+            content: '\2212';
+            color: #fff;
+        }
+
+        .faq-accordion .faq-answer {
+            padding: 15px 18px 5px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        @media (max-width: 480px) {
+            .faq-accordion summary {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <script>
+        // Ek FAQ khulne par baaki band ho jayein
+        document.querySelectorAll('.faq-accordion details').forEach(function(item) {
+            item.addEventListener('toggle', function() {
+                if (item.open) {
+                    document.querySelectorAll('.faq-accordion details').forEach(function(other) {
+                        if (other !== item) {
+                            other.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 
     <!-- ===================== NEW CONTENT END ===================== -->
 
