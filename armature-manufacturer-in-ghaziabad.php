@@ -878,22 +878,131 @@
         <div class="row">
             <div class="col-lg-12">
                 <div id="homePagecontent">
-                    <h4>1. Who is the armature manufacturer serving in Ghaziabad?</h4>
-                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi-based manufacturer and supplier of armatures serving in Ghaziabad and other Delhi NCR locations.</p>
-                    <h4>2. Do you supply replacement armatures in Ghaziabad?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes. Vicky Power Tools supplies different types of replacement armatures to customers, dealers, repair shops etc. in Ghaziabad.</p>
-                    <h4>3. Do you have an armature dealer in Ghaziabad?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes, we have customers and dealers in Ghaziabad who can contact Vicky Power Tools directly for their requirements.</p>
-                    <h4>4. How can I find the correct armature for my machine?</h4>
-                    <p style="font-size: 14px;color: #666666;">Just by sharing the brand name, model number, dimensions or clear picture of the armature and machine.</p>
-                    <h4>5. Is Vicky Power Tools located in Ghaziabad?</h4>
-                    <p style="font-size: 14px;color: #666666;">No. Vicky Power Tools is located in New Delhi but serves in Ghaziabad and across Delhi NCR.</p>
-                    <h4>6. Do you supply armatures to power-tools repair shops?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes. We supply different armatures to power tools repair shops and service professionals.</p>
+                    <h3>Frequently Asked Questions</h3>
+
+                    <div class="faq-accordion">
+                        <details>
+                            <summary>1. Who is the armature manufacturer serving in Ghaziabad?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi-based manufacturer and supplier of armatures serving in Ghaziabad and other Delhi NCR locations.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>2. Do you supply replacement armatures in Ghaziabad?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes. Vicky Power Tools supplies different types of replacement armatures to customers, dealers, repair shops etc. in Ghaziabad.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>3. Do you have an armature dealer in Ghaziabad?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes, we have customers and dealers in Ghaziabad who can contact Vicky Power Tools directly for their requirements.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>4. How can I find the correct armature for my machine?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Just by sharing the brand name, model number, dimensions or clear picture of the armature and machine.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>5. Is Vicky Power Tools located in Ghaziabad?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">No. Vicky Power Tools is located in New Delhi but serves in Ghaziabad and across Delhi NCR.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>6. Do you supply armatures to power-tools repair shops?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes. We supply different armatures to power tools repair shops and service professionals.</p>
+                            </div>
+                        </details>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .faq-accordion details {
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .faq-accordion summary {
+            cursor: pointer;
+            list-style: none;
+            position: relative;
+            padding: 14px 50px 14px 18px;
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .faq-accordion summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-accordion summary::after {
+            content: '+';
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: 400;
+            color: #19234F;
+        }
+
+        .faq-accordion summary:hover {
+            background: #f8f8f8;
+        }
+
+        .faq-accordion details[open] summary {
+            background: #19234F;
+            color: #fff;
+        }
+
+        .faq-accordion details[open] summary::after {
+            content: '\2212';
+            color: #fff;
+        }
+
+        .faq-accordion .faq-answer {
+            padding: 15px 18px 5px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        @media (max-width: 480px) {
+            .faq-accordion summary {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <script>
+        // Ek FAQ khulne par baaki band ho jayein
+        document.querySelectorAll('.faq-accordion details').forEach(function(item) {
+            item.addEventListener('toggle', function() {
+                if (item.open) {
+                    document.querySelectorAll('.faq-accordion details').forEach(function(other) {
+                        if (other !== item) {
+                            other.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 
     <!-- ===================== NEW CONTENT END ===================== -->
 

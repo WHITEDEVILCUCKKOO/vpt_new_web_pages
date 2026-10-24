@@ -857,22 +857,131 @@
         <div class="row">
             <div class="col-lg-12">
                 <div id="homePagecontent">
-                    <h4>1. Do you supply armatures to customers in Chennai?</h4>
-                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools is an armature manufacturer based in Delhi, supplying armatures to customers all over India, including Chennai and Tamil Nadu.</p>
-                    <h4>2. Can I contact Vicky Power Tools as a dealer in armature in Chennai?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes. Dealers, distributors and resellers can enquire on compatible armatures, availability of products and bulk requirements.</p>
-                    <h4>3. Is Vicky Power Tools situated in Chennai?</h4>
-                    <p style="font-size: 14px;color: #666666;">No. The company is based in New Delhi and caters to its customers in Chennai through its operations from New Delhi.</p>
-                    <h4>4. Can you order a replacement armature from a photo?</h4>
-                    <p style="font-size: 14px;color: #666666;">A clear photo can help in identification, especially when used with the machine brand, model number and dimensions available. Please check final compatibility before ordering.</p>
-                    <h4>5. Are custom armatures manufactured by Vicky Power Tools?</h4>
-                    <p style="font-size: 14px;color: #666666;">The company manufactures products according to customer requirements, samples and specifications. Technical review applies to custom work.</p>
-                    <h4>6. How to choose the right armature for an industrial tool?</h4>
-                    <p style="font-size: 14px;color: #666666;">Just by providing machine model, technical specifications, shaft and gear information, and photograph of armature.</p>
+                    <h3>Frequently Asked Questions</h3>
+
+                    <div class="faq-accordion">
+                        <details>
+                            <summary>1. Do you supply armatures to customers in Chennai?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Vicky Power Tools is an armature manufacturer based in Delhi, supplying armatures to customers all over India, including Chennai and Tamil Nadu.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>2. Can I contact Vicky Power Tools as a dealer in armature in Chennai?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes. Dealers, distributors and resellers can enquire on compatible armatures, availability of products and bulk requirements.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>3. Is Vicky Power Tools situated in Chennai?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">No. The company is based in New Delhi and caters to its customers in Chennai through its operations from New Delhi.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>4. Can you order a replacement armature from a photo?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">A clear photo can help in identification, especially when used with the machine brand, model number and dimensions available. Please check final compatibility before ordering.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>5. Are custom armatures manufactured by Vicky Power Tools?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">The company manufactures products according to customer requirements, samples and specifications. Technical review applies to custom work.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>6. How to choose the right armature for an industrial tool?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Just by providing machine model, technical specifications, shaft and gear information, and photograph of armature.</p>
+                            </div>
+                        </details>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .faq-accordion details {
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .faq-accordion summary {
+            cursor: pointer;
+            list-style: none;
+            position: relative;
+            padding: 14px 50px 14px 18px;
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .faq-accordion summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-accordion summary::after {
+            content: '+';
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: 400;
+            color: #19234F;
+        }
+
+        .faq-accordion summary:hover {
+            background: #f8f8f8;
+        }
+
+        .faq-accordion details[open] summary {
+            background: #19234F;
+            color: #fff;
+        }
+
+        .faq-accordion details[open] summary::after {
+            content: '\2212';
+            color: #fff;
+        }
+
+        .faq-accordion .faq-answer {
+            padding: 15px 18px 5px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        @media (max-width: 480px) {
+            .faq-accordion summary {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <script>
+        // Ek FAQ khulne par baaki band ho jayein
+        document.querySelectorAll('.faq-accordion details').forEach(function(item) {
+            item.addEventListener('toggle', function() {
+                if (item.open) {
+                    document.querySelectorAll('.faq-accordion details').forEach(function(other) {
+                        if (other !== item) {
+                            other.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 
     <!-- ===================== NEW CONTENT END ===================== -->
 

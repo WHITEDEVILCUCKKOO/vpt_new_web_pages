@@ -872,20 +872,124 @@
         <div class="row">
             <div class="col-lg-12">
                 <div id="homePagecontent">
-                    <h4>1. Which armature manufacturer serving in Visakhapatnam?</h4>
-                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a New Delhi based armature’s manufacturer and supplier of armatures serving to the customers across India, including Visakhapatnam.</p>
-                    <h4>2. Can I contact an armature dealer in Visakhapatnam?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes, Customers looking for armatures in Visakhapatnam can contact Vicky Power Tools directly by visiting its website www.vickypowertools.com</p>
-                    <h4>3. Do you supply armatures to dealers and repair shops in Visakhapatnam?</h4>
-                    <p style="font-size: 14px;color: #666666;">Yes. All powerspeed armatures are available in different Dealers, resellers, repair centres and workshops.</p>
-                    <h4>4. How do I identify the correct armature for my power tool?</h4>
-                    <p style="font-size: 14px;color: #666666;">Just by providing brand, exact model number, dimensions and photographs of the existing armature.</p>
-                    <h4>5. Is Vicky Power Tools located in Visakhapatnam?</h4>
-                    <p style="font-size: 14px;color: #666666;">No. The company is a New Delhi based company who serves customers to Visakhapatnam and other parts of Andhra Pradesh.</p>
+                    <h3>Frequently Asked Questions</h3>
+
+                    <div class="faq-accordion">
+                        <details>
+                            <summary>1. Which armature manufacturer serving in Visakhapatnam?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a New Delhi based armature’s manufacturer and supplier of armatures serving to the customers across India, including Visakhapatnam.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>2. Can I contact an armature dealer in Visakhapatnam?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes, Customers looking for armatures in Visakhapatnam can contact Vicky Power Tools directly by visiting its website www.vickypowertools.com</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>3. Do you supply armatures to dealers and repair shops in Visakhapatnam?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Yes. All powerspeed armatures are available in different Dealers, resellers, repair centres and workshops.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>4. How do I identify the correct armature for my power tool?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">Just by providing brand, exact model number, dimensions and photographs of the existing armature.</p>
+                            </div>
+                        </details>
+
+                        <details>
+                            <summary>5. Is Vicky Power Tools located in Visakhapatnam?</summary>
+                            <div class="faq-answer">
+                                <p style="font-size: 14px;color: #666666;">No. The company is a New Delhi based company who serves customers to Visakhapatnam and other parts of Andhra Pradesh.</p>
+                            </div>
+                        </details>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <style>
+        .faq-accordion details {
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .faq-accordion summary {
+            cursor: pointer;
+            list-style: none;
+            position: relative;
+            padding: 14px 50px 14px 18px;
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .faq-accordion summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-accordion summary::after {
+            content: '+';
+            position: absolute;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            font-weight: 400;
+            color: #19234F;
+        }
+
+        .faq-accordion summary:hover {
+            background: #f8f8f8;
+        }
+
+        .faq-accordion details[open] summary {
+            background: #19234F;
+            color: #fff;
+        }
+
+        .faq-accordion details[open] summary::after {
+            content: '\2212';
+            color: #fff;
+        }
+
+        .faq-accordion .faq-answer {
+            padding: 15px 18px 5px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        @media (max-width: 480px) {
+            .faq-accordion summary {
+                font-size: 15px;
+            }
+        }
+    </style>
+
+    <script>
+        // Ek FAQ khulne par baaki band ho jayein
+        document.querySelectorAll('.faq-accordion details').forEach(function(item) {
+            item.addEventListener('toggle', function() {
+                if (item.open) {
+                    document.querySelectorAll('.faq-accordion details').forEach(function(other) {
+                        if (other !== item) {
+                            other.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 
     <!-- ===================== NEW CONTENT END ===================== -->
 
