@@ -197,6 +197,13 @@
             transition: all 0.3s ease;
         }
 
+
+            @media (max-width:419px) {
+            .desktop-logo {
+                width: 117px !important;
+            }
+        }
+
         .mobile-menu-button.active .icon-bar:nth-child(1) { transform: rotate(-45deg) translate(-5px, 6px); }
         .mobile-menu-button.active .icon-bar:nth-child(2) { opacity: 0; }
         .mobile-menu-button.active .icon-bar:nth-child(3) { transform: rotate(45deg) translate(-5px, -6px); }
