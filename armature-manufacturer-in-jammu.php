@@ -633,7 +633,7 @@
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
                     <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; supplier in Jammu</h1>
-                    <h4>PowerSpeed Armatures for Replacement and Repair of Power Tools</h4>
+                    <!-- <h4>PowerSpeed Armatures for Replacement and Repair of Power Tools</h4> -->
                     <p class="pb-4" style="font-size: 14px;color: #666666;">The performance of a power tool is determined by the condition and compatibility of its motor components. Choosing the correct armature if one is to be replaced is important for proper fit and reliable machine operation.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a reference point for repair technicians, electrical spare parts dealers, workshops and industrial buyers looking for an armature manufacturer in Jammu for compatible power tool armature enquiries.</p>
                     <p style="font-size: 14px;color: #666666;">PowerSpeed is a brand name for armatures, field coils, electric tools and power tool components manufacturer and supplier based in Delhi. The company was incorporated in the year 1982 and caters to customers across India and business houses in Jammu and other parts of Jammu &amp; Kashmir.</p>
