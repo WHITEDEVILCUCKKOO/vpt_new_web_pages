@@ -198,11 +198,12 @@
         }
 
 
-            @media (max-width:419px) {
+          @media (max-width:419px) {
             .desktop-logo {
                 width: 117px !important;
+                height: max-content !important;
+                margin: 0 !important;
             }
-        }
 
         .mobile-menu-button.active .icon-bar:nth-child(1) { transform: rotate(-45deg) translate(-5px, 6px); }
         .mobile-menu-button.active .icon-bar:nth-child(2) { opacity: 0; }
