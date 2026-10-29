@@ -301,11 +301,12 @@
             z-index: 5;
         }
 
-    @media (max-width:419px) {
+     @media (max-width:419px) {
             .desktop-logo {
                 width: 117px !important;
+                height: max-content !important;
+                margin: 0 !important;
             }
-        }
 
         @media (max-width: 768px) {
             body { padding-top: 70px !important; }
