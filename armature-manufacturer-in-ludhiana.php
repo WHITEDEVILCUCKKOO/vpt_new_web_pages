@@ -287,7 +287,7 @@
                 width: 117px !important;
                 height: max-content !important;
                 margin: 0 !important;
-            }
+            }}
 
         /* Footer */
         #footer { background-color: #ff6300; }
