@@ -498,7 +498,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturers &amp; distributor in Raipur, Chhattisgarh</h1>
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturers &amp; Distributor in Raipur, Chhattisgarh</h1>
                     <!-- <h3>Power Tool Armatures for Power Tool Repair and Industrial Use</h3> -->
                     <p class="pb-4" style="font-size: 14px;color: #666666;">An important step in repairing a power tool when it stops working properly is finding the right replacement component. Choosing a compatible armature can help ensure correct fitting and reliable operation of the equipment, for repair technicians, spare parts dealers, workshops and industrial buyers.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools is a Delhi based manufacturer and supplier of armatures, field coils and power tool components under the brand name PowerSpeed. Since 1982, we cater to customers across India including businesses looking for armature manufacturer in Raipur, Chhattisgarh.</p>

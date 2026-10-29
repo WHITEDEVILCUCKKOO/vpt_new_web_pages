@@ -498,7 +498,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; supplier in Patna, Bihar</h1>
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; Supplier in Patna, Bihar</h1>
                     <!-- <h3>Find appropriate armatures for power tool repair and replacement</h3> -->
                     <p class="pb-4" style="font-size: 14px;color: #666666;">If you need to repair a power tool, it is important to locate the correct replacement armature so you can get the machine back in working order. Spare parts retailers, industrial buyers, and repair technicians require components that meet the original equipment’s design and specifications.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools of Delhi is a manufacturer and supplier of armatures, field coils, electric tools and power tool components under the trade name PowerSpeed. Founded in 1982, we have clients throughout India including those looking for an armature manufacturer in Patna, Bihar.</p>

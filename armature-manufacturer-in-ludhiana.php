@@ -498,7 +498,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
-                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; distributor in Ludhiana, Punjab</h1>
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; Distributor in Ludhiana, Punjab</h1>
                     <!-- <h3>Power Tool Armatures for Industrial Buyers, Dealers and Repair Shops</h3> -->
                     <p class="pb-4" style="font-size: 14px;color: #666666;">Ludhiana is an important industrial and manufacturing center in Punjab with businesses relating to engineering, fabrication, machinery, automotive components and equipment maintenance. For the maintenance work and routine repairs of these enterprises, the availability of suitable electric motor parts and power tool spare parts is vital.</p>
                     <p style="font-size: 14px;color: #666666;">If you are looking for an armature manufacturer in Ludhiana or an armature supplier in Punjab or a reliable source for compatible power tool armatures, then Vicky Power Tools can help you in inquiring about suitable products for your needs.</p>
