@@ -3,2185 +3,1012 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Vicky Power Tools</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Add All Genereal Links -->
-    <?php include_once 'includes/all_links.php'; ?>
-
-</head>
-
-<!-- Add Header -->
-<?php include_once 'includes/header.php'; ?>
-
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #222;
-        line-height: 1.7;
-        background: #f7f8fa;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .container {
-        width: 90%;
-        max-width: 1200px;
-        margin: auto;
-        position: relative;
-    }
-
-    /* HERO */
-    .hero {
-        background: linear-gradient(135deg, rgba(8, 18, 35, .95), rgba(18, 53, 86, .92)), url("images/armature-manufacturing.jpg") center/cover;
-        padding: 110px 0;
-        color: #fff;
-    }
-
-    .hero-content {
-        max-width: 780px;
-    }
-
-    .tag {
-        display: inline-block;
-        background: #f7941d;
-        color: #fff;
-        padding: 7px 18px;
-        border-radius: 30px;
-        font-size: 14px;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    .hero h1 {
-        font-size: 52px;
-        line-height: 1.15;
-        margin-bottom: 22px;
-    }
-
-    .hero p {
-        font-size: 19px;
-        color: #e6edf5;
-        margin-bottom: 32px;
-    }
-
-    .buttons {
-        display: flex;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .btn {
-        padding: 14px 28px;
-        border-radius: 5px;
-        font-weight: bold;
-        display: inline-block;
-        transition: .3s;
-    }
-
-    .btn-primary {
-        background: #f7941d;
-        color: #fff;
-    }
-
-    .btn-primary:hover {
-        background: #db7608;
-        transform: translateY(-2px);
-    }
-
-    .btn-outline {
-        border: 1px solid #fff;
-        color: #fff;
-    }
-
-    .btn-outline:hover {
-        background: #fff;
-        color: #16283d;
-    }
-
-    /* STATS */
-    .stats {
-        margin-top: -45px;
-        position: relative;
-    }
-
-    .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        background: #fff;
-        box-shadow: 0 10px 35px rgba(0, 0, 0, .1);
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .stat {
-        text-align: center;
-        padding: 28px 15px;
-        border-right: 1px solid #eee;
-    }
-
-    .stat:last-child {
-        border-right: 0;
-    }
-
-    .stat h3 {
-        color: #f7941d;
-        font-size: 30px;
-    }
-
-    .stat p {
-        color: #555;
-        font-size: 14px;
-    }
-
-    /* SECTIONS */
-    section {
-        padding: 85px 0;
-    }
-
-    .section-title {
-        text-align: center;
-        margin-bottom: 45px;
-    }
-
-    .section-title span {
-        color: #f7941d;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 14px;
-        letter-spacing: 1px;
-    }
-
-    .section-title h2 {
-        font-size: 38px;
-        color: #15283d;
-        margin-top: 8px;
-    }
-
-    .section-title p {
-        max-width: 750px;
-        margin: 12px auto 0;
-        color: #666;
-    }
-
-    /* ABOUT */
-    .about-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 50px;
-        align-items: center;
-    }
-
-    .about-image {
-        width: 400px;
-        border-radius: 12px;
-        background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url("images/armature-factory.jpg") center/cover;
-    }
-
-    .about-content h2 {
-        font-size: 36px;
-        color: #15283d;
-        margin-bottom: 20px;
-    }
-
-    .about-content p {
-        margin-bottom: 15px;
-        color: #555;
-    }
-
-    /* PRODUCTS */
-    .products {
-        background: #fff;
-    }
-
-    .product-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 22px;
-    }
-
-    .product-card {
-        background: #f8f9fb;
-        padding: 30px;
-        border-radius: 10px;
-        border: 1px solid #e8e8e8;
-        transition: .3s;
-    }
-
-    .product-card:hover {
-        transform: translateY(-7px);
-        box-shadow: 0 12px 30px rgba(0, 0, 0, .09);
-        border-color: #f7941d;
-    }
-
-    .product-icon {
-        width: 55px;
-        height: 55px;
-        background: #fff0df;
-        color: #f7941d;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        margin-bottom: 18px;
-    }
-
-    .product-card h3 {
-        color: #15283d;
-        margin-bottom: 10px;
-    }
-
-    .product-card p {
-        color: #666;
-        font-size: 15px;
-    }
-
-    /* INDUSTRIES / CUSTOMERS */
-    .industry-section {
-        background: #15283d;
-        color: #fff;
-    }
-
-    .industry-section .section-title h2 {
-        color: #fff;
-    }
-
-    .industry-section .section-title p {
-        color: #cbd5df;
-    }
-
-    .industry-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
-
-    .industry {
-        border: 1px solid rgba(255, 255, 255, .15);
-        padding: 25px;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, .04);
-    }
-
-    .industry h3 {
-        margin-bottom: 8px;
-    }
-
-    .industry p {
-        color: #cbd5df;
-        font-size: 14px;
-    }
-
-    /* OEM */
-    .oem {
-        background: #fff;
-    }
-
-    .oem-box {
-        background: linear-gradient(135deg, #fff5e8, #ffffff);
-        padding: 50px;
-        border-left: 5px solid #f7941d;
-        border-radius: 10px;
-    }
-
-    .oem-box h2 {
-        color: #15283d;
-        margin-bottom: 15px;
-    }
-
-    .oem-box p {
-        color: #555;
-        margin-bottom: 15px;
-    }
-
-    .oem-list {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        text-align: center;
-        gap: 10px;
-        margin-top: 20px;
-    }
-
-    .oem-list div {
-        font-weight: 600;
-        width: max-content;
-    }
-
-    .oem-list div::before {
-        content: "✓";
-        color: #f7941d;
-        margin-right: 8px;
-    }
-
-    /* FAQ */
-    .faq {
-        max-width: 850px;
-        margin: auto;
-    }
-
-    .faq-item {
-        background: #fff;
-        margin-bottom: 12px;
-        border-radius: 7px;
-        overflow: hidden;
-        border: 1px solid #e5e5e5;
-    }
-
-    .faq-question {
-        padding: 18px 22px;
-        font-weight: bold;
-        cursor: pointer;
-        color: #15283d;
-        position: relative;
-    }
-
-    .faq-question::after {
-        content: "+";
-        position: absolute;
-        right: 22px;
-        font-size: 20px;
-    }
-
-    .faq-answer {
-        display: none;
-        padding: 0 22px 20px;
-        color: #666;
-    }
-
-    .faq-item.active .faq-answer {
-        display: block;
-    }
-
-    .faq-item.active .faq-question::after {
-        content: "-";
-    }
-
-    /* CTA */
-    .cta {
-        background: linear-gradient(135deg, #f7941d, #d96f05);
-        color: #fff;
-        text-align: center;
-    }
-
-    .cta h2 {
-        font-size: 40px;
-        margin-bottom: 15px;
-    }
-
-    .cta p {
-        max-width: 700px;
-        margin: 0 auto 28px;
-    }
-
-    .cta .btn {
-        background: #15283d;
-        color: #fff;
-    }
-
-    /* RESPONSIVE */
-    @media(max-width:900px) {
-        .hero h1 {
-            font-size: 40px;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Tools Armature list | PowerSpeed</title>
+
+    <meta name="description" content="Vicky Power Tools - Leading Armature Manufacturer in New Delhi, India. Specialists in armatures For Angle Grinder, Drill Machine, hammer Drill, cutter Machine, Blower, Vacuum Motors and More." />
+    <meta name="keywords" content="Armature Manufacturer, Armature Specialist, Power Tools Armature, Armature Exporter, Armatures India, Armature New Delhi" />
+
+    <link rel="canonical" href="https://www.vickypowertools.com/armartures.php">
+    <meta name="robots" content="index, follow">
+    <meta name="allow-search" content="yes" />
+    <Meta name="author" content="Vicky Power Tools" />
+    <Meta name="revisit-after" content="3 days" />
+    <Meta name="country" content="India" />
+    <Meta name="geography" content="71/2-A, Rama Rd, Moti Nagar, Industrial Area, Najafgarh Road Industrial Area, New Delhi, Delhi, 110015" />
+    <Meta name="contactNumber" content="+91-011-45042377" />
+    <Meta name="dc.language" content="english" />
+    <Meta name="geo.region" content="IN-DL" />
+    <Meta name="geo.placename" content="New Delhi" />
+    <Meta name="geo.position" content="28.652239,77.0866417" />
+    <Meta name="ICBM" content="28.652239,77.0866417" />
+    <meta property="og:image" content="img/VPT-For-White00.png" />
+    <meta property="og:url" content="https://www.vickypowertools.com/armartures.php" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.vickypowertools.com/" />
+    <meta property="twitter:title" content="Power Tools Armature list | PowerSpeed" />
+    <meta property="twitter:description" content="Vicky Power Tools is India's No.1 Manufacturer and Exporter Armature, Field Coil, Power Tools in New Delhi, India" />
+    <meta property="twitter:image" content="img/VPT-For-White00.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon1.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700%7CMontserrat:400,500,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/extra.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5BNP7DPLW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-B5BNP7DPLW');
+    </script>
+
+    <style>
+        .twoLine_productInfo { display: none !important; }
+        .twoLine_diable { display: flex !important; }
+
+        @media (max-width:1199px) {
+            .twoLine_productInfo {
+                display: grid !important;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+                padding-bottom: 25px;
+            }
+            .twoLine_diable { display: none !important; }
+            .linksBox p {
+                padding: 9px 0px;
+                padding-left: 4px;
+                margin-bottom: 0px;
+                font-size: 18px !important;
+            }
         }
 
-        .stats-grid,
-        .product-grid,
-        .industry-grid {
-            grid-template-columns: repeat(2, 1fr);
+        @media (max-width:419px) {
+            .linksBox p { font-size: 15px !important; }
         }
 
-        .about-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    @media(max-width:600px) {
-        .hero {
-            padding: 75px 0;
-        }
-
-        .hero h1 {
-            font-size: 34px;
-        }
-
-        .hero p {
-            font-size: 16px;
-        }
-
-        .stats-grid,
-        .product-grid,
-        .industry-grid,
-        .oem-list {
-            grid-template-columns: 1fr;
-        }
-
-        .stat {
-            border-right: 0;
-            border-bottom: 1px solid #eee;
-        }
-
-        section {
-            padding: 60px 0;
-        }
-
-        .section-title h2 {
-            font-size: 30px;
-        }
-
-        .oem-box {
-            padding: 30px 22px;
-        }
-
-        .cta h2 {
-            font-size: 30px;
-        }
-    }
-
-    .uoasdu {
-        width: 100%;
-        border-radius: 15px;
-    }
-
-    .asdhuiih {
-        position: absolute;
-        width: 300px;
-        left: 100%;
-        top: 50%;
-        transform: translate(-100%, -50%);
-        border-radius: 15px;
-        overflow: hidden;
-        margin-top: 26px;
-
-        img {
-            transition: .25s ease;
+        /* Custom styles for navbar */
+        .navbar-main {
+            background-color: #ffffff !important;
+            border-color: #e7e7e7;
+            min-height: 80px;
+            margin-bottom: 0;
+            border-radius: 0;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed !important;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1030;
             width: 100%;
         }
-    }
 
-    .asdhuiih:hover img {
-        transform: scale(1.05);
-        transition: .25s ease;
-    }
-
-    @media (max-width:640px) {
-        .asdhuiih {
-            display: none !important;
-        }
-    }
-
-    /* ALIGNMENT FIXES */
-    .section-title {
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .section-title h2 {
-        font-size: 40px;
-        letter-spacing: 1px;
-        width: 100%;
-        text-align: center !important;
-    }
-
-    .section-title p,
-    .oem-box h2,
-    .oem-box p,
-    div[style*="text-align:center"] p,
-    p[style*="text-align:center"] {
-        text-align: center !important;
-    }
-
-    .about-content h2 {
-        text-align: left;
-    }
-
-    @media(max-width:600px) {
-        .section-title h2 {
-            font-size: 28px;
-        }
-    }
-
-    .note-box {
-        margin-top: 25px;
-        background: #fff8ef;
-        border: 1px solid #f7d9b0;
-        border-left: 5px solid #f7941d;
-        border-radius: 6px;
-        padding: 16px 22px;
-        color: #555;
-        font-size: 15px;
-        text-align: center;
-    }
-
-
-    @media (max-width:494px) {
-        .about-image {
-            width: 293px !important;
-        }
-
-        .oem-list div {
-            width: 100% !important;
-        }
-    }
-
-      h2{
-        font-size: 30px !important;
-    }
-</style>
-
-
-<!-- HERO -->
-<section class="hero">
-    <div class="container" style="padding-top:60px;">
-        <div class="hero-content">
-
-            <h2 style="color: #fff;">Welcome to Vicky Power Tools</h2>
-
-            <p>
-                Manufacturing quality-driven Armatures, Field Coils, Electric Tools & Special Purpose Motors at competitive prices.
-            </p>
-
-            <div class="buttons" style="justify-content: left;">
-                <a href="https://wa.me/918595734416?text=Hello%20Vicky%20Power%20Tools%2C%20I%20need%20a%20quote%20for%20armature." target="_blank" rel="noopener" class="btn btn-primary">Get a Quote</a>
-                <a href="tel:+918595734416" class="btn btn-outline">Call Now</a>
-            </div>
-        </div>
-
-        <span class="asdhuiih">
-            <img src="assets_2_0/img/armarture1.jpg" alt="">
-        </span>
-    </div>
-</section>
-
-
-<!-- STATS -->
-<div class="stats">
-    <div class="container">
-        <div class="stats-grid">
-
-            <div class="stat">
-                <h3>40+</h3>
-                <p style="text-align: center;">Years of Industry Experience</p>
-            </div>
-
-            <div class="stat">
-                <h3>2000+</h3>
-                <p style="text-align: center;">Armature Models</p>
-            </div>
-
-            <div class="stat">
-                <h3>OEM</h3>
-                <p style="text-align: center;">Customized Solutions</p>
-            </div>
-
-            <div class="stat">
-                <h3>India</h3>
-                <p style="text-align: center;">Supply & Export Support</p>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-<!-- section -->
-<style>
-    /* Aapke layout ke liye specific unique CSS (No *, :root, html, body) */
-    .vpt-about-section {
-        padding: 60px 20px;
-        /* background: #ffffff; */
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    }
-
-    .vpt-about-section .container {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .vpt-about-section .about-grid {
-        display: grid;
-        grid-template-columns: 1fr 1.5fr;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .vpt-about-section .about-image img.uoasdu {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        object-fit: cover;
-    }
-
-    .vpt-about-section .about-content h2,
-    .vpt-about-section .about-content h3 {
-        font-size: 24px;
-        font-weight: bold;
-        color: #111111;
-        margin-bottom: 20px;
-        line-height: 1.4;
-    }
-
-    .vpt-about-section .about-content p {
-        font-size: 15px;
-        line-height: 1.6;
-        margin-bottom: 20px;
-        color: #333333;
-    }
-
-    .vpt-about-section .about-content strong {
-        font-weight: 600;
-        color: #111111;
-    }
-
-    /* Responsive design for smaller screens */
-    @media (max-width: 768px) {
-        .vpt-about-section .about-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    .iahwdiawdsi {
-        padding: 15px 15px 10px;
-        position: relative;
-        transition: .25s ease;
-
-    }
-
-    .iahwdiawdsi::before {
-        content: '✅';
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: max-content;
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        transform: translateY(-50%);
-    }
-
-
-    .iahwdiawdsi:hover {
-        transform: scale(1.05);
-        transition: .25s ease;
-    }
-</style>
-
-<section class="vpt-about-section">
-    <div class="container">
-        <div class="about-grid">
-
-            <div class="about-image">
-                <img class="uoasdu" src="assets_2_0/img/00033.jpg" alt="Armature Manufacturers in Ahmedabad">
-            </div>
-
-            <div class="about-content">
-
-                <h1>Armature Manufacturer in Noida</h1>
-
-                <p>
-                    If you are searching for a Armature Manufacturer in Noida, Vicky Power Tools is a Delhi based manufacturer and supplier of power tool armatures catering to customers in Noida and the entire Delhi-NCR region.
-
-                    We manufacture and supply armatures, field coils and other power tool components for various applications. Our products are used for angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders and other electric tools compatible with power tools.
-
-                    Vicky Power Tools is located in New Delhi not in Noida. We are a Delhi based manufacturing and business location serving the needs of customers in Noida, providing Noida based dealers, workshops, repair centers, distributors and businesses with the ability to source power tool armatures.
-
-                </p>
-
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<!-- DEALER -->
-<section class="oem">
-    <div class="container">
-
-        <div class="oem-box">
-
-            <h2>Armature Manufacturer in Noida for Power Tool</h2>
-
-            <p>
-                Vicky Power Tools has been manufacturing and exporting armatures and field coils for Power Tools since 1982. The company is located in New Delhi and provides products to customers in various parts of India.
-
-                An armature is an essential part of an electric power tool motor. The right armature has to be compatible with the specific machine in model, shaft, gear, winding and other specs.
-
-                Hence, the customers searching for armature manufacturer in Noida can contact Vicky Power Tools with their machine model, existing armature photograph or technical specification.
-
-
-
-            </p>
-
-
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- section 3 -->
-<!-- MANUFACTURER GUJARAT -->
-<section class="products" style="display: none;">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Armature Manufacturer - Gujarat - Power Tools</h2>
-        </div>
-
-        <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
-
-            <p>
-                Vicky Power Tools manufacture and supply replacement armatures for a wide range of power tool applications. We aim for steady production, correct balancing, quality copper winding and precise gear construction.Properly manufactured armatures are important to the performance of an electric power tool . The proper armature can contribute to smooth rotation, efficient transmission of power and reliable operation.We offer armature options to customers who need replacement parts for repair, maintenance, wholesale and regular power tool needs.
-            </p>
-
-
-        </div>
-</section>
-
-
-<!-- PRODUCTS -->
-<style>
-    /* Is section ka CSS (scoped: sirf .arm-sec par lagu hoga) */
-    .arm-sec .arm-head {
-        max-width: 900px;
-        margin: 0 auto 45px;
-        text-align: center;
-    }
-
-    .arm-sec .arm-head h2 {
-        font-size: 40px;
-        letter-spacing: 1px;
-        color: #15283d;
-        margin-bottom: 18px;
-        text-align: center;
-    }
-
-    .arm-sec .arm-head p {
-        color: #666;
-        margin-bottom: 12px;
-        text-align: center !important;
-    }
-
-    .arm-sec .arm-head .arm-lead {
-        color: #15283d;
-        font-weight: bold;
-        margin-top: 22px;
-    }
-
-    .arm-sec .arm-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 22px;
-    }
-
-    .arm-sec .arm-card {
-        background: #f8f9fb;
-        border: 1px solid #e8e8e8;
-        border-radius: 10px;
-        padding: 30px;
-        transition: .3s;
-    }
-
-    .arm-sec .arm-card:hover {
-        transform: translateY(-7px);
-        box-shadow: 0 12px 30px rgba(0, 0, 0, .09);
-        border-color: #f7941d;
-    }
-
-    .arm-sec .arm-card.wide {
-        grid-column: 1 / -1;
-        display: flex;
-        align-items: center;
-        gap: 22px;
-    }
-
-    .arm-sec .arm-icon {
-        flex: 0 0 55px;
-        width: 55px;
-        height: 55px;
-        background: #fff0df;
-        color: #f7941d;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        margin-bottom: 18px;
-    }
-
-    .arm-sec .arm-card.wide .arm-icon {
-        margin-bottom: 0;
-    }
-
-    .arm-sec .arm-card h3 {
-        color: #15283d;
-        margin-bottom: 10px;
-    }
-
-    .arm-sec .arm-card p {
-        color: #666;
-        font-size: 15px;
-    }
-
-    .arm-sec .arm-dealer {
-        margin-top: 55px;
-        display: grid;
-        grid-template-columns: .5fr 1.5fr;
-        background: #15283d;
-        border-radius: 14px;
-        overflow: hidden;
-        box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
-    }
-
-    .arm-sec .arm-dealer-text {
-        padding: 45px;
-        color: #cbd5df;
-    }
-
-    .arm-sec .arm-dealer-text h3 {
-        color: #fff;
-        font-size: 28px;
-        margin-bottom: 16px;
-    }
-
-    .arm-sec .arm-dealer-text h3::after {
-        content: "";
-        display: block;
-        width: 55px;
-        height: 4px;
-        background: #f7941d;
-        border-radius: 3px;
-        margin-top: 12px;
-    }
-
-    .arm-sec .arm-dealer-text p {
-        margin-bottom: 14px;
-        text-align: left;
-    }
-
-    .arm-sec .arm-dealer-form {
-        background: linear-gradient(135deg, #f7941d, #d96f05);
-        padding: 40px;
-        color: #fff;
-    }
-
-    .arm-sec .arm-dealer-form p {
-        color: #fff;
-        font-weight: bold;
-        margin-bottom: 18px;
-        text-align: left;
-    }
-
-    .arm-sec .arm-chips {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .arm-sec .arm-chips span {
-        background: rgba(255, 255, 255, .18);
-        border: 1px solid rgba(255, 255, 255, .45);
-        padding: 9px 18px;
-        border-radius: 30px;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .arm-sec .arm-dealer-form .arm-small {
-        margin: 22px 0 0;
-        font-weight: normal;
-        font-size: 15px;
-    }
-
-    .arm-sec .arm-foot {
-        text-align: center !important;
-        margin-top: 30px;
-        color: #555;
-    }
-
-    @media(max-width:900px) {
-        .arm-sec .arm-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .arm-sec .arm-dealer {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    @media(max-width:600px) {
-        .arm-sec .arm-head h2 {
-            font-size: 28px;
-        }
-
-        .arm-sec .arm-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .arm-sec .arm-card.wide {
+        /* Desktop Logo */
+        .desktop-logo {
             display: block;
+            height: 80px;
+            width: 300px;
+            margin-top: -30px;
+            padding-right: 200px object-fit: contain;
         }
 
-        .arm-sec .arm-card.wide .arm-icon {
-            margin-bottom: 18px;
+        /* Mobile Logo */
+        .mobile-logo {
+            display: none;
+            height: 50px;
+            width: auto;
+            object-fit: contain;
         }
 
-        .arm-sec .arm-dealer-text,
-        .arm-sec .arm-dealer-form {
-            padding: 30px 22px;
-        }
-    }
-</style>
-
-<!-- PRODUCTS -->
-<section class="products arm-sec" style="display: none;">
-    <div class="container">
-
-        <div class="arm-head">
-            <h2>Armature Manufacturer and supplier in Bangalore</h2>
-
-            <p>
-                Finding the right Armature Supplier in Bengaluru is important for businesses involved in power tools repair, maintenance and distribution.
-            </p>
-
-
-        </div>
-
-
-
-        <!-- KARNATAKA / BANGALORE CONTENT -->
-        <div class="arm-dealer">
-
-            <div class="arm-dealer-text">
-                <!-- <h3>Armature Dealer in Karnataka</h3> -->
-                <p>
-                    Vicky Power Tools supplies armatures for different models and applications, subject to product specifications and availability.
-                </p>
-                <!-- <p>
-                    This information helps our team identify and supply the right armature
-                    for your application.
-                </p> -->
-            </div>
-
-            <div class="arm-dealer-form">
-                <p>We meet requirements of:</p>
-                <div class="arm-chips">
-                    <span>Dealers in power tools</span>
-                    <span>Repairs Centers</span>
-                    <span>Hardware companies</span>
-                    <span>Electric repair shops</span>
-                    <span>The workshops industrial</span>
-                    <span>Tools retailers Service centers</span>
-                    <span>Maintenance firms</span>
-                    <span>Wholesalers</span>
-                </div>
-            </div>
-
-        </div>
-
-        <p class="arm-foot">
-            Are you searching for regular supply of armatures in Bengaluru, then do share your machine model, required quantity and product details with our team.
-        </p>
-
-    </div>
-</section>
-
-
-
-<!-- SUPPLIER -->
-<section class="industry-section">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Armature Supplier in Noida</h2>
-            <p>
-                Vicky Power Tools also works as an Armature Supplier in Noida, supplying compatible power tool armatures to businesses and professional users.
-            </p>
-            <p>Our customers may include:</p>
-        </div>
-
-        <div class="industry-grid">
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Power tool dealers</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Power tool repair centres</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Electrical repair shops</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Hardware suppliers</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Industrial workshops</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Tool distributors</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Service centres</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Maintenance professionals</p>
-            </div>
-            <div class="industry iahwdiawdsi">
-                <p style="text-align: center;">Wholesale buyers</p>
-            </div>
-
-        </div>
-
-        <p style="text-align:center;margin-top:30px;color:#cbd5df;">
-            Whether you need a replacement armature for repair work or require armatures for regular business stock, you can contact our team with your requirements.
-        </p>
-
-    </div>
-</section>
-
-<!-- PRODUCTS -->
-<style>
-    /* Is section ka CSS (scoped: sirf .arm-sec par lagu hoga) */
-    .arm-sec .arm-head {
-        max-width: 900px;
-        margin: 0 auto 45px;
-        text-align: center;
-    }
-
-    .arm-sec .arm-head h2 {
-        font-size: 40px;
-        letter-spacing: 1px;
-        color: #15283d;
-        margin-bottom: 18px;
-        text-align: center;
-    }
-
-    .arm-sec .arm-head p {
-        color: #666;
-        margin-bottom: 12px;
-        text-align: center !important;
-    }
-
-    .arm-sec .arm-head .arm-lead {
-        color: #15283d;
-        font-weight: bold;
-        margin-top: 22px;
-    }
-
-    .arm-sec .arm-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 22px;
-    }
-
-    .arm-sec .arm-card {
-        background: #f8f9fb;
-        border: 1px solid #e8e8e8;
-        border-radius: 10px;
-        padding: 30px;
-        transition: .3s;
-    }
-
-    .arm-sec .arm-card:hover {
-        transform: translateY(-7px);
-        box-shadow: 0 12px 30px rgba(0, 0, 0, .09);
-        border-color: #f7941d;
-    }
-
-    .arm-sec .arm-card.wide {
-        grid-column: 1 / -1;
-        display: flex;
-        align-items: center;
-        gap: 22px;
-    }
-
-    .arm-sec .arm-icon {
-        flex: 0 0 55px;
-        width: 55px;
-        height: 55px;
-        background: #fff0df;
-        color: #f7941d;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        margin-bottom: 18px;
-    }
-
-    .arm-sec .arm-card.wide .arm-icon {
-        margin-bottom: 0;
-    }
-
-    .arm-sec .arm-card h3 {
-        color: #15283d;
-        margin-bottom: 10px;
-    }
-
-    .arm-sec .arm-card p {
-        color: #666;
-        font-size: 15px;
-    }
-
-    .arm-sec .arm-dealer {
-        margin-top: 55px;
-        display: grid;
-        grid-template-columns: .5fr 1.5fr;
-        background: #15283d;
-        border-radius: 14px;
-        overflow: hidden;
-        box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
-    }
-
-    .arm-sec .arm-dealer-text {
-        padding: 45px;
-        color: #cbd5df;
-    }
-
-    .arm-sec .arm-dealer-text h3 {
-        color: #fff;
-        font-size: 28px;
-        margin-bottom: 16px;
-    }
-
-    .arm-sec .arm-dealer-text h3::after {
-        content: "";
-        display: block;
-        width: 55px;
-        height: 4px;
-        background: #f7941d;
-        border-radius: 3px;
-        margin-top: 12px;
-    }
-
-    .arm-sec .arm-dealer-text p {
-        margin-bottom: 14px;
-        text-align: left;
-    }
-
-    .arm-sec .arm-dealer-form {
-        background: linear-gradient(135deg, #f7941d, #d96f05);
-        padding: 40px;
-        color: #fff;
-    }
-
-    .arm-sec .arm-dealer-form p {
-        color: #fff;
-        font-weight: bold;
-        margin-bottom: 18px;
-        text-align: left;
-    }
-
-    .arm-sec .arm-chips {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .arm-sec .arm-chips span {
-        background: rgba(255, 255, 255, .18);
-        border: 1px solid rgba(255, 255, 255, .45);
-        padding: 9px 18px;
-        border-radius: 30px;
-        font-size: 14px;
-        font-weight: bold;
-    }
-
-    .arm-sec .arm-dealer-form .arm-small {
-        margin: 22px 0 0;
-        font-weight: normal;
-        font-size: 15px;
-    }
-
-    .arm-sec .arm-foot {
-        text-align: center !important;
-        margin-top: 30px;
-        color: #555;
-    }
-
-    @media(max-width:900px) {
-        .arm-sec .arm-grid {
-            grid-template-columns: repeat(2, 1fr);
+        /* Navbar container */
+        .navbar-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
         }
 
-        .arm-sec .arm-dealer {
-            grid-template-columns: 1fr;
-        }
-    }
+        /* Desktop menu */
+        .desktop-menu { display: flex; align-items: center; gap: 5px; }
 
-    @media(max-width:600px) {
-        .arm-sec .arm-head h2 {
-            font-size: 28px;
+        .desktop-menu a {
+            color: #000000 !important;
+            padding: 30px 20px;
+            font-weight: 600;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: relative;
         }
 
-        .arm-sec .arm-grid {
-            grid-template-columns: 1fr;
+        .desktop-menu a:hover { background-color: #ff6300 !important; color: #ffffff !important; }
+
+        /* Desktop dropdown */
+        .desktop-dropdown { position: relative; }
+
+        .desktop-dropdown-content {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 220px;
+            background-color: white;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e7e7e7;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
         }
 
-        .arm-sec .arm-card.wide {
+        .desktop-dropdown:hover .desktop-dropdown-content { opacity: 1; visibility: visible; transform: translateY(0); }
+
+        .desktop-dropdown-content a {
             display: block;
+            padding: 10px 20px;
+            color: #333 !important;
+            text-decoration: none;
+            border-bottom: 1px solid #f0f0f0;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-transform: none;
+            letter-spacing: normal;
         }
 
-        .arm-sec .arm-card.wide .arm-icon {
-            margin-bottom: 18px;
+        .desktop-dropdown-content a:last-child { border-bottom: none; }
+        .desktop-dropdown-content a:hover { background-color: #ff6300; color: white !important; }
+
+        /* Mobile menu button */
+        .mobile-menu-button { display: none; background: none; border: none; cursor: pointer; padding: 10px; }
+
+        .mobile-menu-button .icon-bar {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background-color: #333;
+            margin: 4px 0;
+            transition: all 0.3s ease;
         }
 
-        .arm-sec .arm-dealer-text,
-        .arm-sec .arm-dealer-form {
-            padding: 30px 22px;
-        }
-    }
-</style>
+        .mobile-menu-button.active .icon-bar:nth-child(1) { transform: rotate(-45deg) translate(-5px, 6px); }
+        .mobile-menu-button.active .icon-bar:nth-child(2) { opacity: 0; }
+        .mobile-menu-button.active .icon-bar:nth-child(3) { transform: rotate(45deg) translate(-5px, -6px); }
 
-<!-- PRODUCTS -->
-<section class="products arm-sec">
-    <div class="container">
-
-        <div class="arm-head">
-            <h2>Armature Dealer Noida</h2>
-
-            <p>
-                If you are looking for a Armature Dealer in Noida, Vicky Power Tools can supply armatures directly from its Delhi based operations.
-            </p>
-
-
-        </div>
-
-
-
-        <!-- KARNATAKA / BANGALORE CONTENT -->
-        <div class="arm-dealer">
-
-            <div class="arm-dealer-text">
-                <!-- <h3>Armature Dealer in Karnataka</h3> -->
-                <p>
-                    We are providing Replacement Armatures for Various Power Tool Applications in Noida. Products availability depends on a model and technical specifications.
-                </p>
-                <!-- <p>
-                    This information helps our team identify and supply the right armature
-                    for your application.
-                </p> -->
-            </div>
-
-            <div class="arm-dealer-form">
-                <p>Customers can share for faster identification:</p>
-                <div class="arm-chips">
-                    <span>Brand of power tools</span>
-                    <span>Machine model number</span>
-                    <span>Existing photo of armature</span>
-                    <span>Armature diameter</span>
-                    <span>Necessary amount</span>
-                    <!-- <span>Tools retailers Service centers</span>
-                    <span>Maintenance firms</span>
-                    <span>Wholesalers</span> -->
-                </div>
-            </div>
-
-        </div>
-
-        <p class="arm-foot">
-            This information is helpful in finding the right replacement product.
-        </p>
-
-    </div>
-</section>
-
-
-
-
-<style>
-    /* Is section ka CSS (scoped: sirf .alt-sec par lagu hoga) */
-    .alt-sec .alt-head {
-        max-width: 900px;
-        margin: 0 auto 50px;
-        text-align: center;
-    }
-
-    .alt-sec .alt-head h2 {
-        font-size: 3.3rem;
-        letter-spacing: 1px;
-        color: #15283d;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .alt-sec .alt-head p {
-        color: #666;
-        margin-bottom: 12px;
-        text-align: center !important;
-    }
-
-    .alt-sec .alt-head .alt-highlight {
-        display: inline-block;
-        background: #fff8ef;
-        border: 1px solid #f7d9b0;
-        border-left: 5px solid #f7941d;
-        border-radius: 6px;
-        padding: 14px 24px;
-        color: #15283d;
-        margin-top: 8px;
-    }
-
-    .alt-sec .alt-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-    }
-
-    .alt-sec .alt-card {
-        position: relative;
-        background: #fff;
-        border-radius: 12px;
-        border-top: 4px solid #f7941d;
-        padding: 34px 28px 30px;
-        box-shadow: 0 6px 22px rgba(0, 0, 0, .06);
-        overflow: hidden;
-        transition: .3s;
-    }
-
-    .alt-sec .alt-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 16px 36px rgba(0, 0, 0, .12);
-    }
-
-    .alt-sec .alt-no {
-        position: absolute;
-        top: 8px;
-        right: 18px;
-        font-size: 54px;
-        font-weight: bold;
-        color: #f1f3f6;
-        line-height: 1;
-    }
-
-    .alt-sec .alt-icon {
-        position: relative;
-        width: 55px;
-        height: 55px;
-        background: #fff0df;
-        color: #f7941d;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        margin-bottom: 18px;
-    }
-
-    .alt-sec .alt-card h3 {
-        position: relative;
-        color: #15283d;
-        margin-bottom: 10px;
-    }
-
-    .alt-sec .alt-card p {
-        position: relative;
-        color: #666;
-        font-size: 15px;
-        text-align: left;
-    }
-
-    @media(max-width:900px) {
-        .alt-sec .alt-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media(max-width:600px) {
-        .alt-sec .alt-head h2 {
-            font-size: 28px;
+        /* Mobile menu */
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 0;
+            background-color: white;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            max-height: calc(100vh - 80px);
+            overflow-y: auto;
         }
 
-        .alt-sec .alt-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-</style>
+        .mobile-menu.active { display: block; }
 
-<!-- ALTERNATIVE ARMATURE -->
-<section class="alt-sec">
-    <div class="container">
-
-        <div class="alt-head">
-            <h2>Armature for Power Tools</h2>
-
-            <p>
-                Vicky Power Tools manufacturers and supplies armatures for a wide variety of compatible power tool applications.
-
-
-            </p>
-
-            <!-- <p class="alt-highlight">
-                Therefore, Vicky Power Tools offers armature solutions specific to the model of the
-                relevant power tools.
-            </p> -->
-        </div>
-
-        <div class="alt-grid">
-
-            <div class="alt-card">
-                <span class="alt-no">01</span>
-                <div class="alt-icon">⚙</div>
-                <h3>Armatures of Angle Grinders</h3>
-                <p>
-                    Replacement armatures for suitable angle grinder models used in fabrication, construction, workshops and maintenance applications.
-                </p>
-            </div>
-
-            <div class="alt-card">
-                <span class="alt-no">02</span>
-                <div class="alt-icon">⚡</div>
-                <h3>Armature Drilling Machine</h3>
-                <p>Armature for compatible electric drilling machines for workshop, installation and general maintenance work. </p>
-            </div>
-
-            <div class="alt-card">
-                <span class="alt-no">03</span>
-                <div class="alt-icon">◉</div>
-                <h3>Armatures for Cut-Off Machine</h3>
-                <p>Replacement armatures for various cut-off machine models and applications.</p>
-            </div>
-
-            <div class="alt-card">
-                <span class="alt-no">04</span>
-                <div class="alt-icon">⚙</div>
-                <h3>Armatures for marble cutters</h3>
-                <p>Armatures compatible with marble, tile, stone cutting machines.</p>
-            </div>
-
-            <div class="alt-card">
-                <span class="alt-no">05</span>
-                <div class="alt-icon">+</div>
-                <h3>Armatures for Straight Grinders</h3>
-                <p>
-                    Replacement armatures for selected straight grinders.
-                </p>
-            </div>
-
-            <div class="alt-card">
-                <span class="alt-no">06</span>
-                <div class="alt-icon">✓</div>
-                <h3>Other Armatures for Power Tools</h3>
-                <p>
-                    We manufacture and supply armatures according to model and technical specifications for other compatible electric power tools.
-                </p>
-            </div>
-
-        </div>
-    </div>
-    <!-- <p>Today our product range includes armatures associated with Bosch, Ralli Wolf, Hitachi/Hikoki, DeWalt, KPT, Makita, Hilti and many more.</p> -->
-</section>
-
-<!-- DEALER -->
-<!-- <section class="oem" style="display: none;">
-    <div class="container">
-
-        <div class="oem-box">
-
-            <h2>Why Should You Choose Vicky Power Tools For Your Needs in Noida?</h2>
-
-            <p>
-                Vicky Power Tools is a manufacturer and exporter of armatures, field coils, electric tools and power tools based in Delhi.
-
-                This implies that if you are a customer from Noida, you can directly reach out to a manufacturer in the nearby Delhi without assuming that the manufacturer must have a physical manufacturing plant in Noida.
-            </p>
-
-        </div>
-
-    </div>
-</section> -->
-
-
-<!-- QUALITY -->
-
-<section>
-    <div class="container">
-        <div class="oem-box">
-
-            <h2>Why Should You Choose Vicky Power Tools For Your Needs in Noida?</h2>
-
-            <p>
-                Vicky Power Tools is a manufacturer and exporter of armatures, field coils, electric tools and power tools based in Delhi.
-            </p>
-
-            <p>
-                This implies that if you are a customer from Noida, you can directly reach out to a manufacturer in the nearby Delhi without assuming that the manufacturer must have a physical manufacturing plant in Noida.
-            </p>
-
-            <p>
-                We are focused on:
-            </p>
-
-            <div class="oem-list" style="grid-template-columns: repeat(3 ,1fr);">
-                <div>Armature Production for Power Tools</div>
-                <div>Supply of Replacement Armatures</div>
-                <div>Manufacturing of field coils</div>
-                <div>Products specific to the model</div>
-                <div>Bulk requirements for</div>
-                <div>Enquiries from dealers and distributors</div>
-                <div>Power tool repair requirements Supply in Delhi-NCR and India</div>
-            </div>
-
-            <div class="note-box">The company says its manufacturing facility is configured for armature and field-coil production and products are subject to quality-control and testing procedures.</div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-<style>
-    .noida-order-section-vp27 {
-        padding: 60px 20px;
-        background: #f8fafc;
-    }
-
-    .noida-order-container-vp27 {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .noida-order-heading-vp27 {
-
-
-        color: #071d2c;
-    font-size: 3.3rem;
-    letter-spacing: 3px;
-        /* font-size: clamp(26px, 4vw, 38px); */
-        /* line-height: 1.25; */
-        /* color: #172554; */
-        /* font-weight: 750; */
-        margin: 0 0 15px;
-    }
-
-    .noida-order-intro-vp27 {
-        max-width: 760px;
-        font-size: 16px;
-        line-height: 1.8;
-        color: #64748b;
-        margin: 0 0 35px;
-    }
-
-    .noida-order-grid-vp27 {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
-    }
-
-    .noida-order-card-vp27 {
-        display: flex;
-        align-items: flex-start;
-        gap: 18px;
-        padding: 25px;
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        border-radius: 14px;
-        box-shadow: 0 5px 20px rgba(15, 23, 42, 0.035);
-    }
-
-    .noida-order-number-vp27 {
-        flex: 0 0 46px;
-        width: 46px;
-        height: 46px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 12px;
-        background: #e0f2fe;
-        color: #075985;
-        font-size: 19px;
-        font-weight: 800;
-    }
-
-    .noida-order-card-content-vp27 {
-        min-width: 0;
-    }
-
-    .noida-order-card-title-vp27 {
-        color: #172554;
-        font-size: 17px;
-        font-weight: 700;
-        line-height: 1.5;
-        margin: 0 0 8px;
-    }
-
-    .noida-order-card-text-vp27 {
-        color: #64748b;
-        font-size: 14px;
-        line-height: 1.8;
-        margin: 0;
-        overflow-wrap: anywhere;
-    }
-
-    .noida-order-note-vp27 {
-        margin-top: 25px;
-        padding: 22px 25px;
-        border-left: 4px solid #0284c7;
-        border-radius: 8px;
-        background: #eff6ff;
-        color: #334155;
-        font-size: 15px;
-        line-height: 1.8;
-    }
-
-    @media (max-width: 700px) {
-        .noida-order-section-vp27 {
-            padding: 40px 16px;
+        .mobile-menu a {
+            display: block;
+            padding: 15px 20px;
+            color: #000000 !important;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
         }
 
-        .noida-order-grid-vp27 {
-            grid-template-columns: 1fr;
-            gap: 14px;
+        .mobile-menu a:hover { background-color: #ff6300 !important; color: #ffffff !important; }
+
+        /* Mobile dropdown */
+        .mobile-dropdown-toggle {
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 15px 20px;
+            color: #000000 !important;
+            font-weight: 600;
+            text-transform: uppercase;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        .noida-order-card-vp27 {
-            padding: 20px 16px;
-            gap: 14px;
+        .mobile-dropdown-toggle i { transition: transform 0.3s ease; }
+        .mobile-dropdown-toggle.active i { transform: rotate(180deg); }
+
+        .mobile-dropdown-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background-color: #f9f9f9;
         }
 
-        .noida-order-number-vp27 {
-            flex-basis: 40px;
-            width: 40px;
-            height: 40px;
-            font-size: 17px;
+        .mobile-dropdown-content.active { max-height: 500px; }
+
+        .mobile-dropdown-content a {
+            padding-left: 40px;
+            font-size: 14px;
+            text-transform: none;
+            background-color: #f9f9f9;
         }
 
-        .noida-order-card-title-vp27 {
-            font-size: 16px;
-        }
-    }
-</style>
-
-<section class="noida-order-section-vp27">
-    <div class="noida-order-container-vp27">
-
-        <h2 class="noida-order-heading-vp27" style="text-align: center;">
-            How to order armature for Noida ?
-        </h2>
-
-        <p class="noida-order-intro-vp27" style="text-align: center;margin:10px auto 20px ; ">
-            If you are looking for an armature in Noida there are a few simple steps:
-        </p>
-
-        <div class="noida-order-grid-vp27">
-
-            <div class="noida-order-card-vp27">
-                <div class="noida-order-number-vp27">01</div>
-                <div class="noida-order-card-content-vp27">
-                    <h3 class="noida-order-card-title-vp27">
-                        Know your power tool:
-                    </h3>
-                    <p class="noida-order-card-text-vp27">
-                        Note the brand and the exact model of the machine. 
-                    </p>
-                </div>
-            </div>
-
-            <div class="noida-order-card-vp27">
-                <div class="noida-order-number-vp27">02</div>
-                <div class="noida-order-card-content-vp27">
-                    <h3 class="noida-order-card-title-vp27">
-                        Take a picture of armature :
-                    </h3>
-                    <p class="noida-order-card-text-vp27">
-                        A clear photo of the armature can be of help to identify it.
-                    </p>
-                </div>
-            </div>
-
-            <div class="noida-order-card-vp27">
-                <div class="noida-order-number-vp27">03</div>
-                <div class="noida-order-card-content-vp27">
-                    <h3 class="noida-order-card-title-vp27">
-                        send pictuure with specifications :
-                    </h3>
-                    <p class="noida-order-card-text-vp27">
-                        Providing dimensions or other information will help us to identify the armature.
-                    </p>
-                </div>
-            </div>
-
-            <div class="noida-order-card-vp27">
-                <div class="noida-order-number-vp27">04</div>
-                <div class="noida-order-card-content-vp27">
-                    <h3 class="noida-order-card-title-vp27">
-                        Quantity :
-                    </h3>
-                    <p class="noida-order-card-text-vp27">
-                        please specify, If you want one replacement or bulk quantity.
-                    </p>
-                </div>
-            </div>
-
-            <div class="noida-order-card-vp27">
-                <div class="noida-order-number-vp27">05</div>
-                <div class="noida-order-card-content-vp27">
-                    <h3 class="noida-order-card-title-vp27">
-                        Get in touch with Vicky Power Tools:
-                    </h3>
-                    <p class="noida-order-card-text-vp27">
-                        Our team can verify the respective product and availability.
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="noida-order-note-vp27">
-            Follow these steps to help identify the required armature and check product availability with Vicky Power Tools.
-        </div>
-
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- QUALITY -->
-<!-- <section>
-    <div class="container">
-
-        <div class="oem-box">
-
-            <h2>Armature Manufacturers for Business in Bengaluru</h2>
-
-            <p>
-                Bengaluru has a huge ecosystem of engineering, manufacturing, construction, maintenance and service businesses. These are industries where power tools are used often, so there’s a need for replacement and repair parts.Vicky Power Tools provides armatures for companies that need suitable replacement parts for their power tools.
-            </p>
-
-            <p>
-                Our products are useful for companies who are involved in:
-            </p>
-
-            <div class="oem-list">
-                <div>Power tools repair</div>
-                <div>Electric repair</div>
-                <div>Maintenance industrial</div>
-                <div>Hardware distribution</div>
-                <div>Tools sales</div>
-                <div>Workshop running</div>
-                <div>Maintenance of construction equipment</div>
-            </div>
-
-            <div class="note-box">If you are running a business in Bengaluru and need armatures regularly, you can get in touch with our team to know the product details and availability.</div>
-
-        </div>
-
-    </div>
-</section>
- -->
-
-
-<!-- WHY -->
-<!-- <section>
-    <div class="container">
-
-        <div class="oem-box">
-
-            <h2>Why Choose Vicky Power Tools?</h2>
-
-            <p>The most important thing when sourcing a replacement armature is that it is compatible with the particular power tools.
-            </p>
-
-            <p>Vicky Power Tools is focusing on:</p>
-
-            <div class="oem-list">
-                <div>Power tools armature production</div>
-                <div>Armature (Replacement)</div>
-                <div>Field coils</div>
-                <div>Products specific to model</div>
-                <div>Dealer wants</div>
-                <div>Wholesale supply</div>
-                <div>Bulk orders</div>
-                <div>Power Tools Repair Needs</div>
-                <div>Requirements of business and industry</div>
-            </div>
-
-            <p style="margin-top:20px;">
-                We can be provided with existing armature details of customers to understand the product requirement before supply.
-            </p>
-
-        </div>
-
-    </div>
-</section> -->
-
-
-
-
-
-
-
-<!-- <section class="vpt-armature-wholesale-section">
-    <div class="vpt-armature-wholesale-container">
-
-
-        <div class="vpt-armature-wholesale-intro">
-            <span class="vpt-armature-wholesale-label">BULK & INDUSTRIAL SUPPLY</span>
-
-            <h2 class="vpt-armature-wholesale-title">
-                Wholesale Armature Supply in Bangalore
-            </h2>
-
-            <p class="vpt-armature-wholesale-text">
-                Dealers, distributors, repair shops and industrial companies may need larger amounts of armatures.
-            </p>
-
-            <p class="vpt-armature-wholesale-text">
-                Vicky Power Tools is open to business enquiries for large orders depending on the model and product availability.
-            </p>
-        </div>
-
-        <div class="vpt-armature-wholesale-grid">
-
-            <div class="vpt-armature-wholesale-card">
-                <h3 class="vpt-armature-wholesale-card-title">
-                    For bulk enquiries, please supply:
-                </h3>
-
-                <ul class="vpt-armature-wholesale-list">
-                    <li>Model/Product Number</li>
-                    <li>Quantity Needed</li>
-                    <li>Current product image</li>
-                    <li>Shipping address</li>
-                    <li>Any technical specifications available</li>
-                </ul>
-
-                <p class="vpt-armature-wholesale-card-text">
-                    It helps us to understand your requirement in better way.
-                </p>
-            </div>
-
-            <div class="vpt-armature-wholesale-card">
-                <h3 class="vpt-armature-wholesale-card-title">
-                    Get in touch with Vicky Power Tools
-                </h3>
-
-                <p class="vpt-armature-wholesale-card-text">
-                    If you are looking for “Armature Manufacturers in Bengaluru, Karnataka”, then Vicky Power Tools is a good option. We are manufacturers and suppliers based in Delhi.
-                </p>
-
-                <p class="vpt-armature-wholesale-card-text">
-                    We are manufacturers & suppliers of armatures, power tools components etc. to customers in Bengaluru & Karnataka.
-                </p>
-
-                <div class="vpt-armature-wholesale-address">
-                    <strong>Vicky Power Tools</strong>
-
-                    <span>
-                        71/2-A, Rama Road Industrial Area Najafgarh Road, New Delhi - 110015 India
-                    </span>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-
-</section> -->
-
-<style>
-    .vpt-armature-wholesale-section {
-        width: 100%;
-        padding: clamp(45px, 7vw, 85px) 20px;
-        background: #f6f8fb;
-        box-sizing: border-box;
-    }
-
-    .vpt-armature-wholesale-container {
-        width: 100%;
-        max-width: 1180px;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-
-    .vpt-armature-wholesale-intro {
-        width: 100%;
-        max-width: 850px;
-        margin: 0 auto 45px;
-        text-align: center;
-    }
-
-    .vpt-armature-wholesale-label {
-        display: inline-block;
-        margin-bottom: 12px;
-        color: #e87516;
-        font-size: 13px;
-        line-height: 1.4;
-        font-weight: 700;
-        letter-spacing: 1.5px;
-    }
-
-    .vpt-armature-wholesale-title {
-        margin: 0 0 20px;
-        color: #172b4d;
-        font-size: clamp(28px, 4vw, 40px);
-        line-height: 1.2;
-        font-weight: 750;
-    }
-
-    .vpt-armature-wholesale-text {
-        margin: 0 0 14px;
-        color: #606b7a;
-        font-size: clamp(14px, 1.5vw, 16px);
-        line-height: 1.8;
-    }
-
-    .vpt-armature-wholesale-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: clamp(18px, 3vw, 28px);
-        width: 100%;
-    }
-
-    .vpt-armature-wholesale-card {
-        width: 100%;
-        padding: clamp(24px, 4vw, 36px);
-        background: #ffffff;
-        border: 1px solid #e5e9ef;
-        border-radius: 14px;
-        box-sizing: border-box;
-        box-shadow: 0 10px 35px rgba(23, 43, 77, 0.06);
-    }
-
-    .vpt-armature-wholesale-card-title {
-        margin: 0 0 18px;
-        color: #172b4d;
-        font-size: clamp(20px, 2.5vw, 24px);
-        line-height: 1.35;
-    }
-
-    .vpt-armature-wholesale-card-text {
-        margin: 0 0 18px;
-        color: #626d7c;
-        font-size: clamp(14px, 1.5vw, 15px);
-        line-height: 1.8;
-    }
-
-    .vpt-armature-wholesale-list {
-        width: 100%;
-        margin: 0 0 20px;
-        padding: 0;
-        list-style: none;
-    }
-
-    .vpt-armature-wholesale-list li {
-        position: relative;
-        margin: 0 0 12px;
-        padding-left: 24px;
-        color: #3f4a59;
-        font-size: clamp(14px, 1.5vw, 15px);
-        line-height: 1.6;
-    }
-
-    .vpt-armature-wholesale-list li::before {
-        content: "✓";
-        position: absolute;
-        left: 0;
-        top: 0;
-        color: #e87516;
-        font-weight: 700;
-    }
-
-    .vpt-armature-wholesale-address {
-        display: flex;
-        flex-direction: column;
-        gap: 7px;
-        margin-top: 22px;
-        padding: 20px;
-        background: #f7f9fc;
-        border-left: 3px solid #e87516;
-        border-radius: 5px;
-        box-sizing: border-box;
-    }
-
-    .vpt-armature-wholesale-address strong {
-        color: #172b4d;
-        font-size: 16px;
-        line-height: 1.5;
-    }
-
-    .vpt-armature-wholesale-address span {
-        color: #626d7c;
-        font-size: 14px;
-        line-height: 1.7;
-        overflow-wrap: anywhere;
-    }
-
-    @media (max-width: 900px) {
-        .vpt-armature-wholesale-grid {
-            grid-template-columns: 1fr;
+        .mobile-dropdown-content a:hover { background-color: #ff6300 !important; color: #ffffff !important; }
+
+        /* Responsive styles */
+        @media (max-width: 1024px) {
+            .desktop-menu { display: none; }
+            .mobile-menu-button { display: block; }
+            .desktop-logo { display: none; }
+            .mobile-logo { display: block; }
         }
 
-        .vpt-armature-wholesale-card {
-            max-width: 100%;
-        }
-    }
-
-    @media (max-width: 600px) {
-        .vpt-armature-wholesale-section {
-            padding: 50px 15px;
+        @media (min-width: 1025px) {
+            .mobile-menu { display: none !important; }
+            .mobile-logo { display: none; }
+            .desktop-logo { display: block; }
         }
 
-        .vpt-armature-wholesale-intro {
-            margin-bottom: 30px;
+        /* Footer */
+        #footer { background-color: #ff6300; }
+
+        /* Smooth scrolling for anchor links */
+        html { scroll-behavior: smooth; }
+
+        p { text-align: justify; }
+
+        /* Carousel fixes for Bootstrap 3 */
+        .carousel-inner>.item>img { width: 100%; height: auto; }
+
+        .carousel-control .glyphicon-chevron-left,
+        .carousel-control .glyphicon-chevron-right {
+            position: absolute;
+            top: 50%;
+            margin-top: -10px;
+            z-index: 5;
         }
 
-        .vpt-armature-wholesale-label {
-            font-size: 11px;
-            letter-spacing: 1px;
+        @media (max-width: 768px) {
+            body { padding-top: 70px !important; }
+            .navbar-container { height: 70px; }
+            .mobile-menu { top: 70px; max-height: calc(100vh - 70px); }
+            .mobile-logo { height: 40px; }
         }
 
-        .vpt-armature-wholesale-card {
-            padding: 22px 18px;
-            border-radius: 10px;
+        /* Existing section styles */
+        .all-s { padding: 60px 0; }
+        .one { background-color: #333; color: #fff; }
+
+        .h-but {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #ff6300;
+            color: #fff !important;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
         }
 
-        .vpt-armature-wholesale-list li {
-            padding-left: 22px;
+        .h-but:hover { background-color: #e55a00; text-decoration: none; }
+        .bg-indus { background-color: #f8f9fa; }
+        .d-apply { background-color: #f0f0f0; padding: 40px 0; }
+
+        /* other css */
+        .imge-rearange { width: 52%; }
+
+        .img_hovweefg {
+            border-radius: 15px;
+            padding: 15px;
+            background: #e3dede52;
+            margin: 10px;
         }
 
-        .vpt-armature-wholesale-address {
-            padding: 16px;
-        }
-    }
-
-    @media (max-width: 380px) {
-        .vpt-armature-wholesale-section {
-            padding-left: 12px;
-            padding-right: 12px;
+        .img_hovweefg:hover {
+            transition: 0.3s;
+            background: #e3dedebf;
+            box-shadow: -3px 4px 3px 0px #666;
         }
 
-        .vpt-armature-wholesale-card {
-            padding: 20px 15px;
+        .ul_left_padding { padding-left: 40px !important; }
+
+        @media (max-width:620) {
+            .ul_left_padding { padding-left: 20px !important; }
         }
 
-        .vpt-armature-wholesale-title {
-            font-size: 25px;
-        }
-    }
-</style>
+        /* FAQ ACCORDION */
+        .faq-acc { margin-top: 15px; }
+        .faq-acc .faq-box { background: #fff; border: 1px solid #e3e3e8; border-radius: 6px; margin-bottom: 13px; overflow: hidden; }
+        .faq-acc .faq-q { position: relative; padding: 20px 60px 20px 22px; font-size: 18px; font-weight: bold; color: #1f2150; cursor: pointer; line-height: 1.35; transition: all 0.3s ease; }
+        .faq-acc .faq-q::after { content: "+"; position: absolute; right: 22px; top: 50%; transform: translateY(-50%); font-size: 26px; font-weight: normal; line-height: 1; }
+        .faq-acc .faq-a { display: none; padding: 18px 22px 20px; }
+        .faq-acc .faq-a p { margin: 0; font-size: 14px; color: #666666; }
+        .faq-acc .faq-box.open .faq-q { background: #1f2150; color: #fff; }
+        .faq-acc .faq-box.open .faq-q::after { content: "\2212"; }
+        .faq-acc .faq-box.open .faq-a { display: block; }
+        @media (max-width: 600px) { .faq-acc .faq-q { font-size: 16px; padding: 16px 50px 16px 16px; } .faq-acc .faq-a { padding: 14px 16px 16px; } }
+    </style>
+</head>
 
+<body>
+    <!-- Header & Navigation - FIXED AT TOP -->
+    <header class="header-main">
+        <nav class="navbar-main">
+            <div class="navbar-container">
+                <!-- Logo -->
+                <a href="https://www.vickypowertools.com/" class="navbar-brand">
+                    <!-- Desktop Logo -->
+                    <img src="img/VPT Blue logo 1.PNG" alt="Vicky Power Tools" class="desktop-logo">
+                </a>
 
-<!-- MANUFACTURERS GUJARAT -->
-<section class="products">
-    <div class="container">
+                <!-- Desktop Menu -->
+                <div class="desktop-menu">
+                    <a href="index.php">Home</a>
 
-        <div class="section-title">
-            <h2>Contact a Delhi-based Armature Manufacturer Providing Services in Noida</h2>
-        </div>
+                    <div class="desktop-dropdown">
+                        <a href="#">Overview <i class="fa fa-angle-down"></i></a>
+                        <div class="desktop-dropdown-content">
+                            <a href="about.php">About Us</a>
+                            <a href="history.php">Journey</a>
+                            <a href="ceomsg.php">Chairman Message</a>
+                            <a href="mission.php">Mission &amp; Vision</a>
+                            <a href="brand.php">Brands &amp; Subsidiaries</a>
+                        </div>
+                    </div>
 
-        <div style="max-width:900px;margin:auto;text-align:center;color:#555;">
+                    <div class="desktop-dropdown">
+                        <a href="#">Products <i class="fa fa-angle-down"></i></a>
+                        <div class="desktop-dropdown-content">
+                            <a href="armartures.php">Armatures</a>
+                            <a href="fieldcoil.php">Field Coils</a>
+                            <a href="powertools.php">Power Tools</a>
+                            <a href="abrasives.php">Abrasives</a>
+                            <a href="construction-tool.php">Construction Tools</a>
+                            <a href="spm.php">Special Purpose Motors</a>
+                        </div>
+                    </div>
 
-            <p>
-                Vicky Power Tools is a transparent option to source power tools armatures from a New Delhi based manufacturer, if you are searching for “Armature Manufacturer in Noida”.
+                    <a href="oem.php">OEM</a>
 
-                We are involved in the manufacturing and supplying of armatures and field coils for compatible power tools to customers across Delhi-NCR including Noida.
+                    <div class="desktop-dropdown">
+                        <a href="#">Media <i class="fa fa-angle-down"></i></a>
+                        <div class="desktop-dropdown-content">
+                            <a href="event.php">Events</a>
+                            <a href="blog.php">Blogs</a>
+                            <a href="videos.php">Videos</a>
+                            <a href="catelogue.php">Catalogue &amp; Brochures</a>
+                        </div>
+                    </div>
 
-            </p>
-
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- FAQ -->
-<section style="display: none;">
-    <div class="container">
-
-        <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div class="faq">
-
-            <div class="faq-item">
-                <div class="faq-question">1. Is Vicky Power Tools armature manufacturer in Noida?</div>
-                <div class="faq-answer">
-                    Vicky Power Tools is based in New Delhi not in Noida. We manufacture armatrues in Delhi and supply armatures to Noida and other parts of Delhi-NCR.
-                </div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">2. Does Vicky Power Tools provide armatures in Noida?</div>
-                <div class="faq-answer">
-
-                    Yes, from its Delhi operations, Vicky Power Tools supplies power tool armatures to the customers of Noida. The company also covers other areas including Noida.
-
+                    <a href="career.php">Career</a>
+                    <a href="contact-us.php">Contact Us</a>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">3. Where is Vicky Power Tools based?</div>
-                    <div class="faq-answer">
-                       Vicky Power Tools is situated in New delhi = 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi – 110015, India.
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button" id="mobileMenuButton">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index.php">Home</a>
+
+                <div class="mobile-dropdown">
+                    <button class="mobile-dropdown-toggle">
+                        Overview <i class="fa fa-angle-down"></i>
+                    </button>
+                    <div class="mobile-dropdown-content">
+                        <a href="about.php">About Us</a>
+                        <a href="history.php">Journey</a>
+                        <a href="ceomsg.php">Chairman Message</a>
+                        <a href="mission.php">Mission &amp; Vision</a>
+                        <a href="brand.php">Brands &amp; Subsidiaries</a>
                     </div>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">4. Is there a way to buy a power tools armature in Noida?</div>
-                    <div class="faq-answer">
-                        Yes. Customers from Noida can check the right product by contacting Vicky Power Tools with their Power tool model, armature photograph or technical specifications.
+                <div class="mobile-dropdown">
+                    <button class="mobile-dropdown-toggle">
+                        Products <i class="fa fa-angle-down"></i>
+                    </button>
+                    <div class="mobile-dropdown-content">
+                        <a href="armartures.php">Armatures</a>
+                        <a href="fieldcoil.php">Field Coils</a>
+                        <a href="powertools.php">Power Tools</a>
+                        <a href="abrasives.php">Abrasives</a>
+                        <a href="construction-tool.php">Construction Tools</a>
+                        <a href="spm.php">Special Purpose Motors</a>
                     </div>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">5. Do you also provide armatures to power tool dealers in Noida ?</div>
-                    <div class="faq-answer">
-                        Yes. Dealers, distributors, repairing centers and factories in Noida can contact Vicky Power Tools for different armatures.
+                <a href="oem.php">OEM</a>
+
+                <div class="mobile-dropdown">
+                    <button class="mobile-dropdown-toggle">
+                        Media <i class="fa fa-angle-down"></i>
+                    </button>
+                    <div class="mobile-dropdown-content">
+                        <a href="event.php">Events</a>
+                        <a href="blog.php">Blogs</a>
+                        <a href="videos.php">Videos</a>
+                        <a href="catelogue.php">Catalogue &amp; Brochures</a>
                     </div>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">6. What power tool armatures do you make?</div>
-                    <div class="faq-answer">
-                        Vicky Power Tools produces and supplies armatures for compatible power tools like angle grinders, drilling machines, cut-off machines, marble cutters, straight grinders and other electric tools.
+                <a href="career.php">Career</a>
+                <a href="contact-us.php">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Armatures Banner Section -->
+    <section class="about-area2 padd-zero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 no-pad1">
+                    <div class="fath">
+                        <img class="img-responsive1" src="img/about-bk.jpg" alt="Armatures">
+                        <div class="child21">
+                            <span class="back-button"><a href="index.php">Home</a></span>
+                            <span class="back-button"><a href="armartures.php">Armatures</a></span>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Armatures Content Section -->
+    <div class="container" style="padding-top: 40px;">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 row2">
+                <div id="homePagecontent">
+                    <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; Supplier in Patna, Bihar</h1>
+                    <!-- <h3>Find appropriate armatures for power tool repair and replacement</h3> -->
+                    <p class="pb-4" style="font-size: 14px;color: #666666;">If you need to repair a power tool, it is important to locate the correct replacement armature so you can get the machine back in working order. Spare parts retailers, industrial buyers, and repair technicians require components that meet the original equipment’s design and specifications.</p>
+                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools of Delhi is a manufacturer and supplier of armatures, field coils, electric tools and power tool components under the trade name PowerSpeed. Founded in 1982, we have clients throughout India including those looking for an armature manufacturer in Patna, Bihar.</p>
+                    <p style="font-size: 14px;color: #666666;">If you are an electrical repair workshop, sell power tool spare parts or buy components for maintenance of equipment, contact us to ask about suitable armatures for compatible machines.</p>
+                    <br><br>
+
+                    <div class="row twoLine_diable">
+                        <div class="col-lg-4">
+                            <div class="linksBox">
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="ralliwolf-armature.php">Ralli Wolf</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="bosch-armature.php">Bosch / Skil</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="hikoki-armature.php">Hitachi / HIKOKI</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="blackDecker-Armature.php">Black &amp; Decker</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="dewalt-armature.php">Dewalt</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="kpt-armature.php">KPT</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="ryobi-armature.php">Ryobi</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="makita-armature.php">Makita</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="webtool-armature.php">Webtool</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="jepson-armature.php">Jepson</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aegmilwaukee-armature.php">Aeg</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="linksBox">
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aegmilwaukee-armature.php">Atlas Copco</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aegmilwaukee-armature.php">Milwaukee</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="lg-armature.php">LG</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aarvy-armature.php">Aarvy/Mitachi</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="neutron-armature.php">Nippon / Neutron</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="metabo-armature.php">Metabo</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="eastman-armature.php">Eastman</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="kress-armature.php">Casal/Kress</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="hilti-armature.php">Hilti</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="horsepower-armature.php">Horse Power</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="agp-armature.php">Agp</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="linksBox">
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="keyang-armature.php">Keyang</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="cumi-armature.php">Cumi</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="powerspeed.php">PowerSpeed</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="baw-armature.php">Baw</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="dongcheng-armature.php">Dongcheng</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="endico-armature.php">Endico</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="ferm-armature.php">Ferm</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="ken-armature.php">Ken</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="powertex-armature.php">Powertex</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="stanley-armature.php">Stanley</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="miscellaneouse-armature.php">Miscellaneous</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="twoLine_productInfo">
+                        <div class="">
+                            <div class="linksBox">
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="ralliwolf-armature.php">Ralli Wolf</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="bosch-armature.php">Bosch / Skil</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="hikoki-armature.php">Hitachi / HIKOKI</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="blackDecker-Armature.php">Black &amp; Decker</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="dewalt-armature.php">Dewalt</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="kpt-armature.php">KPT</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="ryobi-armature.php">Ryobi</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="makita-armature.php">Makita</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="webtool-armature.php">Webtool</a></p>
+                                <p class="fontasz16"><i class="fa fa-share" aria-hidden="true"></i><a href="jepson-armature.php">Jepson</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aegmilwaukee-armature.php">Aeg</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aegmilwaukee-armature.php">Atlas Copco</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aegmilwaukee-armature.php">Milwaukee</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="lg-armature.php">LG</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="aarvy-armature.php">Aarvy/Mitachi</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="metabo-armature.php">Metabo</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="neutron-armature.php">Nippon / Neutron</a></p>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="linksBox">
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="eastman-armature.php">Eastman</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="kress-armature.php">Casal/Kress</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="hilti-armature.php">Hilti</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="horsepower-armature.php">Horse Power</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="agp-armature.php">Agp</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="keyang-armature.php">Keyang</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="cumi-armature.php">Cumi</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="powerspeed.php">PowerSpeed</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="baw-armature.php">Baw</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="dongcheng-armature.php">Dongcheng</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="endico-armature.php">Endico</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="ferm-armature.php">Ferm</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="ken-armature.php">Ken</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="powertex-armature.php">Powertex</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="stanley-armature.php">Stanley</a></p>
+                                <p><i class="fa fa-share" aria-hidden="true"></i><a href="miscellaneouse-armature.php">Miscellaneous</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4" style="display: flex;align-items: center;justify-content: center;">
+                <img src="img/products/armarture1.jpg" alt="Armatures" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== NEW CONTENT START (Patna) ===================== -->
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="homePagecontent">
+                    <h3>Which Armature Is Right for You?</h3>
+                    <p class="pb-4" style="font-size: 14px;color: #666666;">Before buying a replacement, identify the machine and the type of part you need. Even if the machines are from the same manufacturer, the armature made for one power tool may not fit the other model.</p>
+                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools has armatures for some of compatible power tools in different categories.</p>
+
+                    <h4>Angle Grinders</h4>
+                    <p style="font-size: 14px;color: #666666;">Ask for armatures for grinding machines used in fabrication, metalworking, cutting and maintenance.</p>
+
+                    <h4>Electric drill machines</h4>
+                    <p style="font-size: 14px;color: #666666;">Verify availability of armatures of selected drill models for workshop, construction and installation work.</p>
+
+                    <h4>Cutoff machines</h4>
+                    <p style="font-size: 14px;color: #666666;">Enquire about armatures compatible with cutting machines in metalworking applications suitable for them.</p>
+
+                    <h4>Replacement Armatures for Certain Hammer Machines and Other Motor-Driven Tools</h4>
+                    <p style="font-size: 14px;color: #666666;">Enquire for hammer machines.</p>
+
+                    <h4>For other power tools</h4>
+                    <p style="font-size: 14px;color: #666666;">Depending on the model you can also enquire about armatures for circular saws, planers and other compatible devices.</p>
+
+                    <p style="font-size: 14px;color: #666666;">If you are searching for angle grinder armature in Patna, drill machine armature, cutting machine armature or power tool motor part, please give the model number of the original machine for compatibility.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="homePagecontent">
+                    <h3>Patna Enterprises - PowerSpeed Armature Supply</h3>
+                    <p class="pb-4" style="font-size: 14px;color: #666666;">Patna is Bihar’s chief commercial and construction, repair and equipment maintenance center. Armatures may be needed for various machine models in businesses dealing with power tools and electrical spare parts.</p>
+                    <p style="font-size: 14px;color: #666666;">Vicky Power Tools is in Delhi and sells to customers all over India. We are Patna based buyers and can buy PowerSpeed armatures and other components as per the specific requirement.</p>
+                    <p style="font-size: 14px;color: #666666;">We are open to enquiries from:</p>
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
+                        <li>Dealers and suppliers of power tool parts</li>
+                        <li>Electrical repair works and technicians</li>
+                        <li>Machinery and hardware supplies</li>
+                        <li>Construction &amp; Maintenance Companies</li>
+                        <li>Industrial buyers and equipment service-teams.</li>
+                        <li>Distributors and bulk buyers</li>
+                    </ul>
+                    <p style="font-size: 14px;color: #666666;">If you are looking for armature supplier in Patna, armature dealer in Bihar or wholesale armature supplier, please share your required models and quantities with our team.</p>
+                    <p style="font-size: 14px;color: #666666;">Availability of the items requested will determine products, prices, minimum order quantities and dispatch arrangements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5" style="margin-bottom: 20px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="homePagecontent">
+                    <h3>How to Find the Right Replacement Part</h3>
+                    <p class="pb-4" style="font-size: 14px;color: #666666;">Choosing an armature by looking at it can cause problems with fitting. Before you order make sure to gather the following details:</p>
+                    <ul style="font-size: 14px;color: #666666;" class="ul_left_padding">
+                        <li><strong>Machine model:</strong> Write down the brand and model number that is on the machine label.</li>
+                        <li><strong>Original part number:</strong> Give the armature’s part number if you have it.</li>
+                        <li><strong>Physical dimensions:</strong> The size of the shaft how long the shaft is and how the gears are arranged can change how it fits.</li>
+                        <li><strong>Technical specifications:</strong> Look at the motor voltage and any other electrical information that is important.</li>
+                        <li><strong>Required quantity:</strong> Say if you need the part for one repair or, for an order.</li>
+                        <li><strong>Photographs:</strong> Good pictures of the part you have can help with the step of finding the right one.</li>
+                    </ul>
+                    <p style="font-size: 14px;color: #666666;">Giving this information helps the seller see if a certain armature works. Always check if it fits before you buy it.. Make sure a trained person does the installation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== NEW CONTENT END ===================== -->
+
+
+    <!-- whatsapp link start -->
+    <section class="derWhatsappIcone">
+        <div class="iconwhat" onclick="sendWhatsApp()">
+            <span class="notifas1">
+                <img class="wa-icon" src="img/logo/whatsapp-custom.png" alt="">
+            </span>
+        </div>
+    </section>
+
+    <script>
+        function sendWhatsApp() {
+            const message = `Hello Sir.\nI visited your website and interested in your Products.\n\nPlease share details. \n\nThank you!`;
+            const url = `https://wa.me/918595734416?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+
+    <style>
+        /* Container */
+        .derWhatsappIcone { position: fixed; right: 20px; bottom: 20px; z-index: 999; }
+
+        /* Main Button */
+        .iconwhat {
+            width: 70px;
+            height: 70px;
+            background: transparent;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            animation: slideInRight 1s ease forwards, floating 3s ease-in-out infinite 1s;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .iconwhat:hover { transform: scale(1.12) rotate(8deg); }
+
+        /* WhatsApp icon */
+        .wa-icon { width: 60px; height: 60px; animation: pulse 2s infinite; }
+
+        /* Notification dot */
+        .notifas1::after {
+            content: '';
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 14px;
+            height: 14px;
+            background: red;
+            border-radius: 50%;
+            border: 2px solid white;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes slideInRight {
+            from { transform: translateX(120px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.12); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+    </style>
+    <!-- whatsapp link end -->
+
+    <!-- Footer -->
+    <footer class="footer-section" id="footer">
+        <div class="section">
+            <div class="container">
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <img style="width: 80%;" src="img/logo/VPT-For-Blue.png" alt="Vicky Power Tools Logo">
+                                </div>
+                                <div class="footer-text">
+                                    <p class="headparagraph">
+                                        We are manufacturer and exporter of Armatures, Field Coils, Power Tools, Electric Tools in capital of India, New Delhi, under the Brand name PowerSpeed. <br />
+                                        <a style="color: #fff;" href="about.php"> Read More...</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                            <div class="footer-widget" style="margin-right: 15px;">
+                                <div class="footer-widget-heading">
+                                    <h3>OFFICIAL INFO</h3>
+                                </div>
+                                <div class="single-cta">
+                                    <div class="cta-text">
+                                        <span> <i class="fa fa-map-marker"></i> 71/2-A, Rama Road Industrial Area, Najafgarh Road, New Delhi 110015 India</span>
+                                    </div>
+                                    <div class="cta-text">
+                                        <span><i class="fa fa-phone"></i> +91-011-45042377</span>
+                                    </div>
+                                    <div class="cta-text">
+                                        <span><i class="fa fa-phone" aria-hidden="true"></i> +91-011-45052477</span>
+                                    </div>
+                                    <div class="cta-text">
+                                        <span> <i class="fa fa-envelope-open"></i> vickypowertools@yahoo.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                            <div class="footer-widget footer-text-2" style="margin-right: 15px;">
+                                <div class="footer-widget-heading">
+                                    <h3>NEWSLETTER</h3>
+                                </div>
+                                <p>Subscribe Our Newsletter To Get Our Latest Update & News</p>
+                                <div class="content">
+                                    <form action="#" method="post">
+                                        <div class="input-group">
+                                            <input type="email" class="form-control" name="email" placeholder="Mail ID" required />
+                                            <span class="input-group-btn">
+                                                <button name="submit" class="btn" type="submit">Subscribe Now</button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>PRODUCTS</h3>
+                                </div>
+                                <p><a style="color: #fff; font-size: 15px;" href="armartures.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Armature</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="fieldcoil.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Field Coil</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="powertools.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Power Tools</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="abrasives.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Abrasives</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="construction-tool.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Construction Tool</a></p>
+                                <p><a style="color: #fff; font-size: 15px;" href="spm.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Special Purpose Motors</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <div class="container">
+                <hr />
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-2 text-center m-auto">
+                        <!-- footer social -->
+                        <div class="footer-copyright">
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="https://www.facebook.com/vickypowertools"><img class="img-100" src="img/img-facebook.png" alt="Facebook"></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://youtube.com/channel/UCu2el_SlqEkljEHcaAeYXgQ"><img class="img-100" src="img/img-youtube.png" alt="Youtube"></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://twitter.com/VickyPowerTools"><img class="img-100" src="img/img-twitter.png" alt="Twitter"></a>
+                                </li>
+
+                                <li>
+                                    <a href="https://instagram.com/vickypowertools"><img class="img-100" src="img/img-instagram.png" alt="Instagram"></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- /footer social -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center m-auto" style="padding-bottom: 23px;">
+                        <!-- footer copyright -->
+                        <div class="footer-copyright">
+                            Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            Vicky Power Tools. All rights reserved.
+                        </div>
+                        <!-- /footer copyright -->
+                    </div>
+                </div>
+            </div>
         </div>
-</section>
+    </footer>
 
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 
-<script>
-    document.querySelectorAll(".faq-question").forEach(question => {
-        question.addEventListener("click", () => {
-            const item = question.parentElement;
-            document.querySelectorAll(".faq-item").forEach(faq => {
-                if (faq !== item) {
-                    faq.classList.remove("active");
+    <script>
+        // Initialize carousel
+        $(document).ready(function() {
+            // Initialize main carousel
+            $('#mainCarousel').carousel({
+                interval: 3000
+            });
+
+            // Initialize Owl Carousel
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 2 },
+                    1000: { items: 3 }
                 }
             });
-            item.classList.toggle("active");
+
+            // Mobile menu toggle
+            const mobileMenuButton = document.getElementById('mobileMenuButton');
+            const mobileMenu = document.getElementById('mobileMenu');
+
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenuButton.classList.toggle('active');
+                    mobileMenu.classList.toggle('active');
+                });
+            }
+
+            // Mobile dropdown toggle
+            const mobileDropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+
+            mobileDropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', () => {
+                    const dropdownContent = toggle.nextElementSibling;
+                    const icon = toggle.querySelector('i');
+
+                    // Close other dropdowns
+                    document.querySelectorAll('.mobile-dropdown-content').forEach(content => {
+                        if (content !== dropdownContent) {
+                            content.classList.remove('active');
+                            const otherIcon = content.previousElementSibling.querySelector('i');
+                            if (otherIcon) {
+                                otherIcon.style.transform = 'rotate(0deg)';
+                            }
+                        }
+                    });
+
+                    // Toggle current dropdown
+                    dropdownContent.classList.toggle('active');
+
+                    // Rotate icon
+                    if (icon) {
+                        if (dropdownContent.classList.contains('active')) {
+                            icon.style.transform = 'rotate(180deg)';
+                        } else {
+                            icon.style.transform = 'rotate(0deg)';
+                        }
+                    }
+                });
+            });
+
+            // Close all mobile dropdowns
+            function closeAllMobileDropdowns() {
+                document.querySelectorAll('.mobile-dropdown-content').forEach(content => {
+                    content.classList.remove('active');
+                    const icon = content.previousElementSibling.querySelector('i');
+                    if (icon) {
+                        icon.style.transform = 'rotate(0deg)';
+                    }
+                });
+            }
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', (event) => {
+                if (mobileMenu && mobileMenu.classList.contains('active')) {
+                    if (!event.target.closest('.mobile-menu') &&
+                        !event.target.closest('.mobile-menu-button')) {
+                        mobileMenuButton.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                        closeAllMobileDropdowns();
+                    }
+                }
+            });
+
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.mobile-menu a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenuButton.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                    closeAllMobileDropdowns();
+                });
+            });
+
+            // Add smooth scrolling for anchor links
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 80
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+
+            // Handle window resize
+            $(window).resize(function() {
+                // Close mobile menu on desktop
+                if ($(window).width() > 1024) {
+                    if (mobileMenuButton && mobileMenuButton.classList.contains('active')) {
+                        mobileMenuButton.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                        closeAllMobileDropdowns();
+                    }
+                }
+            });
         });
-    });
-</script>
-<?php
-include_once 'includes/footer.php';
-?>
+    </script>
+</body>
+
+</html>
