@@ -282,6 +282,12 @@
             .desktop-logo { display: block; }
         }
 
+    @media (max-width:419px) {
+            .desktop-logo {
+                width: 117px !important;
+            }
+        }
+
         /* Footer */
         #footer { background-color: #ff6300; }
 

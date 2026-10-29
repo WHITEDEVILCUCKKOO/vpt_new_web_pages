@@ -66,8 +66,13 @@
     </script>
 
     <style>
-        .twoLine_productInfo { display: none !important; }
-        .twoLine_diable { display: flex !important; }
+        .twoLine_productInfo {
+            display: none !important;
+        }
+
+        .twoLine_diable {
+            display: flex !important;
+        }
 
         @media (max-width:1199px) {
             .twoLine_productInfo {
@@ -76,7 +81,11 @@
                 gap: 10px;
                 padding-bottom: 25px;
             }
-            .twoLine_diable { display: none !important; }
+
+            .twoLine_diable {
+                display: none !important;
+            }
+
             .linksBox p {
                 padding: 9px 0px;
                 padding-left: 4px;
@@ -86,7 +95,17 @@
         }
 
         @media (max-width:419px) {
-            .linksBox p { font-size: 15px !important; }
+            .linksBox p {
+                font-size: 15px !important;
+            }
+
+          
+        }
+
+        @media (max-width:419px) {
+            .desktop-logo {
+                width: 117px !important;
+            }
         }
 
         /* Custom styles for navbar */
@@ -135,7 +154,11 @@
         }
 
         /* Desktop menu */
-        .desktop-menu { display: flex; align-items: center; gap: 5px; }
+        .desktop-menu {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
 
         .desktop-menu a {
             color: #000000 !important;
@@ -148,10 +171,15 @@
             position: relative;
         }
 
-        .desktop-menu a:hover { background-color: #ff6300 !important; color: #ffffff !important; }
+        .desktop-menu a:hover {
+            background-color: #ff6300 !important;
+            color: #ffffff !important;
+        }
 
         /* Desktop dropdown */
-        .desktop-dropdown { position: relative; }
+        .desktop-dropdown {
+            position: relative;
+        }
 
         .desktop-dropdown-content {
             position: absolute;
@@ -168,7 +196,11 @@
             transition: all 0.3s ease;
         }
 
-        .desktop-dropdown:hover .desktop-dropdown-content { opacity: 1; visibility: visible; transform: translateY(0); }
+        .desktop-dropdown:hover .desktop-dropdown-content {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
 
         .desktop-dropdown-content a {
             display: block;
@@ -182,11 +214,23 @@
             letter-spacing: normal;
         }
 
-        .desktop-dropdown-content a:last-child { border-bottom: none; }
-        .desktop-dropdown-content a:hover { background-color: #ff6300; color: white !important; }
+        .desktop-dropdown-content a:last-child {
+            border-bottom: none;
+        }
+
+        .desktop-dropdown-content a:hover {
+            background-color: #ff6300;
+            color: white !important;
+        }
 
         /* Mobile menu button */
-        .mobile-menu-button { display: none; background: none; border: none; cursor: pointer; padding: 10px; }
+        .mobile-menu-button {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
 
         .mobile-menu-button .icon-bar {
             display: block;
@@ -197,9 +241,17 @@
             transition: all 0.3s ease;
         }
 
-        .mobile-menu-button.active .icon-bar:nth-child(1) { transform: rotate(-45deg) translate(-5px, 6px); }
-        .mobile-menu-button.active .icon-bar:nth-child(2) { opacity: 0; }
-        .mobile-menu-button.active .icon-bar:nth-child(3) { transform: rotate(45deg) translate(-5px, -6px); }
+        .mobile-menu-button.active .icon-bar:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .mobile-menu-button.active .icon-bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-button.active .icon-bar:nth-child(3) {
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
 
         /* Mobile menu */
         .mobile-menu {
@@ -215,7 +267,9 @@
             overflow-y: auto;
         }
 
-        .mobile-menu.active { display: block; }
+        .mobile-menu.active {
+            display: block;
+        }
 
         .mobile-menu a {
             display: block;
@@ -228,7 +282,10 @@
             transition: all 0.3s ease;
         }
 
-        .mobile-menu a:hover { background-color: #ff6300 !important; color: #ffffff !important; }
+        .mobile-menu a:hover {
+            background-color: #ff6300 !important;
+            color: #ffffff !important;
+        }
 
         /* Mobile dropdown */
         .mobile-dropdown-toggle {
@@ -247,8 +304,13 @@
             align-items: center;
         }
 
-        .mobile-dropdown-toggle i { transition: transform 0.3s ease; }
-        .mobile-dropdown-toggle.active i { transform: rotate(180deg); }
+        .mobile-dropdown-toggle i {
+            transition: transform 0.3s ease;
+        }
+
+        .mobile-dropdown-toggle.active i {
+            transform: rotate(180deg);
+        }
 
         .mobile-dropdown-content {
             max-height: 0;
@@ -257,7 +319,9 @@
             background-color: #f9f9f9;
         }
 
-        .mobile-dropdown-content.active { max-height: 500px; }
+        .mobile-dropdown-content.active {
+            max-height: 500px;
+        }
 
         .mobile-dropdown-content a {
             padding-left: 40px;
@@ -266,32 +330,63 @@
             background-color: #f9f9f9;
         }
 
-        .mobile-dropdown-content a:hover { background-color: #ff6300 !important; color: #ffffff !important; }
+        .mobile-dropdown-content a:hover {
+            background-color: #ff6300 !important;
+            color: #ffffff !important;
+        }
 
         /* Responsive styles */
         @media (max-width: 1024px) {
-            .desktop-menu { display: none; }
-            .mobile-menu-button { display: block; }
-            .desktop-logo { display: none; }
-            .mobile-logo { display: block; }
+            .desktop-menu {
+                display: none;
+            }
+
+            .mobile-menu-button {
+                display: block;
+            }
+
+            .desktop-logo {
+                display: none;
+            }
+
+            .mobile-logo {
+                display: block;
+            }
         }
 
         @media (min-width: 1025px) {
-            .mobile-menu { display: none !important; }
-            .mobile-logo { display: none; }
-            .desktop-logo { display: block; }
+            .mobile-menu {
+                display: none !important;
+            }
+
+            .mobile-logo {
+                display: none;
+            }
+
+            .desktop-logo {
+                display: block;
+            }
         }
 
         /* Footer */
-        #footer { background-color: #ff6300; }
+        #footer {
+            background-color: #ff6300;
+        }
 
         /* Smooth scrolling for anchor links */
-        html { scroll-behavior: smooth; }
+        html {
+            scroll-behavior: smooth;
+        }
 
-        p { text-align: justify; }
+        p {
+            text-align: justify;
+        }
 
         /* Carousel fixes for Bootstrap 3 */
-        .carousel-inner>.item>img { width: 100%; height: auto; }
+        .carousel-inner>.item>img {
+            width: 100%;
+            height: auto;
+        }
 
         .carousel-control .glyphicon-chevron-left,
         .carousel-control .glyphicon-chevron-right {
@@ -302,15 +397,33 @@
         }
 
         @media (max-width: 768px) {
-            body { padding-top: 70px !important; }
-            .navbar-container { height: 70px; }
-            .mobile-menu { top: 70px; max-height: calc(100vh - 70px); }
-            .mobile-logo { height: 40px; }
+            body {
+                padding-top: 70px !important;
+            }
+
+            .navbar-container {
+                height: 70px;
+            }
+
+            .mobile-menu {
+                top: 70px;
+                max-height: calc(100vh - 70px);
+            }
+
+            .mobile-logo {
+                height: 40px;
+            }
         }
 
         /* Existing section styles */
-        .all-s { padding: 60px 0; }
-        .one { background-color: #333; color: #fff; }
+        .all-s {
+            padding: 60px 0;
+        }
+
+        .one {
+            background-color: #333;
+            color: #fff;
+        }
 
         .h-but {
             display: inline-block;
@@ -323,12 +436,24 @@
             transition: all 0.3s ease;
         }
 
-        .h-but:hover { background-color: #e55a00; text-decoration: none; }
-        .bg-indus { background-color: #f8f9fa; }
-        .d-apply { background-color: #f0f0f0; padding: 40px 0; }
+        .h-but:hover {
+            background-color: #e55a00;
+            text-decoration: none;
+        }
+
+        .bg-indus {
+            background-color: #f8f9fa;
+        }
+
+        .d-apply {
+            background-color: #f0f0f0;
+            padding: 40px 0;
+        }
 
         /* other css */
-        .imge-rearange { width: 52%; }
+        .imge-rearange {
+            width: 52%;
+        }
 
         .img_hovweefg {
             border-radius: 15px;
@@ -343,23 +468,85 @@
             box-shadow: -3px 4px 3px 0px #666;
         }
 
-        .ul_left_padding { padding-left: 40px !important; }
+        .ul_left_padding {
+            padding-left: 40px !important;
+        }
 
         @media (max-width:620) {
-            .ul_left_padding { padding-left: 20px !important; }
+            .ul_left_padding {
+                padding-left: 20px !important;
+            }
         }
 
         /* FAQ ACCORDION */
-        .faq-acc { margin-top: 15px; }
-        .faq-acc .faq-box { background: #fff; border: 1px solid #e3e3e8; border-radius: 6px; margin-bottom: 13px; overflow: hidden; }
-        .faq-acc .faq-q { position: relative; padding: 20px 60px 20px 22px; font-size: 18px; font-weight: bold; color: #1f2150; cursor: pointer; line-height: 1.35; transition: all 0.3s ease; }
-        .faq-acc .faq-q::after { content: "+"; position: absolute; right: 22px; top: 50%; transform: translateY(-50%); font-size: 26px; font-weight: normal; line-height: 1; }
-        .faq-acc .faq-a { display: none; padding: 18px 22px 20px; }
-        .faq-acc .faq-a p { margin: 0; font-size: 14px; color: #666666; }
-        .faq-acc .faq-box.open .faq-q { background: #1f2150; color: #fff; }
-        .faq-acc .faq-box.open .faq-q::after { content: "\2212"; }
-        .faq-acc .faq-box.open .faq-a { display: block; }
-        @media (max-width: 600px) { .faq-acc .faq-q { font-size: 16px; padding: 16px 50px 16px 16px; } .faq-acc .faq-a { padding: 14px 16px 16px; } }
+        .faq-acc {
+            margin-top: 15px;
+        }
+
+        .faq-acc .faq-box {
+            background: #fff;
+            border: 1px solid #e3e3e8;
+            border-radius: 6px;
+            margin-bottom: 13px;
+            overflow: hidden;
+        }
+
+        .faq-acc .faq-q {
+            position: relative;
+            padding: 20px 60px 20px 22px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #1f2150;
+            cursor: pointer;
+            line-height: 1.35;
+            transition: all 0.3s ease;
+        }
+
+        .faq-acc .faq-q::after {
+            content: "+";
+            position: absolute;
+            right: 22px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 26px;
+            font-weight: normal;
+            line-height: 1;
+        }
+
+        .faq-acc .faq-a {
+            display: none;
+            padding: 18px 22px 20px;
+        }
+
+        .faq-acc .faq-a p {
+            margin: 0;
+            font-size: 14px;
+            color: #666666;
+        }
+
+        .faq-acc .faq-box.open .faq-q {
+            background: #1f2150;
+            color: #fff;
+        }
+
+        .faq-acc .faq-box.open .faq-q::after {
+            content: "\2212";
+        }
+
+        .faq-acc .faq-box.open .faq-a {
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            .faq-acc .faq-q {
+                font-size: 16px;
+                padding: 16px 50px 16px 16px;
+            }
+
+            .faq-acc .faq-a {
+                padding: 14px 16px 16px;
+            }
+        }
     </style>
 </head>
 
@@ -698,15 +885,21 @@
                     <div class="faq-acc">
                         <div class="faq-box">
                             <div class="faq-q">1. Is there a factory of Vicky Power Tools in Lucknow?</div>
-                            <div class="faq-a"><p>Vicky Power Tools based in New Delhi, India. We don’t claim to have a local factory at Lucknow, but we are open to enquiries from Lucknow and other parts of UP.</p></div>
+                            <div class="faq-a">
+                                <p>Vicky Power Tools based in New Delhi, India. We don’t claim to have a local factory at Lucknow, but we are open to enquiries from Lucknow and other parts of UP.</p>
+                            </div>
                         </div>
                         <div class="faq-box">
                             <div class="faq-q">2. Armature supplier in Lucknow? Where can I find them?</div>
-                            <div class="faq-a"><p>If you want to know about the armatures that suit you, you can contact Vicky Power Tools, an armature manufacturer and supplier based in Delhi and ask for delivery at Lucknow.</p></div>
+                            <div class="faq-a">
+                                <p>If you want to know about the armatures that suit you, you can contact Vicky Power Tools, an armature manufacturer and supplier based in Delhi and ask for delivery at Lucknow.</p>
+                            </div>
                         </div>
                         <div class="faq-box">
                             <div class="faq-q">3. Does Vicky Power Tools take inquiry from other city of Uttar Pradesh?</div>
-                            <div class="faq-a"><p>Yes. Enquiries welcome from Lucknow and elsewhere in Uttar Pradesh. Delivery arrangements are order specific and should be confirmed with our team.</p></div>
+                            <div class="faq-a">
+                                <p>Yes. Enquiries welcome from Lucknow and elsewhere in Uttar Pradesh. Delivery arrangements are order specific and should be confirmed with our team.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -719,8 +912,12 @@
             q.addEventListener('click', function() {
                 var box = q.parentElement;
                 var wasOpen = box.classList.contains('open');
-                document.querySelectorAll('.faq-acc .faq-box').forEach(function(b) { b.classList.remove('open'); });
-                if (!wasOpen) { box.classList.add('open'); }
+                document.querySelectorAll('.faq-acc .faq-box').forEach(function(b) {
+                    b.classList.remove('open');
+                });
+                if (!wasOpen) {
+                    box.classList.add('open');
+                }
             });
         });
     </script>
@@ -747,7 +944,12 @@
 
     <style>
         /* Container */
-        .derWhatsappIcone { position: fixed; right: 20px; bottom: 20px; z-index: 999; }
+        .derWhatsappIcone {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 999;
+        }
 
         /* Main Button */
         .iconwhat {
@@ -763,10 +965,16 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .iconwhat:hover { transform: scale(1.12) rotate(8deg); }
+        .iconwhat:hover {
+            transform: scale(1.12) rotate(8deg);
+        }
 
         /* WhatsApp icon */
-        .wa-icon { width: 60px; height: 60px; animation: pulse 2s infinite; }
+        .wa-icon {
+            width: 60px;
+            height: 60px;
+            animation: pulse 2s infinite;
+        }
 
         /* Notification dot */
         .notifas1::after {
@@ -783,25 +991,55 @@
         }
 
         @keyframes slideInRight {
-            from { transform: translateX(120px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
+            from {
+                transform: translateX(120px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
         }
 
         @keyframes floating {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-8px); }
-            100% { transform: translateY(0px); }
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
         }
 
         @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.12); }
-            100% { transform: scale(1); }
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.12);
+            }
+
+            100% {
+                transform: scale(1);
+            }
         }
 
         @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
         }
     </style>
     <!-- whatsapp link end -->
@@ -946,9 +1184,15 @@
                 margin: 10,
                 nav: true,
                 responsive: {
-                    0: { items: 1 },
-                    600: { items: 2 },
-                    1000: { items: 3 }
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
                 }
             });
 
