@@ -579,10 +579,10 @@
             <div class="ae-vid-row">
                 <div class="ae-vcard" data-id="Y4tOaXozTog"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 1</div></div>
                 <div class="ae-vcard" data-id="Txp5heLU4Kc"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 2</div></div>
-                <div class="ae-vcard" data-id="bTAZGTMGGqE"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 3</div></div>
+                <div class="ae-vcard" data-id="bTAZGTMGGqE" style="display: none;"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 3</div></div>
                 <div class="ae-vcard" data-id="nBx0C5ywELM"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 4</div></div>
                 <div class="ae-vcard" data-id="Eh7epSx-a-8"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 5</div></div>
-                <div class="ae-vcard" data-id="UX2ov3rKdZ0"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 6</div></div>
+                <div class="ae-vcard" data-id="UX2ov3rKdZ0" style="display: none;"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 6</div></div>
             </div>
         </div>
     </section>
