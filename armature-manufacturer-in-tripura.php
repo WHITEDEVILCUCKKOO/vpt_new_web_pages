@@ -499,7 +499,7 @@
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
                     <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer and Dealers in Tripura</h1>
-                    <h3>Armature Sourcing for Power Tools, Repairs and Industrial Applications</h3>
+                    <!-- <h3>Armature Sourcing for Power Tools, Repairs and Industrial Applications</h3> -->
                     <p class="pb-4" style="font-size: 14px;color: #666666;">If an electric power tools is out of order, it is often feasible to replace the faulty part, provided that the machine can be repaired safely and the proper spare part is available. The armature is a vital component of many electric motors, so it is important to identify it correctly when it needs replacement.</p>
                     <p style="font-size: 14px;color: #666666;">Vicky Power Tools, a Delhi-based manufacturer and supplier of armatures, trade under the brand name PowerSpeed. Established in 1982, we cater to customers all over India. We welcome enquiries from businesses seeking armature manufacturer in Tripura.</p>
                     <p style="font-size: 14px;color: #666666;">Our product range covers armature options for some compatible angle grinders, drill machines, cut-off machines, hammer machines, planers and other power tools. We also undertake to make custom armatures as per customer specifications and technical feasibility.</p>

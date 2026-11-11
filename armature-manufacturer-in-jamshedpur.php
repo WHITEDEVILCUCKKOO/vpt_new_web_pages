@@ -499,7 +499,7 @@
             <div class="col-lg-8 col-md-8 col-sm-8 row2">
                 <div id="homePagecontent">
                     <h1 style="margin-bottom: 10px;font-size:3rem;">Armature Manufacturer &amp; supplier in Jamshedpur, Jharkhand</h1>
-                    <h3>Power Tools Armature Repair, Replacement, and Business Requirements</h3>
+                    <!-- <h3>Power Tools Armature Repair, Replacement, and Business Requirements</h3> -->
                     <p class="pb-4" style="font-size: 14px;color: #666666;">A malfunctioning power tools can impact workshop productivity and routine maintenance jobs. The armature is a vital part of many electric tools, and its condition can directly affect the operation of the machine. When replacement is needed it is as important to find a supplier as it is to pick the right armature.</p>
                     <p style="font-size: 14px;color: #666666;">PowerSpeed is the brand name of Delhi based manufacturer and supplier of armatures Vicky Power Tools. The company has been in the industry since 1982. It caters to customers across India, including dealers, repair professionals and businesses looking for an armature manufacturer in Jamshedpur, Jharkhand.</p>
                     <p style="font-size: 14px;color: #666666;">We concentrate on armature solutions for compatible power tools models and customer specific requirements. Buyers can ask about the availability of products by sending their machine details, technical specification and the required quantity.</p>
