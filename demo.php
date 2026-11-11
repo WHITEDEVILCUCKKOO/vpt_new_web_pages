@@ -500,7 +500,7 @@
     .ae-btn.dark:hover { background: #1f2150; color: #fff !important; }
     .ae-vid { padding: 30px 0 10px; }
     .ae-vid h3 { font-size: 20px; font-weight: bold; color: #222; margin: 0 0 10px; }
-    .ae-vid-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-top: 18px; }
+    .ae-vid-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 18px; }
     .ae-vcard { position: relative; height: 290px; border-radius: 6px; overflow: hidden; cursor: pointer; background: linear-gradient(160deg, #1f2150, #0c0d2b); background-size: cover; background-position: center; }
     .ae-vcard::before { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 45%, rgba(0, 0, 0, .85)); }
     .ae-play { position: absolute; left: 50%; top: 45%; width: 52px; height: 52px; margin: -26px 0 0 -26px; border-radius: 50%; background: rgba(255, 255, 255, .92); box-shadow: 0 0 0 8px rgba(255, 99, 0, .35); z-index: 2; transition: transform .3s; }
@@ -579,10 +579,12 @@
             <div class="ae-vid-row">
                 <div class="ae-vcard" data-id="Y4tOaXozTog"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 1</div></div>
                 <div class="ae-vcard" data-id="Txp5heLU4Kc"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 2</div></div>
-                <div class="ae-vcard" data-id="bTAZGTMGGqE" style="display: none;"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 3</div></div>
+                <!-- <div class="ae-vcard" data-id="bTAZGTMGGqE"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 3</div></div> -->
                 <div class="ae-vcard" data-id="nBx0C5ywELM"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 4</div></div>
                 <div class="ae-vcard" data-id="Eh7epSx-a-8"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 5</div></div>
-                <div class="ae-vcard" data-id="UX2ov3rKdZ0" style="display: none;"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 6</div></div>
+                <!-- <div class="ae-vcard" data-id="UX2ov3rKdZ0"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 6</div></div> -->
+
+                https://youtube.com/shorts/lvp6jhz_rmk?si=816_hISQvJ0SB5lC
             </div>
         </div>
     </section>
