@@ -584,7 +584,7 @@
                 <div class="ae-vcard" data-id="Eh7epSx-a-8"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 5</div></div>
                 <!-- <div class="ae-vcard" data-id="UX2ov3rKdZ0"><span class="ae-play"></span><div class="ae-vcap"><b>PowerSpeed Armature</b>Video 6</div></div> -->
 
-                https://youtube.com/shorts/lvp6jhz_rmk?si=816_hISQvJ0SB5lC
+                
             </div>
         </div>
     </section>
