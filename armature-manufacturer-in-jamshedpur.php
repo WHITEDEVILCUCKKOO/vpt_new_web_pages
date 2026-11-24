@@ -777,7 +777,7 @@
 
     <style>
         /* Container */
-        .derWhatsappIcone { position: fixed; right: 20px; bottom: 20px; z-index: 999; }
+        .derWhatsappIcone { position: fixed; left: 20px; bottom: 20px; z-index: 999; }
 
         /* Main Button */
         .iconwhat {
@@ -1086,6 +1086,7 @@
             });
         });
     </script>
+    <script src="https://aiassistance.geekysolution.in/Widget/loader.js" data-key="020069d0-351f-4ac6-b748-7028738d9499"></script>
 </body>
 
 </html>
