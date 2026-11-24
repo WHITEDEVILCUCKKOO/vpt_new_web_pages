@@ -558,7 +558,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="ae-title">Armature Manufacturers &amp; supplier in Faridabad, Haryana</h1>
+                    <h1 class="ae-title">Armature Manufacturers &amp; Supplier in Faridabad, Haryana</h1>
             <p>Quality Armature Solutions for Industrial, Power Tools Dealership and Repair Shop Applications.</p>
             <p>Faridabad is one of the important industrial and manufacturing centers of Haryana.Machinery, engineering equipment, fabrication Tools and electrical products are used in different business operations. Replacement parts are required in many areas, from industrial workshops to power Tools repair shops, and are essential to keep the equipment working properly.</p>
             <p>Many power Tools have an electric motor, and a critical part of any electric motor is the armature. This is important for the rotation of the motor and for the operation of the whole machine. When an armature is damaged or worn out it is important to choose the right replacement to get the Tools working again.</p>

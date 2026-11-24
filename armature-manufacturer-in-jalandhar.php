@@ -558,7 +558,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="ae-title">Vicky Power Tools - Armature Manufacturer &amp; supplier in Jalandhar, Punjab</h1>
+                    <h1 class="ae-title">Vicky Power Tools - Armature Manufacturer &amp; Supplier in Jalandhar, Punjab</h1>
 <p>Jalandhar is a well known business and manufacturing center in Punjab with industries and commercial businesses involved in engineering, machinery, sports goods, electrical equipment, hand Tools and industrial supplies. These companies often require dependable motor components and replacement parts for a wide range of electric machinery and power Tools.</p>
 <p>An armature is one of the key parts of an electric motor. It works with the magnetic field of the motor to create rotational movement. Design, winding configuration, shaft dimensions and compatibility are considerations to be made when selecting an armature for a particular machine.</p>
 <p>Vicky Power Tools is a manufacturer and supplier of armatures in Delhi for customers all over India, such as Jalandhar, Punjab. Since 1982 the company is active in the power Tools and armatures industry and offers armature solutions for a wide range of electric power tools applications.</p>

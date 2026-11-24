@@ -558,7 +558,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="ae-title">Armature Manufacturer and supplier in Vijayawada, Andhra Pradesh – PowerSpeed by Vicky Power Tools</h1>
+                    <h1 class="ae-title">Armature Manufacturer and Supplier in Vijayawada, Andhra Pradesh – PowerSpeed by Vicky Power Tools</h1>
                     <p>A power Tools is only as dependable as the components working inside it. The armature is one of the components of an electric motor helping convert electrical energy into mechanical rotation. When an armature becomes damaged or worn out selecting a replacement becomes essential for restoring the working condition of compatible equipment.</p>
                     <p>Vicky Power Tools is a Delhi-based manufacturer and supplier of PowerSpeed armatures serving customers across India, including Vijayawada and other parts of Andhra Pradesh. Established in 1982 the company has experience in the power Tools and armature segment with than 2000 armature options to support different customer requirements.</p>
                     <p>For businesses searching for an armature manufacturer in Vijayawada, an armature supplier in Vijayawada or a wholesale source for power Tools spare parts Vicky Power Tools provides a range of armature options for selected compatible machines.</p>

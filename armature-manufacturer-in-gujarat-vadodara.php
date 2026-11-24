@@ -558,7 +558,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="ae-title">Armature Manufacturing Company &amp; distributor in Vadodara</h1>
+                    <h1 class="ae-title">Armature Manufacturing Company &amp; Distributor in Vadodara</h1>
 <p>Vadodara Gujarat is well known for its development, engineering businesses, manufacturing units and market for electrical equipment. Businesses that work with spare parts, electric motors, power Tools and machinery often need reliable sources for quality motor components.</p>
 <p>The armature is one of the important parts used in electric motors. The armature has the role in generating rotational movement. The armature directly contributes to the working mechanism of electric power Tools.</p>
 <p>Vicky Power Tools is an armature manufacturer and supplier based in Delhi for businesses across India including Vadodara and other industrial locations in Gujarat. Vicky Power Tools has been manufacturing since 1982. Knows the needs of companies looking for different types of armatures for power Tools and electrical applications.</p>

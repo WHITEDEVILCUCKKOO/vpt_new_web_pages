@@ -558,7 +558,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="ae-title">Vicky Power Tools – Armature Manufacturer &amp; supplier in Surat, Gujarat</h1>
+                    <h1 class="ae-title">Vicky Power Tools – Armature Manufacturer &amp; Supplier in Surat, Gujarat</h1>
 <p>Reliable Armature Solutions to Surat Power Tools Dealers, Repair Workshops and Industrial Buyers</p>
 <p>Internal components&#x27; quality and compatibility determine a power Tools&#x27;s performance. Armature is one of the important components used in the working of electric motors used in angle grinders, drilling machines, cut off machines and various other power Tools. It is important to select the correct armature to ensure continued performance of the Tools, to aid in repairs and to help prevent unnecessary equipment down time.</p>
 <p>Vicky Power Tools is a Delhi based manufacturer and supplier of PowerSpeed armatures to the whole of the country including Surat and the other industrial markets of Gujarat. The company, founded in 1982, has experience in the manufacture and supply of armatures for many different power Tools applications.</p>

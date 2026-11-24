@@ -558,7 +558,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="ae-title">Armature Manufacturer &amp; supplier in Rajpura, Punjab</h1>
+                    <h1 class="ae-title">Armature Manufacturer &amp; Supplier in Rajpura, Punjab</h1>
 <p>Businesses that deal with power Tools, electrical equipment, motor spare parts and industrial machinery need to find the right armature manufacturer. A good quality armature helps keep the motor running and ensures that the Tools work the same every time.</p>
 <p>Vicky Power Tools is an Indian company that manufacture armatures for power Tools. They supply their products to customers in different parts of India like Rajpura in Punjab. The company has been in business since 1982, dealing in power Tools and electrical components. They are interested in making armatures that react to client needs.</p>
 <p>If you want an armature manufacturer in Rajpura, armature supplier in Punjab or a trusted wholesale armature dealer for your business, Vicky Power Tools has the solutions you need. They partner with retailers, distributors, repair centers and industrial buyers.</p>
