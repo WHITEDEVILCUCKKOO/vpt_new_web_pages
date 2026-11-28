@@ -1359,7 +1359,7 @@
         });
     </script>
     </script>
-    <script src="https://aiassistance.geekysolution.in/Widget/loader.js" data-key="020069d0-351f-4ac6-b748-7028738d9499"></script>
+    <script src="https://aiassistance.geekysolution.in/Widget/loader.js" data-key="046533f6-5c7f-46a8-a98f-b20a172469b8"></script>
 </body>
 
 </html>
